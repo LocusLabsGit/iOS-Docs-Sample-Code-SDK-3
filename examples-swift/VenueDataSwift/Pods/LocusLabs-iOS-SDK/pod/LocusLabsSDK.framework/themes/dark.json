@@ -1,0 +1,25 @@
+{
+    "colors": {
+        "global/Primary": "#5C98FF",
+        "global/PrimaryText": "#DBDBDB",
+        "global/PrimaryButton": "#5C98FF",
+        "global/PrimaryButtonHover": "#407ADE",
+        "global/PrimaryButtonText": "#FFFFFF",
+        "global/Secondary": "#666666",
+        "global/SecondaryText": "#C9C9C9",
+        "global/SecondaryButton": "#1C2533",
+        "global/SecondaryButtonHover": "#323F54",
+        "global/SecondaryButtonText": "#5C98FF",
+        "global/Background": "#000000",
+        "global/Overlay": "#33323A",
+
+        "mapNav/Background": "#5C98FF",
+        "mapNav/Text": "#FFFFFF",
+        "mapNav/SearchResults": "#CA4800",
+        "mapNav/SearchResultsText": "#FFFFFF",
+
+        "widget/Background": "#111720",
+        "widget/Text": "#FFFFFF",
+        "widget/Icons": "#FFFFFF"
+    }
+}

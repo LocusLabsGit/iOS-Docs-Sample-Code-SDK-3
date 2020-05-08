@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Minutes</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@minutes@</string>
+        <key>minutes</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>d</string>
+            <key>one</key>
+            <string>%d минутa</string>
+            <key>few</key>
+            <string>%d минуты</string>
+            <key>many</key>
+            <string>%d минут</string>
+            <key>other</key>
+            <string>%d минут</string>
+        </dict>
+    </dict>
+    <key>MinutesShort</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@minutes@</string>
+        <key>minutes</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>d</string>
+            <key>one</key>
+            <string>%d мин</string>
+            <key>other</key>
+            <string>%d мин</string>
+        </dict>
+    </dict>
+	<key>PlusMinutesShort</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@minutes@</string>
+		<key>minutes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>zero</key>
+			<string>&lt;1 мин.</string>
+			<key>other</key>
+			<string>+%d мин.</string>
+		</dict>
+	</dict>
+    <key>route.walk</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@minutes@</string>
+        <key>minutes</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>d</string>
+            <key>zero</key>
+            <string>Прогулка &lt;1 минута до</string>
+            <key>one</key>
+            <string>Прогулка 1 минута до</string>
+            <key>other</key>
+            <string>Пройдите %d минут до</string>
+        </dict>
+    </dict>
+    <key>route.trainWithStops</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>Проедьте %#@stops@ остановки(ок) на поезде (%@)</string>
+        <key>stops</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>d</string>
+            <key>other</key>
+            <string>%d</string>
+        </dict>
+    </dict>
+    <key>route.busWithStops</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>Проедьте %#@stops@ остановки(ок) на автобусе (%@)</string>
+        <key>stops</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>d</string>
+            <key>other</key>
+            <string>%d</string>
+        </dict>
+    </dict>
+</dict>
+</plist>
