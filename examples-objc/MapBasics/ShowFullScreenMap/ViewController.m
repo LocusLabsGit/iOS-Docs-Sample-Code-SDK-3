@@ -19,6 +19,8 @@
 
 @implementation ViewController
 
+// NB - You may need to run "pod update" before running this code
+
 #pragma mark Lifecycle
 
 - (void)viewDidLoad {
