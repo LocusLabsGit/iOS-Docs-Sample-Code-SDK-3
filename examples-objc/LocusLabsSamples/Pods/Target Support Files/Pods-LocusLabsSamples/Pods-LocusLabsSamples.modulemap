@@ -1,0 +1,6 @@
+framework module Pods_LocusLabsSamples {
+  umbrella header "Pods-LocusLabsSamples-umbrella.h"
+
+  export *
+  module * { export * }
+}
