@@ -5,7 +5,10 @@ framework module LocusLabsSDK {
   module * { export * }
 
   explicit module Private {
+    header "LLMap_Private.h"
+    header "LLMapView_Private.h"
     header "LLLogger_Private.h"
+    header "LLPlace_Private.h"
     header "LLPositionManager_Private.h"
   }
 }

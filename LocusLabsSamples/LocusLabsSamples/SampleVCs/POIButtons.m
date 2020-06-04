@@ -69,18 +69,13 @@
     // Only add extra buttons for the Starbucks POI at Gate 60
     if ([poiId isEqualToString:@"870"]) {
     
-        LLIconButton *button1 = [LLIconButton topIconButtonWithPadding:0 image:[UIImage imageNamed:@"custom_icon_1.png"] andLabel:@"Custom1"];
+        LLIconButton *button1 = [[LLIconButton alloc] initWithIcon:[UIImage imageNamed:@"custom_icon_1.png"]
+                                                             label:@"Custom1"
+                                                            action:^{NSLog(@"Custom POI Button tapped");}];
         [additionalViews addObject:button1];
-        
-        [button1 addTarget:self action:@selector(customPoiButtonTapped) forControlEvents:UIControlEventTouchUpInside];
     }
     
     return additionalViews;
-}
-
-- (void)customPoiButtonTapped {
-    
-    NSLog(@"Custom POI Button tapped");
 }
 
 - (void)mapViewDidClickBack:(LLMapView *)mapView {

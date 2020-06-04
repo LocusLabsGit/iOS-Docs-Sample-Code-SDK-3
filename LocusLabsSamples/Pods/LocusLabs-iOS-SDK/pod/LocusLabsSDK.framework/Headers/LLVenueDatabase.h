@@ -11,6 +11,7 @@
 @class LLMap;
 @class LLMapView;
 @class LLMarker;
+@class LLVenueInfo;
 
 typedef enum _LLDownloaderError
 {
@@ -96,6 +97,10 @@ typedef enum _LLDownloaderError
  */
 @interface LLVenueDatabase : NSObject
 
+/**
+ Completion block for listing venues.
+ */
+typedef void (^LLListVenuesBlock) (NSArray<LLVenueInfo *> *venues, NSError *error);
 typedef void (^VenueAndMapLoadedBlock) (LLVenue *venue, LLMap *map, LLFloor *floor, LLMarker *marker);
 typedef void (^GetLatestAssetVersionBlock) (NSString *version, NSString *errorMessage);
 typedef void (^IsVenueOnPhoneBlock) (BOOL venueOnPhone);
@@ -126,7 +131,28 @@ typedef void (^IsVenueAvailableOnDeviceBlock) (BOOL venueAvailable);
  */
 - (void)listVenues;
 
+/**
+ *  Retrieve the list of venues available in the LocusLabs venue database.  The result will be returned via the provided block.
+ *
+ *  @param block completion block
+ */
+- (void)listVenuesWithCompletion:(LLListVenuesBlock)block;
+
+/**
+ *  Retrieve the list of venues with given locale available in the LocusLabs venue database.  The result will be returned via the
+ *  venueDatabase:venueList: delegate method.
+ *
+ *  @param locale   locale or nil (when nil provided it'll return venues in all locales)
+ */
 - (void)listVenuesForLocale:(NSString*)locale;
+
+/**
+ *  Retrieve the list of venues with given locale available in the LocusLabs venue database. The result will be returned via the provided block.
+ *
+ *  @param locale    locale or nil (when nil provided it'll return venues in all locales)
+ *  @param block completion block
+ */
+- (void)listVenuesForLocale:(NSString*)locale completion:(LLListVenuesBlock)block;
 
 /**
  *  Load a specific venue.  The result will be returned to the delegate via venueDatabase:venueLoaded:
@@ -180,6 +206,7 @@ typedef NS_ENUM(NSInteger, LLVenueDownloadConstraint) {
  * non-nil "errorMessage" will be returned.
  *
  *  @param venueId the venue to check
+ *  @param block completion block
  */
 - (void)getLatestAssetVersion:(NSString *)venueId block:(GetLatestAssetVersionBlock)block;
 

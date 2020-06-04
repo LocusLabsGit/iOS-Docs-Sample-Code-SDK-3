@@ -21,6 +21,8 @@
         "widget/Background": "#F9F9F9",
         "widget/Text": "#333333",
         "widget/Icons": "#333333",
+        
+        "myLocation/Primary": "#2266DD",
 
         "status/Wait Time/Background": "#E52727",
         "status/Wait Time/Text": "#FFFFFF",
@@ -171,6 +173,10 @@
                     "Detail" : {
                         "font" : "@fonts.H3_Regular",
                         "textColor" : "@colors.global/SecondaryText"
+                    },
+                    "Distance": {
+                        "font" : "@fonts.H4_Medium",
+                        "textColor" : "@colors.global/Primary"
                     },
                     "POIBookingOpenBadge" : "@views.POIBookingOpenBadge",
                     "POIBookingOccupiedBadge" : "@views.POIBookingOccupiedBadge"
@@ -742,6 +748,10 @@
                     "font" : "@fonts.H3_Regular",
                     "textColor" : "@colors.global/SecondaryText"
                 },
+                "Distance": {
+                    "font" : "@fonts.H4_Medium",
+                    "textColor" : "@colors.global/Primary"
+                },
                 "POIBookingOpenBadge" : "@views.POIBookingOpenBadge",
                 "POIBookingOccupiedBadge" : "@views.POIBookingOccupiedBadge"
             },
@@ -790,7 +800,7 @@
         },
         "MyLocationButton" : {
             "backgroundColor": "@colors.global/Background",
-            "tintColor": "@colors.global/PrimaryButton"
+            "tintColor": "@colors.myLocation/Primary"
         }
     }
 }

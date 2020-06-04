@@ -8,37 +8,22 @@
 
 #import <UIKit/UIKit.h>
 
-@protocol LLIconButtonDelegate <NSObject>
+/**
+ Allows to define a button with icon, label and an action to be displayed in the POI view.
+ */
+@interface LLIconButton : NSObject
 
-- (void)buttonPressed:(id)sender;
-
-@end
-
-@interface LLIconButton : UIButton
-
-@property (nonatomic,strong) UIImage *icon;
-@property (nonatomic,strong) UIImageView *imageView;
-@property (nonatomic,strong) NSString *label;
-@property (nonatomic,strong) UILabel *iconLabel;
-@property (nonatomic,strong) UIColor *labelColor;
-@property (weak, nonatomic) id<LLIconButtonDelegate> delegate;
-@property (nonatomic) NSInteger iconLabelPadding;
-@property (nonatomic) BOOL labelCentered;
-
-- (id)initWithImageTop;
-- (id)initWithImageLeft;
-- (id)initWithImageTopAndPad:(int)padding;
-- (id)initWithImageLeftAndPad:(int)padding;
-- (id)initWithImageLeftLabelTopAndPad:(int)padding;
+@property (nonatomic, readonly) UIImage *icon;
+@property (nonatomic, readonly) NSString *label;
+@property (nonatomic, copy, readonly) void (^action)(void);
 
 /**
- Factory method for creating a vertically stacked icon button.
+ Constructor for creating the icon button.
+ 
+ @param icon image for the button
+ @param label label for the button
+ @param action callback to be called when the button is tapped
  */
-+ (instancetype)topIconButtonWithPadding:(int)padding image:(UIImage*)image andLabel:(NSString*)label;
-
-/**
- Factory method for creating a horizontal icon button.
- */
-+ (instancetype)leftIconButtonWithPadding:(int)padding image:(UIImage*)image andLabel:(NSString*)label;
+- (instancetype)initWithIcon:(UIImage *)icon label:(NSString *)label action:(void (^)(void))action;
 
 @end

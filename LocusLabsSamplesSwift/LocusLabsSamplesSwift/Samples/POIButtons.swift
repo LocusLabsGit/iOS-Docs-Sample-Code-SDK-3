@@ -63,18 +63,11 @@ class POIButtons: UIViewController, LLVenueDatabaseDelegate, LLMapViewDelegate {
         // Only add extra buttons for the Starbucks POI
         if poiId == "870" {
                 
-            let button1 = LLIconButton.topIconButton(withPadding: 0, image: UIImage(named: "custom_icon_1.png"), andLabel: "Custom1")
+            let button1 = LLIconButton(icon: UIImage(named: "custom_icon_1.png"), label: "Custom1") {print("Custom POI Button tapped")}
             additionalViews.append(button1 as Any)
-                
-            button1?.addTarget(self, action: #selector(customPoiButtonTapped), for: .touchUpInside)
         }
             
         return additionalViews
-    }
-        
-    @objc func customPoiButtonTapped() {
-            
-        print("Custom POI Button tapped")
     }
     
     func mapViewDidClickBack(_ mapView: LLMapView!) {

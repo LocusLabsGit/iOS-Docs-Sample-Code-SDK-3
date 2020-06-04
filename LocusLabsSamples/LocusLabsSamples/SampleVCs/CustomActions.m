@@ -61,20 +61,11 @@
     NSMutableArray *customActions = [NSMutableArray array];
 
     // Create a custom action to show a POI e.g. POI 519 is gate 68A at lax
-    LLPlaceUI *ui = [LLPlaceUI defaultUI];
-    ui.icon = @"map-icon-airports.png"; // Supply any solid fill png. This one chosen as it is already in the bundle - you can supply your own
-    ui.normalIconColor = [UIColor orangeColor];
-
-    LLPlace *customPOIAction = [[LLPlace alloc] initWithBehavior:LLPlaceBehaviorPOI values:@[@"519"] displayName:@"Departure Gate" andUI:ui];
+    LLPlace *customPOIAction = [[LLPlace alloc] initWithBehavior:LLPlaceBehaviorPOI values:@[@"519"] displayName:@"Departure Gate" icon:@"map-icon-airports.png"];
     [customActions addObject:customPOIAction];
     
     // Create a custom action to trigger a search
-    LLPlaceUI *uiSearch = [LLPlaceUI defaultUI];
-    uiSearch.icon = @"map-icon-search.png"; // Supply any solid fill png. This one chosen as it is already in the bundle - you can supply your own
-    uiSearch.normalIconColor = [UIColor whiteColor];
-    uiSearch.marker = @"images/pin-plane-landing.svg"; // Supply any size-embedded svg of your choice. This is chosen as it is already in the bundle
-    
-    LLPlace *customSearchAction = [[LLPlace alloc] initWithBehavior:LLPlaceBehaviorSearch values:@[@"check-in"] displayName:@"Check-In" andUI:uiSearch];
+    LLPlace *customSearchAction = [[LLPlace alloc] initWithBehavior:LLPlaceBehaviorSearch values:@[@"check-in"] displayName:@"Check-In" icon:@"map-icon-search.png"];
     [customActions addObject:customSearchAction];
     
     return customActions;

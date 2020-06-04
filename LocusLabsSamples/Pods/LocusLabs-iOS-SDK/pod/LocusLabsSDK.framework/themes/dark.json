@@ -20,6 +20,8 @@
 
         "widget/Background": "#111720",
         "widget/Text": "#FFFFFF",
-        "widget/Icons": "#FFFFFF"
+        "widget/Icons": "#FFFFFF",
+        
+        "myLocation/Primary": "#5C98FF"
     }
 }

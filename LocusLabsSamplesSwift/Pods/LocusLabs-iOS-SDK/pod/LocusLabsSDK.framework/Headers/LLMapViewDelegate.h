@@ -22,12 +22,6 @@ typedef enum _LLMapViewMode
     LLMapViewModeNavigation
 } LLMapViewMode;
 
-typedef NS_ENUM(NSInteger, LLMapViewMarkerType)
-{
-    LLMapViewMarkerTypeSelected = 1,
-    LLMapViewMarkerTypeUnselected
-};
-
 typedef NS_ENUM(NSInteger, LLMapViewPresentationContext)
 {
 	LLMapViewPresentationContextAlert,
@@ -92,7 +86,7 @@ typedef NS_ENUM(NSInteger, LLMapViewPresentationContext)
  *	@param mapView	the mapView that generated the event
  *	@param poiId	the id of the POI that will be displayed
  *
- *	@returns An array of UIView objects (usually UIButtons or other UIControls) to be displayed in addition to the Navigate button.
+ *	@returns An array of LLIconButton objects that define buttons to be displayed in addtiotion to the Navigate button. (Alternatively this method also accepts UIView objects, but the LLIconButton is prefered as it can be styled and layed out properly).
  */
 - (NSArray *)mapView:(LLMapView *)mapView additionalViewsForPOI:(NSString *)poiId;
 
@@ -102,27 +96,21 @@ typedef NS_ENUM(NSInteger, LLMapViewPresentationContext)
 
 /**
  * Provide an alternate marker icon URL for the LLMapView to use for specific POIs.
+ *
  * @param mapView the mapView that generated the event
- * @param poi     the POI
+ * @param poi   the POI
  */
 - (NSString *)mapView:(LLMapView *)mapView markerIconUrlForPOI:(LLPOI *)poi;
-
-/**
- * Provide an alternate marker icon URL for the LLMapView to use for specific POIs.
- * @param mapView the mapView that generated the event
- * @param poiId   the id of the POI
- * @param type the type of marker, selected or unselected
- */
-- (NSString *)mapView:(LLMapView *)mapView markerIconUrlForPOI:(NSString *)poiId type:(LLMapViewMarkerType)type;
 
 /**
  * Provide an alternate anchor point for the LLMapView to use for specific POIs.  If an alternate icon url is also provided,
  * then the anchor will default to the bottom center of the icon.
  * @param mapView the mapView that generated the event
  * @param poiId   the id of the POI
- * @param type the type of marker being displayed, selected or unselected
+ *
+ * @deprecated This method is deprecated and not used in SDK 3.0 *
  */
-- (LLPoint *)mapView:(LLMapView *)mapView markerAnchorForPOI:(NSString *)poiId type:(LLMapViewMarkerType)type;
+- (LLPoint *)mapView:(LLMapView *)mapView markerAnchorForPOI:(NSString *)poiId __attribute__((deprecated("This method is not used in SDK >= 3.0")));;
 
 - (BOOL)mapView:(LLMapView *)mapView isSponsoredSearchResult:(NSString *)poiId;
 

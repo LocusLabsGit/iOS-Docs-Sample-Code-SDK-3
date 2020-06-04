@@ -16,6 +16,12 @@
  */
 @interface LLOverlay : NSObject
 
+
+/**
+ Unique identifier of an overlay
+ */
+@property (nonatomic, readonly) NSString *identifier;
+
 /**
  * The map this overlay is on.
  */
@@ -30,12 +36,5 @@
  *
  */
 - (instancetype) initWithMap:(LLMap*)map __attribute__((deprecated("use init with no parameters and set map as the last step of overlay configuration")));
-
-/**
- *
- */
-// TODO [api] not implemented on JS side
-@property (nonatomic, strong) NSNumber *zIndex;
-
 
 @end

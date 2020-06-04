@@ -10,28 +10,13 @@ typedef NS_ENUM(NSUInteger, LLPlaceBehavior) {
     LLPlaceBehaviorPOI
 };
 
-@interface LLPlaceUI: NSObject
-
-+ (instancetype)defaultUI;
-
-@property (nonatomic) NSString *icon;
-@property (nonatomic) NSString *marker;
-@property (nonatomic) UIColor *normalColor;
-@property (nonatomic) UIColor *normalIconColor;
-@property (nonatomic) CGFloat cornerRadiusPercent;
-@property (nonatomic) UIColor *selectedColor DEPRECATED_MSG_ATTRIBUTE("this attribute is not used anymore");
-@property (nonatomic) UIColor *selectedIconColor DEPRECATED_MSG_ATTRIBUTE("this attribute is not used anymore");
-
-@end
-
-
 @interface LLPlace : NSObject
 
-- (instancetype)initWithBehavior:(LLPlaceBehavior)behavior values:(NSArray<NSString*>*)values displayName:(NSString*)displayName andUI:(LLPlaceUI*)ui;
+- (instancetype)initWithBehavior:(LLPlaceBehavior)behavior values:(NSArray<NSString*>*)values displayName:(NSString*)displayName icon:(NSString *)icon;
 
 @property (nonatomic, readonly) LLPlaceBehavior behavior;
 @property (nonatomic, readonly) NSArray<NSString*> *values;
 @property (nonatomic, readonly) NSString *displayName;
-@property (nonatomic, readonly) LLPlaceUI *ui;
+@property (nonatomic, readonly) NSString *icon;
 
 @end

@@ -55,20 +55,11 @@ class CustomActions: UIViewController, LLVenueDatabaseDelegate, LLMapViewDelegat
         var customActions = [Any]()
         
         // Create a custom action to show a POI e.g. POI 519 is gate 68A at lax
-        let ui = LLPlaceUI.default()
-        ui?.icon = "map-icon-airports.png"  // Supply any solid fill png. This one chosen as it is already in the bundle - you can supply your own
-        ui?.normalIconColor = UIColor.orange
-
-        let customPOIAction = LLPlace(behavior: .POI, values: ["519"], displayName: "Departure Gate", andUI: ui)
+        let customPOIAction = LLPlace(behavior: .POI, values: ["519"], displayName: "Departure Gate", icon: "map-icon-airports.png")
         customActions.append(customPOIAction as Any)
         
         // Create a custom action to trigger a search
-        let uiSearch = LLPlaceUI.default()
-        uiSearch?.icon = "map-icon-search.png"  // Supply any solid fill png. This one chosen as it is already in the bundle - you can supply your own
-        uiSearch?.normalIconColor = UIColor.white
-        uiSearch?.marker = "images/pin-plane-landing.svg"; // Supply any size-embedded svg of your choice. This is chosen as it is already in the bundle
-        
-        let customSearchAction = LLPlace(behavior: .search, values: ["check-in"], displayName: "Check-In", andUI: uiSearch)
+        let customSearchAction = LLPlace(behavior: .search, values: ["check-in"], displayName: "Departure Gate", icon: "map-icon-search.png")
         customActions.append(customSearchAction as Any)
         
         return customActions

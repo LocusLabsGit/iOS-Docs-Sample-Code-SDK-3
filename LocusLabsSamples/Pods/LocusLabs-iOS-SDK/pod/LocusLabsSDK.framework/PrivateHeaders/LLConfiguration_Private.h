@@ -50,9 +50,6 @@
 @property (nonatomic, strong) NSString *bottomBarMyPositionButtonLabel DEPRECATED_MSG_ATTRIBUTE("this button has not title");
 @property (nonatomic, strong) NSString *bottomBarLevelsButtonLabel DEPRECATED_MSG_ATTRIBUTE("this button has not title");
 
-// API Webservices
-@property (nonatomic, strong) NSString *apiWebservicesUrl;
-
 @property (nonatomic, strong) NSString *initialAirportCode;
 
 - (void)loadConfiguration;
