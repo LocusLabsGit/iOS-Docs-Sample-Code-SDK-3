@@ -33,13 +33,18 @@
 @property (nonatomic, strong, readonly) LLPosition *position;
 
 /**
+ * The landmark which is near the POI.
+ */
+@property (nonatomic, readonly) NSString *nearbyLandmark;
+
+/**
  *  The gate which is near the POI.
  */
-@property (nonatomic, strong, readonly) NSString *gate;
+@property (nonatomic, strong, readonly) NSString *gate __attribute__((deprecated("use nearbyLandmark instead")));
 
 /**
  *  The terminal which is near the POI.
  */
-@property (nonatomic, strong, readonly) NSString *terminal;
+@property (nonatomic, strong, readonly) NSString *terminal __attribute__((deprecated("use nearbyLandmark instead")));
 
 @end

@@ -57,7 +57,7 @@
 /**
  * Identifies the section (if known).
  */
-@property (retain,nonatomic) NSString *sectionId;
+@property (retain,nonatomic) NSString *sectionId __attribute__((deprecated("this attribute is deprecated")));
 
 /**
  *  The geographic position (if known).
@@ -77,6 +77,6 @@
 /**
  *  If in an airport, whether or not this POI is before or after security.
  */
-@property (strong,nonatomic) NSNumber *isAfterSecurity;
+@property (strong,nonatomic) NSNumber *isAfterSecurity __attribute__((deprecated("use LLPOI.isAfterSecurity")));
 
 @end

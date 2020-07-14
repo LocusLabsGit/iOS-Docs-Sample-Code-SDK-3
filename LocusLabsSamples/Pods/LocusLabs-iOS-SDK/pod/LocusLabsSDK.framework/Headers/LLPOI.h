@@ -35,12 +35,12 @@
 /**
  *  An icon for the POI.
  */
-@property (nonatomic, readonly) NSString *icon;
+@property (nonatomic, readonly) NSString *icon __attribute__((deprecated("this property is deprecated")));
 
 /**
  *  Absolute URL of icon
  */
-@property (nonatomic, readonly) NSURL *iconUrl;
+@property (nonatomic, readonly) NSURL *iconUrl __attribute__((deprecated("this property is deprecated")));
 
 /**
  *  An image of the POI.
@@ -65,12 +65,12 @@
 /**
  *  An array of NSStrings which are used to classify this POI.
  */
-@property (nonatomic, readonly) NSArray *tags;
+@property (nonatomic, readonly) NSArray<NSString *> *tags;
 
 /**
  *  Subset of the tags meant for display.
  */
-@property (nonatomic, readonly) NSArray *displayTags;
+@property (nonatomic, readonly) NSArray<NSString *> *displayTags;
 
 /**
  *  The category that this POI is apart of.
@@ -164,6 +164,10 @@
  */
 @property (nonatomic, readonly) BOOL isQueueTimeDynamic;
 
+/**
+ *  If in an airport, whether or not this POI is before or after security.
+ */
+@property (nonatomic, readonly) NSNumber *isAfterSecurity;
 
 - (BOOL)isEqual:(id)object;
 
