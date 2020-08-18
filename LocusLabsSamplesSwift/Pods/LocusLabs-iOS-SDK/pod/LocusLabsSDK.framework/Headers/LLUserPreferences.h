@@ -27,22 +27,26 @@
 @property (nonatomic) BOOL preferWheelchairAccessibleNavigation;
 
 /**
- * Set user preferences for security category (lanes).
+ * Set user preferences for queues.
  *
- * For example: <code>[preferences setSecurityTypeIds:@[LLSecurityLaneGeneral, LLSecurityLaneTSAPre] forSecurityCategoryId:LLSecurityCategorySecurityLane]</code>
+ * For example: <code>[preferences setQueueSubtypeIds:@[LLSecurityLaneGeneral, LLSecurityLaneTSAPre] forQueueTypeId:LLQueueTypeSecurityLane]</code>
  *
- * See LLSecurity.h for available categories and types.
+ * See LLQueue.h for available categories and types.
  *
- * @param securityTypeIds an array of [LLSecurityType typeId]
- * @param securityCategoryId [LLSecurityCategory categoryId]
+ * @param queueSubtypeIds an array of [LLQueueSubtype subtypeId]
+ * @param queueTypeId [LLQueueType typeId]
  */
-- (void)setSecurityTypeIds:(nullable NSArray<NSString *> *)securityTypeIds forSecurityCategoryId:(nonnull NSString *)securityCategoryId;
+- (void)setQueueSubtypeIds:(nullable NSArray<NSString *> *)queueSubtypeIds forQueueTypeId:(nonnull NSString *)queueTypeId;
+
+- (void)setSecurityTypeIds:(nullable NSArray<NSString *> *)securityTypeIds forSecurityCategoryId:(nonnull NSString *)securityCategoryId __attribute__((deprecated("use setQueueSubtypeIds:forQueueTypeId: instead")));
 
 /**
- * Returns an array of security types for given security category id. This might be <code>nil</code> if no preferences were set for given category id.
- * @param securityCategoryId [LLSecurityCategory categoryId]
- * @return an array of [LLSecurityType typeId]
+ * Returns an array of queue subtypes for given queue type id. This might be <code>nil</code> if no preferences were set for given type id.
+ * @param queueTypeId [LLQueueType typeId]
+ * @return an array of [LLQueueSubtype subtypeId]
  */
-- (nullable NSArray<NSString *>*)getSecurityTypeIdsForSecurityCategoryId:(nonnull NSString *)securityCategoryId;
+- (nullable NSArray<NSString *>*)getQueueSubtypeIdsForTypeId:(nonnull NSString *)queueTypeId;
+
+- (nullable NSArray<NSString *>*)getSecurityTypeIdsForSecurityCategoryId:(nonnull NSString *)securityCategoryId __attribute__((deprecated("use getQueueSubtypeIdsForTypeId: instead")));
 
 @end

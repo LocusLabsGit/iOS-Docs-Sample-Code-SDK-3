@@ -33,14 +33,9 @@
 @property (nonatomic, readonly) NSDictionary *additionalAttributes;
 
 /**
- *  An icon for the POI.
+ * External ids for this POI in the form of @[@{@"type": @"...", @"id": @"..."}]
  */
-@property (nonatomic, readonly) NSString *icon __attribute__((deprecated("this property is deprecated")));
-
-/**
- *  Absolute URL of icon
- */
-@property (nonatomic, readonly) NSURL *iconUrl __attribute__((deprecated("this property is deprecated")));
+@property (nonatomic, readonly) NSArray *externalIds;
 
 /**
  *  An image of the POI.
@@ -92,11 +87,6 @@
  *  The operating hours of this POI, if applicable.
  */
 @property (nonatomic, readonly) NSString *hours;
-
-/**
- *  The operating venue of this POI, if applicable.
- */
-@property (nonatomic, readonly) NSString *venue;
 
 /**
  *  Radius

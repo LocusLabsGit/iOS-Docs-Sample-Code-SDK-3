@@ -124,8 +124,6 @@ typedef NS_ENUM(unsigned long, LLLocationAuthorizationPermissionToRequest) {
  */
 + (LLLocusLabs*)setup;
 
-- (NSString*)assetsFormatVersion;
-
 + (void)reset;
 
 /**

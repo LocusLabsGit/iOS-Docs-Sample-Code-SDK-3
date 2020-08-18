@@ -5,5 +5,5 @@ target 'LocusLabsSamplesSwift' do
   use_frameworks!
 
   # Pods for LocusLabsSamplesSwift
-  pod 'LocusLabs-iOS-SDK', '~> 3.0.0-beta7'
+  pod 'LocusLabs-iOS-SDK', '3.0.0-RC1'
 end

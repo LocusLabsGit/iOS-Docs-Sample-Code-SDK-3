@@ -42,22 +42,26 @@
 @property (nonatomic) BOOL forceWheelchairAccessibleRoute;
 
 /**
- * Set allowed security type ids for given security category id.
+ * Set allowed queue subtype ids for given queue type id.
  *
- * See LLSecurity.h for available categories and types.
+ * See LLQueue.h for available categories and types.
  *
- * @param securityTypeIds an array of [LLSecurityType typeId]
- * @param securityCategoryId [LLSecurityCategory categoryId]
+ * @param queueSubtypeIds an array of [LLQueueSubtype subtypeId]
+ * @param queueTypeId [LLQueueType typeId]
  */
-- (void)setSecurityTypeIds:(nullable NSArray<NSString *> *)securityTypeIds forSecurityCategoryId:(nonnull NSString *)securityCategoryId;
+- (void)setQueueSubtypeIds:(nullable NSArray<NSString *> *)queueSubtypeIds forQueueTypeId:(nonnull NSString *)queueTypeId;
+
+- (void)setSecurityTypeIds:(nullable NSArray<NSString *> *)securityTypeIds forSecurityCategoryId:(nonnull NSString *)securityCategoryId __attribute__((deprecated("use setQueueSubtypeIds:forQueueTypeId: instead")));;
 
 /**
- * Provides direct access to all configured security categories.
+ * Provides direct access to all configured queue types.
  *
- * Instead of setting this value directly, [LLDirectionsRequest setSecurityTypeIds:forSecurityCategoryId:] might be used
+ * Instead of setting this value directly, [LLDirectionsRequest setQueueSubtypeIds:forQueueTypeId:] might be used
  * to configure the options by category.
  */
-@property (nonatomic, strong, nullable) NSMutableDictionary<NSString *, NSArray<NSString *> *> *securityRoutingOptions;
+@property (nonatomic, strong, nullable) NSMutableDictionary<NSString *, NSArray<NSString *> *> *queueRoutingOptions;
+
+@property (nonatomic, strong, nullable) NSMutableDictionary<NSString *, NSArray<NSString *> *> *securityRoutingOptions __deprecated_msg("use queueRoutingOptions instead");
 
 @end
 

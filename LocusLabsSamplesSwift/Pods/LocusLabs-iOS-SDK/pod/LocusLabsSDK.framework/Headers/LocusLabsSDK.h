@@ -60,6 +60,7 @@
 #import <LocusLabsSDK/LLSearchResult.h>
 #import <LocusLabsSDK/LLSearchResults.h>
 #import <LocusLabsSDK/LLSecurity.h>
+#import <LocusLabsSDK/LLQueue.h>
 #import <LocusLabsSDK/LLTheme.h>
 #import <LocusLabsSDK/LLThemeBuilder.h>
 #import <LocusLabsSDK/LLUserPreferences.h>

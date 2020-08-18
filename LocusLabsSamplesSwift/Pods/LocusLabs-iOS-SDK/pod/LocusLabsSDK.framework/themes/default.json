@@ -297,10 +297,6 @@
                 }
             }
         },
-        "VoucherView" : {
-            "toolbarColor" : "@colors.globalPrimary",
-            "textColor" : "@colors.globalPrimaryButtonText"
-        },
         "CheckInView" : {
             "navBarColor" : "@colors.globalPrimary",
             "navBarTextColor" : "@colors.globalPrimaryButtonText",

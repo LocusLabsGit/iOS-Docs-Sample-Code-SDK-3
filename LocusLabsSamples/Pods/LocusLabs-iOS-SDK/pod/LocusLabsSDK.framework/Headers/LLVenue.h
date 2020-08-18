@@ -11,6 +11,7 @@
 #import "LLConfiguration.h"
 #import "LLBeacon.h"
 #import "LLLocation.h"
+#import "LLSecurity.h"
 
 @class LLVenue;
 
@@ -21,6 +22,7 @@
 @class LLPosition;
 @class LLNavigationPath;
 @class LLSecurityCategory;
+@class LLQueueType;
 @class LLDirectionsRequest;
 
 /**
@@ -135,8 +137,6 @@
 @property (nonatomic, readonly) NSString *version;
 
 @property (nonatomic, readonly) NSArray *positioningSupported;
-
-@property (nonatomic, readonly) NSNumber *hasVouchers;
 
 @property (nonatomic, readonly) NSString *uber;
 
@@ -256,8 +256,15 @@ typedef enum LLPositioningSensorAlgorithm {
 
 /**
  * An array of LLSecurityCategory supported by this venue.
+ *
+ * **Deprecated**: use queueTypes instead
  */
-@property (nonatomic, readonly) NSArray<LLSecurityCategory *> *securityCategories;
+@property (nonatomic, readonly) NSArray<LLSecurityCategory *> *securityCategories __attribute__((deprecated("use queueTypes")));
+
+/**
+ * An array of LLQueueType supported by this venue.
+ */
+@property (nonatomic, readonly) NSArray<LLQueueType *> *queueTypes;
 
 @property (nonatomic, readonly) NSArray<NSString *> *searchSuggestions;
 

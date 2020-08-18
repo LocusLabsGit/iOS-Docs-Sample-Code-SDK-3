@@ -1,12 +1,12 @@
 PODS:
-  - LocusLabs-iOS-SDK (3.0.0-beta7):
+  - LocusLabs-iOS-SDK (3.0.0-RC1):
     - Mapbox-iOS-SDK (~> 5.9)
   - Mapbox-iOS-SDK (5.9.0):
     - MapboxMobileEvents (= 0.10.2)
   - MapboxMobileEvents (0.10.2)
 
 DEPENDENCIES:
-  - LocusLabs-iOS-SDK (~> 3.0.0-beta7)
+  - LocusLabs-iOS-SDK (= 3.0.0-RC1)
 
 SPEC REPOS:
   trunk:
@@ -15,10 +15,10 @@ SPEC REPOS:
     - MapboxMobileEvents
 
 SPEC CHECKSUMS:
-  LocusLabs-iOS-SDK: 560d1fb0baec35038964066858dc1bbf735ca34d
+  LocusLabs-iOS-SDK: 1bb5aa1f869282166172d18f2b3a680c328cc481
   Mapbox-iOS-SDK: a5915700ec84bc1a7f8b3e746d474789e35b7956
   MapboxMobileEvents: 2bc0ca2eedb627b73cf403258dce2b2fa98074a6
 
-PODFILE CHECKSUM: e859721b864308deaac3f3a510cbc40bdec56a51
+PODFILE CHECKSUM: a45d0957b0d3bf6d56fd85acfc04c3148fe96132
 
 COCOAPODS: 1.9.3

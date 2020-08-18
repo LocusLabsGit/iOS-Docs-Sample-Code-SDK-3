@@ -28,7 +28,6 @@
 // String & Other Constants
 @property (nonatomic, strong) NSString *cancelButtonLabel;
 @property (nonatomic, strong) NSString *bottomBarGrabButtonLabel;
-@property (nonatomic, strong) NSString *bottomBarVoucherButtonLabel;
 @property (nonatomic, strong) NSNumber *currentLevelFadeDuration;
 @property (nonatomic, strong) NSNumber *currentLevelFadeDelay;
 

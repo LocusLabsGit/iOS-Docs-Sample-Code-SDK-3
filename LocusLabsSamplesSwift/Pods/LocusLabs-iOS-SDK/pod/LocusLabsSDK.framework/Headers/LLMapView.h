@@ -259,13 +259,15 @@
 
 
 /**
- * This property controls whether the security type (lane) selection UI is shown when routing through a security checkpoint.
- * If set to <code>NO</code> the current user preferences for security categories/types are used (see LLUserPreferences).
+ * This property controls whether the queue lane selection UI is shown when routing through a security checkpoint or other type of a queue.
+ * If set to <code>NO</code> the current user preferences for queue types/subtypes are used (see LLUserPreferences).
  * If set to <code>YES</code> the selection UI will be shown and user preferences will be updated based on user choices.
  *
  * By default it's set to <code>YES</code>.
  */
-@property (nonatomic) BOOL showSecurityTypeSelectionUI;
+@property (nonatomic) BOOL showQueueSelectionUI;
+
+@property (nonatomic) BOOL showSecurityTypeSelectionUI __deprecated_msg("use showQueueSelectionUI instead");
 
 /**
  * Programmatically perform the function that the UI uses when you hit 'enter' to search in the search screen.

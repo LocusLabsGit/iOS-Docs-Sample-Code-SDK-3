@@ -23,10 +23,12 @@
  */
 @property (retain, nonatomic) NSString *name;
 
+@property (retain, nonatomic) NSString *airportCode __deprecated_msg("use venueCode instead");
+
 /**
- *  The airport code
+ *  The venue code
  */
-@property (retain, nonatomic) NSString *airportCode;
+@property (retain, nonatomic) NSString *venueCode;
 
 /**
  *  The locale

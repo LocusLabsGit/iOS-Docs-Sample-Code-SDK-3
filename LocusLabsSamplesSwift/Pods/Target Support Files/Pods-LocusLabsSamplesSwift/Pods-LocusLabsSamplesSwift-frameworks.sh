@@ -199,8 +199,8 @@ fi
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${PODS_ROOT}/LocusLabs-iOS-SDK/pod/LocusLabsSDK.framework"
   install_dsym "${PODS_ROOT}/LocusLabs-iOS-SDK/pod/LocusLabsSDK.framework.dSYM"
-  install_bcsymbolmap "${PODS_ROOT}/LocusLabs-iOS-SDK/pod/A94904BC-1198-3C68-839D-45B62F54E08B.bcsymbolmap"
-  install_bcsymbolmap "${PODS_ROOT}/LocusLabs-iOS-SDK/pod/3040CAC3-2420-31EA-82D1-4ADFCF07E120.bcsymbolmap"
+  install_bcsymbolmap "${PODS_ROOT}/LocusLabs-iOS-SDK/pod/06BD2659-E10D-3019-9EC8-A9372C24542B.bcsymbolmap"
+  install_bcsymbolmap "${PODS_ROOT}/LocusLabs-iOS-SDK/pod/49D4FC44-1A0A-3A2D-942B-DDA99A1561E9.bcsymbolmap"
   install_framework "${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework"
   install_dsym "${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework.dSYM"
   install_bcsymbolmap "${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/EF3F193B-8B19-3D7A-9C4D-CC7ACB8FD1B2.bcsymbolmap"
@@ -212,8 +212,8 @@ fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${PODS_ROOT}/LocusLabs-iOS-SDK/pod/LocusLabsSDK.framework"
   install_dsym "${PODS_ROOT}/LocusLabs-iOS-SDK/pod/LocusLabsSDK.framework.dSYM"
-  install_bcsymbolmap "${PODS_ROOT}/LocusLabs-iOS-SDK/pod/A94904BC-1198-3C68-839D-45B62F54E08B.bcsymbolmap"
-  install_bcsymbolmap "${PODS_ROOT}/LocusLabs-iOS-SDK/pod/3040CAC3-2420-31EA-82D1-4ADFCF07E120.bcsymbolmap"
+  install_bcsymbolmap "${PODS_ROOT}/LocusLabs-iOS-SDK/pod/06BD2659-E10D-3019-9EC8-A9372C24542B.bcsymbolmap"
+  install_bcsymbolmap "${PODS_ROOT}/LocusLabs-iOS-SDK/pod/49D4FC44-1A0A-3A2D-942B-DDA99A1561E9.bcsymbolmap"
   install_framework "${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework"
   install_dsym "${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework.dSYM"
   install_bcsymbolmap "${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/EF3F193B-8B19-3D7A-9C4D-CC7ACB8FD1B2.bcsymbolmap"
