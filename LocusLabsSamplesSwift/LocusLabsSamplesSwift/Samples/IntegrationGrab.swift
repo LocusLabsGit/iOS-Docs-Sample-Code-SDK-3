@@ -22,6 +22,15 @@ class IntegrationGrab: UIViewController, LLVenueDatabaseDelegate, LLMapViewDeleg
         // Initialize the LocusLabs SDK with the accountId provided by LocusLabs
         LLLocusLabs.setup().accountId = "A11F4Y6SZRXH4X"
         
+        navigationController?.navigationBar.isHidden = true
+                
+        // The grab customer id is for testing purposes only and cannot be used in production
+        LLLocusLabs.setup().grabCustomerId = "abc2e5a1cdcebc486a6710b484aeaf9d"
+        LLLocusLabs.setup().grabNavigationController = navigationController
+        
+        // Optional - Only uncomment if you wish to customize the grab interface - see docs for available keys
+        // LLLocusLabs.setup()?.grabStyleDictionary = []
+        
         // Create a new LLMapView, register as its delegate and add it as a subview
         mapView = LLMapView(frame: view.bounds)
         mapView?.autoresizingMask = [.flexibleWidth, .flexibleHeight]
@@ -39,8 +48,6 @@ class IntegrationGrab: UIViewController, LLVenueDatabaseDelegate, LLMapViewDeleg
         venueDatabase.loadVenueAndMap("lax") { (_venue: LLVenue?, _map: LLMap?, _floor: LLFloor?, _marker: LLMarker?) in
             
             self.venue = _venue
-            LLLocusLabs.setup().grabCustomerId = "abc2e5a1cdcebc486a6710b484aeaf9d"
-            LLLocusLabs.setup().grabNavigationController = self.navigationController
         }
     }
     

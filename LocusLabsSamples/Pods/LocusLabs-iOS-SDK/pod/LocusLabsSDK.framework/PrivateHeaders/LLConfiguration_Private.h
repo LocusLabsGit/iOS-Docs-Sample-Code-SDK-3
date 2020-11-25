@@ -14,7 +14,6 @@
 @property (nonatomic, readonly) NSBundle *sdkBundle; // this should be removed, if not used by customers...
 
 @property (nonatomic, strong) NSDictionary *config;
-@property (nonatomic) NSString *language;
 @property (nonatomic) BOOL hours24format;
 
 @property (nonatomic) BOOL recommendedPlacesEnabled DEPRECATED_MSG_ATTRIBUTE("this attribute is not used anymore");

@@ -46,6 +46,7 @@
 		9CCC9FC124698B21007B8A90 /* UserLocationSimulated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCC9FC024698B21007B8A90 /* UserLocationSimulated.swift */; };
 		9CCC9FC324698B43007B8A90 /* UserPositionTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCC9FC224698B43007B8A90 /* UserPositionTracking.swift */; };
 		9CCC9FC524698B67007B8A90 /* VenueData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCC9FC424698B67007B8A90 /* VenueData.swift */; };
+		9CD0AD23256E3EDE00EFDC1A /* ios-A11F4Y6SZRXH4X-2020-11-24T15-31-55.tar.gz in Resources */ = {isa = PBXBuildFile; fileRef = 9CD0AD22256E3EDE00EFDC1A /* ios-A11F4Y6SZRXH4X-2020-11-24T15-31-55.tar.gz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -92,6 +93,7 @@
 		9CCC9FC024698B21007B8A90 /* UserLocationSimulated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLocationSimulated.swift; sourceTree = "<group>"; };
 		9CCC9FC224698B43007B8A90 /* UserPositionTracking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserPositionTracking.swift; sourceTree = "<group>"; };
 		9CCC9FC424698B67007B8A90 /* VenueData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenueData.swift; sourceTree = "<group>"; };
+		9CD0AD22256E3EDE00EFDC1A /* ios-A11F4Y6SZRXH4X-2020-11-24T15-31-55.tar.gz */ = {isa = PBXFileReference; lastKnownFileType = archive.gzip; path = "ios-A11F4Y6SZRXH4X-2020-11-24T15-31-55.tar.gz"; sourceTree = "<group>"; };
 		B38358FD526E1B77B618D3F2 /* Pods-LocusLabsSamplesSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocusLabsSamplesSwift.debug.xcconfig"; path = "Target Support Files/Pods-LocusLabsSamplesSwift/Pods-LocusLabsSamplesSwift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -154,6 +156,7 @@
 				9CA19DE12465B62E001EB6CD /* custom_icon_1@3x.png */,
 				9CA19DDE2465B62E001EB6CD /* starbucks.png */,
 				9CCC9F8D246978DF007B8A90 /* Swift-Bridge.h */,
+				9CD0AD22256E3EDE00EFDC1A /* ios-A11F4Y6SZRXH4X-2020-11-24T15-31-55.tar.gz */,
 			);
 			path = LocusLabsSamplesSwift;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 				9CA19DD72465B5C8001EB6CD /* LaunchScreen.storyboard in Resources */,
 				9CA19DD42465B5C8001EB6CD /* Assets.xcassets in Resources */,
 				9CA19DE22465B62E001EB6CD /* starbucks.png in Resources */,
+				9CD0AD23256E3EDE00EFDC1A /* ios-A11F4Y6SZRXH4X-2020-11-24T15-31-55.tar.gz in Resources */,
 				9CA19DE32465B62E001EB6CD /* custom_icon_1.png in Resources */,
 				9CCC9FA3246983C9007B8A90 /* CursusLibrary.bundle in Resources */,
 				9CA19DD22465B5C7001EB6CD /* Main.storyboard in Resources */,

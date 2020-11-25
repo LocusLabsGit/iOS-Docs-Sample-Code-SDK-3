@@ -39,6 +39,8 @@ class ExternalLocationServices: UIViewController, LLVenueDatabaseDelegate, LLMap
         venueDatabase.loadVenueAndMap("lax") { (_venue: LLVenue?, _map: LLMap?, _floor: LLFloor?, _marker: LLMarker?) in
             
             self.venue = _venue
+            self.mapView?.positionManager.activePositioning = false
+            self.mapView?.positionManager.passivePositioning = false
             
             // Set the navigation source to external
             let algorithm = NSNumber(value: Int8(LLPositioningSensorAlgorithmExternal.rawValue))

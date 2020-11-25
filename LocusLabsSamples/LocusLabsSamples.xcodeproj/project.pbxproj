@@ -47,6 +47,7 @@
 		9CCC9F852469773A007B8A90 /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CCC9F842469773A007B8A90 /* PassKit.framework */; };
 		9CCC9F8724697740007B8A90 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CCC9F8624697740007B8A90 /* MobileCoreServices.framework */; };
 		9CCC9F8A24697764007B8A90 /* IntegrationGrab.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CCC9F8824697764007B8A90 /* IntegrationGrab.m */; };
+		9CD0AD27256E403600EFDC1A /* ios-A11F4Y6SZRXH4X-2020-11-24T15-31-55.tar.gz in Resources */ = {isa = PBXBuildFile; fileRef = 9CD0AD26256E403600EFDC1A /* ios-A11F4Y6SZRXH4X-2020-11-24T15-31-55.tar.gz */; };
 		C3784B3F2948F5CC1FE3A39D /* Pods_LocusLabsSamples.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 008248E793A812233516A27A /* Pods_LocusLabsSamples.framework */; };
 /* End PBXBuildFile section */
 
@@ -122,6 +123,7 @@
 		9CCC9F8624697740007B8A90 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		9CCC9F8824697764007B8A90 /* IntegrationGrab.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntegrationGrab.m; sourceTree = "<group>"; };
 		9CCC9F8924697764007B8A90 /* IntegrationGrab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntegrationGrab.h; sourceTree = "<group>"; };
+		9CD0AD26256E403600EFDC1A /* ios-A11F4Y6SZRXH4X-2020-11-24T15-31-55.tar.gz */ = {isa = PBXFileReference; lastKnownFileType = archive.gzip; path = "ios-A11F4Y6SZRXH4X-2020-11-24T15-31-55.tar.gz"; sourceTree = "<group>"; };
 		E5381A6E9228B4649BA5B616 /* Pods-LocusLabsSamples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocusLabsSamples.debug.xcconfig"; path = "Target Support Files/Pods-LocusLabsSamples/Pods-LocusLabsSamples.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -200,6 +202,7 @@
 				9CA19D922465AE72001EB6CD /* custom_icon_1.png */,
 				9CA19D932465AE72001EB6CD /* custom_icon_1@2x.png */,
 				9CA19D912465AE72001EB6CD /* custom_icon_1@3x.png */,
+				9CD0AD26256E403600EFDC1A /* ios-A11F4Y6SZRXH4X-2020-11-24T15-31-55.tar.gz */,
 			);
 			path = LocusLabsSamples;
 			sourceTree = "<group>";
@@ -318,6 +321,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CD0AD27256E403600EFDC1A /* ios-A11F4Y6SZRXH4X-2020-11-24T15-31-55.tar.gz in Resources */,
 				9CA19D642465A1CA001EB6CD /* LaunchScreen.storyboard in Resources */,
 				9CA19D952465AE72001EB6CD /* custom_icon_1.png in Resources */,
 				9CA19D962465AE72001EB6CD /* custom_icon_1@2x.png in Resources */,

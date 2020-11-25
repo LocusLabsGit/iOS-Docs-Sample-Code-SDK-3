@@ -34,6 +34,9 @@
     [LLLocusLabs setup].grabCustomerId = @"abc2e5a1cdcebc486a6710b484aeaf9d";
     [LLLocusLabs setup].grabNavigationController = self.navigationController;
     
+    // Optional - Only uncomment if you wish to customize the grab interface - see docs for available keys
+    // [LLLocusLabs setup].grabStyleDictionary = @{};
+    
     // Create a new LLMapView, register as its delegate and add it as a subview
     LLMapView *mapView = [[LLMapView alloc] initWithFrame:self.view.bounds];
     mapView.autoresizingMask = (UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight);

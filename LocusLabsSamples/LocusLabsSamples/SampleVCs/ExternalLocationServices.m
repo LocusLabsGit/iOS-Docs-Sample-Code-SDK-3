@@ -44,6 +44,8 @@
     [self.venueDatabase loadVenueAndMap:@"lax" block:^(LLVenue *venue, LLMap *map, LLFloor *floor, LLMarker *marker) {
         
         self.venue = venue;
+        self.mapView.positionManager.activePositioning = NO;
+        self.mapView.positionManager.passivePositioning = NO;
         
         // Set the navigation source to external
         [[NSNotificationCenter defaultCenter] postNotificationName:NOTIFICATION_SET_POSITIONING_SENSOR_ALGORITHM

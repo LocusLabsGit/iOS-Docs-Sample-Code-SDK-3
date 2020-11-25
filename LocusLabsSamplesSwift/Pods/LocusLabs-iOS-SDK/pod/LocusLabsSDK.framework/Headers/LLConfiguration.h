@@ -10,7 +10,7 @@
 
 @interface LLConfiguration : NSObject
 
-+ (LLConfiguration *)sharedConfiguration;
++ (nonnull LLConfiguration *)sharedConfiguration;
 
 /**
  * <code>assetsOverrideBundle</code> is a bundle that will get checked first for any LocusMaps SDK resources, before the LocusMaps
@@ -21,17 +21,25 @@
  * will be still loaded from the LocusMaps bundle.
  *
  */
-@property (nonatomic, strong) NSBundle *assetsOverrideBundle;
+@property (nonatomic, strong, nullable) NSBundle *assetsOverrideBundle;
 
-@property (nonatomic, strong) NSString *sdkBundleName;
+/**
+ This property controls which language is used for localized strings displayed by the LocusMaps.
+ 
+ It needs to be set to one of the values of available localizations for LocusMaps bundle.
+ Setting this property to an unsupported value or nil results in resetting it to a default value, which is the first localization from <code>preferredLocalizations</code> of the LocusMaps bundle.
+ */
+@property (nonatomic, copy, null_resettable) NSString *language;
+
+@property (nonatomic, strong, nonnull) NSString *sdkBundleName;
 
 // String & Other Constants
-@property (nonatomic, strong) NSString *cancelButtonLabel;
-@property (nonatomic, strong) NSString *bottomBarGrabButtonLabel;
-@property (nonatomic, strong) NSNumber *currentLevelFadeDuration;
-@property (nonatomic, strong) NSNumber *currentLevelFadeDelay;
+@property (nonatomic, strong, null_resettable) NSString *cancelButtonLabel;
+@property (nonatomic, strong, null_resettable) NSString *bottomBarGrabButtonLabel;
+@property (nonatomic, strong, nonnull) NSNumber *currentLevelFadeDuration;
+@property (nonatomic, strong, nonnull) NSNumber *currentLevelFadeDelay;
 
-- (UIImage *)cachedImageFromSDKBundle:(NSString *)imageFilename;
+- (nullable UIImage *)cachedImageFromSDKBundle:(nullable NSString *)imageFilename;
 - (void)clearCache;
 
 @end
