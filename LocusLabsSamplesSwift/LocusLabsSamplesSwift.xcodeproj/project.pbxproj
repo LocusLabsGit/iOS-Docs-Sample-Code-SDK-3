@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		8EB7EED858A8D30BCE877D1D /* Pods_LocusLabsSamplesSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 756D59FB7DBF83BAA67402BF /* Pods_LocusLabsSamplesSwift.framework */; };
+		9C09FFE9258B8390005A8BE5 /* CursusLibrary.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9C09FFE7258B838F005A8BE5 /* CursusLibrary.bundle */; };
+		9C09FFEA258B8390005A8BE5 /* CursusLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C09FFE8258B8390005A8BE5 /* CursusLibrary.framework */; };
 		9CA19DCB2465B5C7001EB6CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA19DCA2465B5C7001EB6CD /* AppDelegate.swift */; };
 		9CA19DCD2465B5C7001EB6CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA19DCC2465B5C7001EB6CD /* SceneDelegate.swift */; };
 		9CA19DCF2465B5C7001EB6CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA19DCE2465B5C7001EB6CD /* ViewController.swift */; };
@@ -26,12 +28,8 @@
 		9CCC9F972469810A007B8A90 /* DirectionsStepsETA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCC9F962469810A007B8A90 /* DirectionsStepsETA.swift */; };
 		9CCC9F9924698132007B8A90 /* DirectionsUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCC9F9824698132007B8A90 /* DirectionsUI.swift */; };
 		9CCC9F9B24698153007B8A90 /* ExternalLocationServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCC9F9A24698153007B8A90 /* ExternalLocationServices.swift */; };
-		9CCC9FA1246983C9007B8A90 /* CursusLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CCC9F9E246983C8007B8A90 /* CursusLibrary.framework */; };
-		9CCC9FA2246983C9007B8A90 /* libCardIO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CCC9F9F246983C8007B8A90 /* libCardIO.a */; };
-		9CCC9FA3246983C9007B8A90 /* CursusLibrary.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9CCC9FA0246983C9007B8A90 /* CursusLibrary.bundle */; };
 		9CCC9FA5246983D4007B8A90 /* IntegrationGrab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCC9FA4246983D4007B8A90 /* IntegrationGrab.swift */; };
 		9CCC9FA724698454007B8A90 /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CCC9FA624698454007B8A90 /* PassKit.framework */; };
-		9CCC9FA924698458007B8A90 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CCC9FA824698458007B8A90 /* MobileCoreServices.framework */; };
 		9CCC9FAB24698490007B8A90 /* MapBasics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCC9FAA24698490007B8A90 /* MapBasics.swift */; };
 		9CCC9FAD246984B9007B8A90 /* Markers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCC9FAC246984B9007B8A90 /* Markers.swift */; };
 		9CCC9FAF246984E3007B8A90 /* POIButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCC9FAE246984E3007B8A90 /* POIButtons.swift */; };
@@ -52,6 +50,8 @@
 /* Begin PBXFileReference section */
 		1BFA59249C04B73B1F94556E /* Pods-LocusLabsSamplesSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocusLabsSamplesSwift.release.xcconfig"; path = "Target Support Files/Pods-LocusLabsSamplesSwift/Pods-LocusLabsSamplesSwift.release.xcconfig"; sourceTree = "<group>"; };
 		756D59FB7DBF83BAA67402BF /* Pods_LocusLabsSamplesSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocusLabsSamplesSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C09FFE7258B838F005A8BE5 /* CursusLibrary.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CursusLibrary.bundle; sourceTree = "<group>"; };
+		9C09FFE8258B8390005A8BE5 /* CursusLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CursusLibrary.framework; sourceTree = "<group>"; };
 		9CA19DC72465B5C7001EB6CD /* LocusLabsSamplesSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocusLabsSamplesSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CA19DCA2465B5C7001EB6CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CA19DCC2465B5C7001EB6CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -73,12 +73,8 @@
 		9CCC9F962469810A007B8A90 /* DirectionsStepsETA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectionsStepsETA.swift; sourceTree = "<group>"; };
 		9CCC9F9824698132007B8A90 /* DirectionsUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectionsUI.swift; sourceTree = "<group>"; };
 		9CCC9F9A24698153007B8A90 /* ExternalLocationServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExternalLocationServices.swift; sourceTree = "<group>"; };
-		9CCC9F9E246983C8007B8A90 /* CursusLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CursusLibrary.framework; sourceTree = "<group>"; };
-		9CCC9F9F246983C8007B8A90 /* libCardIO.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCardIO.a; sourceTree = "<group>"; };
-		9CCC9FA0246983C9007B8A90 /* CursusLibrary.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CursusLibrary.bundle; sourceTree = "<group>"; };
 		9CCC9FA4246983D4007B8A90 /* IntegrationGrab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntegrationGrab.swift; sourceTree = "<group>"; };
 		9CCC9FA624698454007B8A90 /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = System/Library/Frameworks/PassKit.framework; sourceTree = SDKROOT; };
-		9CCC9FA824698458007B8A90 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		9CCC9FAA24698490007B8A90 /* MapBasics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapBasics.swift; sourceTree = "<group>"; };
 		9CCC9FAC246984B9007B8A90 /* Markers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Markers.swift; sourceTree = "<group>"; };
 		9CCC9FAE246984E3007B8A90 /* POIButtons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = POIButtons.swift; sourceTree = "<group>"; };
@@ -103,10 +99,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CCC9FA724698454007B8A90 /* PassKit.framework in Frameworks */,
+				9C09FFEA258B8390005A8BE5 /* CursusLibrary.framework in Frameworks */,
 				8EB7EED858A8D30BCE877D1D /* Pods_LocusLabsSamplesSwift.framework in Frameworks */,
-				9CCC9FA2246983C9007B8A90 /* libCardIO.a in Frameworks */,
-				9CCC9FA924698458007B8A90 /* MobileCoreServices.framework in Frameworks */,
-				9CCC9FA1246983C9007B8A90 /* CursusLibrary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,11 +188,9 @@
 		E51671A3794765DA37585A0D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9CCC9FA824698458007B8A90 /* MobileCoreServices.framework */,
 				9CCC9FA624698454007B8A90 /* PassKit.framework */,
-				9CCC9FA0246983C9007B8A90 /* CursusLibrary.bundle */,
-				9CCC9F9E246983C8007B8A90 /* CursusLibrary.framework */,
-				9CCC9F9F246983C8007B8A90 /* libCardIO.a */,
+				9C09FFE7258B838F005A8BE5 /* CursusLibrary.bundle */,
+				9C09FFE8258B8390005A8BE5 /* CursusLibrary.framework */,
 				756D59FB7DBF83BAA67402BF /* Pods_LocusLabsSamplesSwift.framework */,
 			);
 			name = Frameworks;
@@ -265,13 +257,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CA19DE42465B62E001EB6CD /* custom_icon_1@2x.png in Resources */,
+				9C09FFE9258B8390005A8BE5 /* CursusLibrary.bundle in Resources */,
 				9CA19DE52465B62E001EB6CD /* custom_icon_1@3x.png in Resources */,
 				9CA19DD72465B5C8001EB6CD /* LaunchScreen.storyboard in Resources */,
 				9CA19DD42465B5C8001EB6CD /* Assets.xcassets in Resources */,
 				9CA19DE22465B62E001EB6CD /* starbucks.png in Resources */,
 				9CD0AD23256E3EDE00EFDC1A /* ios-A11F4Y6SZRXH4X-2020-11-24T15-31-55.tar.gz in Resources */,
 				9CA19DE32465B62E001EB6CD /* custom_icon_1.png in Resources */,
-				9CCC9FA3246983C9007B8A90 /* CursusLibrary.bundle in Resources */,
 				9CA19DD22465B5C7001EB6CD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

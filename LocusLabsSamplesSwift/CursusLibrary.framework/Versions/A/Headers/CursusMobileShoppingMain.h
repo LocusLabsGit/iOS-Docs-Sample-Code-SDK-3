@@ -18,7 +18,7 @@
 #import "CursusChooseAirportVC.h"
 //#import "CursusSocialShareVC.h"
 //#import "CursusOrderHistoryVC.h"
-#import "AVFoundation/AVAudioPlayer.h"
+//#import "AVFoundation/AVAudioPlayer.h"
 #import "CursusBeaconContoller.h"
 //#import "CursusGeoFence.h"
 #import "CursusOrderHistoryV3.h"
@@ -51,6 +51,6 @@
 
 @property (nonatomic, strong) UIRefreshControl *grabRefreshControl;
 
-@property (nonatomic, strong) AVAudioPlayer *audioPlayer;
+//@property (nonatomic, strong) AVAudioPlayer *audioPlayer;
 
 @end

@@ -69,7 +69,7 @@
 }
 
 - (void)performANDSearch {
-
+    
     [self.search multiTermSearch:@[@"Beer", @"Burger"]];
 }
 
@@ -96,10 +96,10 @@
 - (void)mapViewReady:(LLMapView *)mapView {
     
     // Perform a search for all POIs that match Beer AND Burger
-   // [self performANDSearch];
+    [self performANDSearch];
     
     // Perform a search for all POIs that match either Beer OR Burger
-    [self performORSearch];
+   // [self performORSearch];
 }
 
 - (UIViewController *)presentingControllerForMapView:(LLMapView *)mapView forContext:(LLMapViewPresentationContext)context {
@@ -112,7 +112,7 @@
 
 - (void)search:(LLSearch *)search multiTermSearchResults:(LLMultiTermSearchResults *)searchResults {
     
-    NSLog(@"Result count:%li", searchResults.results.count);
+    NSLog(@"AND Search Result count:%li", searchResults.results.count);
     
     for (LLSearchResult *searchResult in searchResults.results) {
         
@@ -122,7 +122,7 @@
 
 - (void)searchWithTerms:(LLSearch *)search results:(LLSearchResults *)searchResults {
     
-    NSLog(@"Result count:%li", searchResults.results.count);
+    NSLog(@"OR Search Result count:%li", searchResults.results.count);
     
     for (LLSearchResult *searchResult in searchResults.results) {
         

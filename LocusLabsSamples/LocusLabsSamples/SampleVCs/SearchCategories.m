@@ -71,6 +71,8 @@
  
     [self.seach search:@"category:eat" completion:^(LLSearchResults *searchResults) {
         
+        NSLog(@"category:eat Search Results count:%li", [[searchResults results] count]);
+        
         for (LLSearchResult *searchResult in searchResults.results) {
 
             [self createCircleWithPosition:searchResult.position radius:@10 color:[UIColor magentaColor]];
@@ -81,6 +83,8 @@
 - (void)performSpecificSearchForPOIsInGateCategory {
     
     [self.seach search:@"gate:64" completion:^(LLSearchResults *searchResults) {
+        
+        NSLog(@"gate:64 Search Results count:%li", [[searchResults results] count]);
         
         for (LLSearchResult *searchResult in searchResults.results) {
             
@@ -107,7 +111,7 @@
 - (void)mapViewReady:(LLMapView *)mapView {
     
     // Perform a search for all POIs that belong to the Eat category
-    //[self performGeneralSearchForPOIsInEatCategory];
+   // [self performGeneralSearchForPOIsInEatCategory];
 
     // Perform a specific search within the Gate category
     [self performSpecificSearchForPOIsInGateCategory];

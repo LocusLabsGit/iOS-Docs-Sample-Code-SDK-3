@@ -79,5 +79,6 @@ typedef void (^GrabCreateLoginPartnerCallback)(BOOL success, NSError *error);
 +(void)setShowChangeAirportButton:(BOOL)bShowChangeAirportButton;
 +(BOOL)getShowChangeAirportButton;
 +(void)setLimitToOneInitialization:(BOOL)bLimitToOneInitialization;
++(NSString *)getFrameworkVersion;
 
 @end
