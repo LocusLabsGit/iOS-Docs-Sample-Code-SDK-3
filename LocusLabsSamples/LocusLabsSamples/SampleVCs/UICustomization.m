@@ -65,10 +65,10 @@
     LLThemeBuilder *themeBuilder = [LLThemeBuilder themeBuilderWithTheme:[LLTheme defaultTheme]]; // Call darkTheme to edit the darkmode theme
     
     // Change icon colors in the search bar
-    [themeBuilder setProperty:@"colors.global/SecondaryText" value:[UIColor orangeColor]];
+    [themeBuilder setProperty:@"colors.globalSecondaryText" value:[UIColor orangeColor]];
     
     // Change the action bar item text (coffee, bars, etc.)
-    [themeBuilder setProperty:@"colors.global/PrimaryText" value:[UIColor grayColor]];
+    [themeBuilder setProperty:@"colors.globalPrimaryText" value:[UIColor grayColor]];
     
     self.mapView.theme = themeBuilder.theme;
     

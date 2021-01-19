@@ -59,10 +59,10 @@ class UICustomization: UIViewController, LLVenueDatabaseDelegate, LLMapViewDeleg
         let themeBuilder = LLThemeBuilder(theme: LLTheme.default())
 
         // Change icon colors in the search bar
-        themeBuilder.setProperty("colors.global/SecondaryText", value: UIColor.orange)
+        themeBuilder.setProperty("colors.globalSecondaryText", value: UIColor.orange)
       
         // Change the action bar item text (coffee, bars, etc.)
-        themeBuilder.setProperty("colors.global/PrimaryText", value: UIColor.gray);
+        themeBuilder.setProperty("colors.globalPrimaryText", value: UIColor.gray);
       
         mapView?.theme = themeBuilder.theme
         
