@@ -10,6 +10,9 @@
 		8EB7EED858A8D30BCE877D1D /* Pods_LocusLabsSamplesSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 756D59FB7DBF83BAA67402BF /* Pods_LocusLabsSamplesSwift.framework */; };
 		9C09FFE9258B8390005A8BE5 /* CursusLibrary.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9C09FFE7258B838F005A8BE5 /* CursusLibrary.bundle */; };
 		9C09FFEA258B8390005A8BE5 /* CursusLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C09FFE8258B8390005A8BE5 /* CursusLibrary.framework */; };
+		9C76BBA225B9C0DC001A38E1 /* newspaper_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C76BB9F25B9C0DC001A38E1 /* newspaper_icon.png */; };
+		9C76BBA325B9C0DC001A38E1 /* newspaper_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C76BBA025B9C0DC001A38E1 /* newspaper_icon@2x.png */; };
+		9C76BBA425B9C0DC001A38E1 /* newspaper_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C76BBA125B9C0DC001A38E1 /* newspaper_icon@3x.png */; };
 		9CA19DCB2465B5C7001EB6CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA19DCA2465B5C7001EB6CD /* AppDelegate.swift */; };
 		9CA19DCD2465B5C7001EB6CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA19DCC2465B5C7001EB6CD /* SceneDelegate.swift */; };
 		9CA19DCF2465B5C7001EB6CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA19DCE2465B5C7001EB6CD /* ViewController.swift */; };
@@ -52,6 +55,9 @@
 		756D59FB7DBF83BAA67402BF /* Pods_LocusLabsSamplesSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocusLabsSamplesSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C09FFE7258B838F005A8BE5 /* CursusLibrary.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CursusLibrary.bundle; sourceTree = "<group>"; };
 		9C09FFE8258B8390005A8BE5 /* CursusLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CursusLibrary.framework; sourceTree = "<group>"; };
+		9C76BB9F25B9C0DC001A38E1 /* newspaper_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newspaper_icon.png; sourceTree = "<group>"; };
+		9C76BBA025B9C0DC001A38E1 /* newspaper_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "newspaper_icon@2x.png"; sourceTree = "<group>"; };
+		9C76BBA125B9C0DC001A38E1 /* newspaper_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "newspaper_icon@3x.png"; sourceTree = "<group>"; };
 		9CA19DC72465B5C7001EB6CD /* LocusLabsSamplesSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocusLabsSamplesSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CA19DCA2465B5C7001EB6CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CA19DCC2465B5C7001EB6CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -145,6 +151,9 @@
 				9CA19DD32465B5C8001EB6CD /* Assets.xcassets */,
 				9CA19DD52465B5C8001EB6CD /* LaunchScreen.storyboard */,
 				9CA19DD82465B5C8001EB6CD /* Info.plist */,
+				9C76BB9F25B9C0DC001A38E1 /* newspaper_icon.png */,
+				9C76BBA025B9C0DC001A38E1 /* newspaper_icon@2x.png */,
+				9C76BBA125B9C0DC001A38E1 /* newspaper_icon@3x.png */,
 				9CA19DDF2465B62E001EB6CD /* custom_icon_1.png */,
 				9CA19DE02465B62E001EB6CD /* custom_icon_1@2x.png */,
 				9CA19DE12465B62E001EB6CD /* custom_icon_1@3x.png */,
@@ -258,7 +267,10 @@
 			files = (
 				9CA19DE42465B62E001EB6CD /* custom_icon_1@2x.png in Resources */,
 				9C09FFE9258B8390005A8BE5 /* CursusLibrary.bundle in Resources */,
+				9C76BBA225B9C0DC001A38E1 /* newspaper_icon.png in Resources */,
 				9CA19DE52465B62E001EB6CD /* custom_icon_1@3x.png in Resources */,
+				9C76BBA425B9C0DC001A38E1 /* newspaper_icon@3x.png in Resources */,
+				9C76BBA325B9C0DC001A38E1 /* newspaper_icon@2x.png in Resources */,
 				9CA19DD72465B5C8001EB6CD /* LaunchScreen.storyboard in Resources */,
 				9CA19DD42465B5C8001EB6CD /* Assets.xcassets in Resources */,
 				9CA19DE22465B62E001EB6CD /* starbucks.png in Resources */,

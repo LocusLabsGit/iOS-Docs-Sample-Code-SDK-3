@@ -68,7 +68,7 @@
         }
         
         if (starbucksPOI) {
-            
+            NSLog(@"a1");
             // Add a custom marker
             LLMarker *marker = [[LLMarker alloc] init];
             marker.position = starbucksPOI.position;
@@ -115,6 +115,13 @@
 - (void)mapViewReady:(LLMapView *)mapView {
     
     [self addMarker];
+}
+
+- (NSString *)mapView:(LLMapView *)mapView markerIconUrlForPOI:(LLPOI *)poi {
+    
+    if ([poi.poiId isEqualToString:@"869"]) return [[NSBundle mainBundle] pathForResource:@"newspaper_icon" ofType:@"png"];
+    
+    return nil;
 }
 
 - (UIViewController *)presentingControllerForMapView:(LLMapView *)mapView forContext:(LLMapViewPresentationContext)context {

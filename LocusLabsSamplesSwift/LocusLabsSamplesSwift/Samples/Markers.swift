@@ -116,6 +116,13 @@ class Markers: UIViewController, LLVenueDatabaseDelegate, LLMapViewDelegate {
         addMarker()
     }
     
+    func mapView(_ mapView: LLMapView!, markerIconUrlFor poi: LLPOI!) -> String! {
+        
+        if poi.poiId == "869" { return Bundle.main.path(forResource: "newspaper_icon", ofType: "png")}
+        
+        return nil
+    }
+    
     func presentingController(for mapView: LLMapView!, for context: LLMapViewPresentationContext) -> UIViewController! {
         
         // Return a viewcontroller the SDK can use to present alerts
