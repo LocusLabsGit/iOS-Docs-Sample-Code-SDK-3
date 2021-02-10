@@ -83,5 +83,5 @@ install_bcsymbolmap() {
 }
 
 install_dsym "${PODS_ROOT}/LocusLabs-iOS-SDK/pod/LocusLabsSDK.framework.dSYM"
-install_bcsymbolmap "${PODS_ROOT}/LocusLabs-iOS-SDK/pod/D2B4CF46-CC39-361D-8A5B-6C2459B7FB96.bcsymbolmap"
-install_bcsymbolmap "${PODS_ROOT}/LocusLabs-iOS-SDK/pod/5B59FB2A-C9CE-3ED4-9F84-C1F1BC412361.bcsymbolmap"
+install_bcsymbolmap "${PODS_ROOT}/LocusLabs-iOS-SDK/pod/CADDD240-8D25-3CE6-B0B8-654BFCF015B2.bcsymbolmap"
+install_bcsymbolmap "${PODS_ROOT}/LocusLabs-iOS-SDK/pod/F7AD4DAA-8F7B-3EA0-B7CD-C268C8391CA1.bcsymbolmap"
