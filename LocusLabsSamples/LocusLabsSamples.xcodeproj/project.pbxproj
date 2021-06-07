@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		9C09FFD2258B8026005A8BE5 /* CursusLibrary.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9C09FFD0258B8025005A8BE5 /* CursusLibrary.bundle */; };
 		9C09FFD3258B8026005A8BE5 /* CursusLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C09FFD1258B8026005A8BE5 /* CursusLibrary.framework */; };
-		9C76BB9B25B9BFB8001A38E1 /* newspaper_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C76BB9825B9BFB8001A38E1 /* newspaper_icon@2x.png */; };
-		9C76BB9C25B9BFB8001A38E1 /* newspaper_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C76BB9925B9BFB8001A38E1 /* newspaper_icon.png */; };
+		9C1A062325F7AF12001F0AC6 /* newspaper_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C1A062125F7AF12001F0AC6 /* newspaper_icon@2x.png */; };
+		9C1A062425F7AF12001F0AC6 /* newspaper_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C1A062225F7AF12001F0AC6 /* newspaper_icon.png */; };
 		9C76BB9D25B9BFB8001A38E1 /* newspaper_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C76BB9A25B9BFB8001A38E1 /* newspaper_icon@3x.png */; };
 		9CA19D562465A1C8001EB6CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA19D552465A1C8001EB6CD /* AppDelegate.m */; };
 		9CA19D592465A1C8001EB6CD /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA19D582465A1C8001EB6CD /* SceneDelegate.m */; };
@@ -57,8 +57,8 @@
 		67637CC81AC8850ACB3E175D /* Pods-LocusLabsSamples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocusLabsSamples.release.xcconfig"; path = "Target Support Files/Pods-LocusLabsSamples/Pods-LocusLabsSamples.release.xcconfig"; sourceTree = "<group>"; };
 		9C09FFD0258B8025005A8BE5 /* CursusLibrary.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CursusLibrary.bundle; sourceTree = "<group>"; };
 		9C09FFD1258B8026005A8BE5 /* CursusLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CursusLibrary.framework; sourceTree = "<group>"; };
-		9C76BB9825B9BFB8001A38E1 /* newspaper_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "newspaper_icon@2x.png"; sourceTree = "<group>"; };
-		9C76BB9925B9BFB8001A38E1 /* newspaper_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newspaper_icon.png; sourceTree = "<group>"; };
+		9C1A062125F7AF12001F0AC6 /* newspaper_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "newspaper_icon@2x.png"; sourceTree = "<group>"; };
+		9C1A062225F7AF12001F0AC6 /* newspaper_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newspaper_icon.png; sourceTree = "<group>"; };
 		9C76BB9A25B9BFB8001A38E1 /* newspaper_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "newspaper_icon@3x.png"; sourceTree = "<group>"; };
 		9CA19D512465A1C8001EB6CD /* LocusLabsSamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocusLabsSamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CA19D542465A1C8001EB6CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -201,8 +201,8 @@
 				9CA19D932465AE72001EB6CD /* custom_icon_1@2x.png */,
 				9CA19D912465AE72001EB6CD /* custom_icon_1@3x.png */,
 				9CD0AD26256E403600EFDC1A /* ios-A11F4Y6SZRXH4X-2020-11-24T15-31-55.tar.gz */,
-				9C76BB9925B9BFB8001A38E1 /* newspaper_icon.png */,
-				9C76BB9825B9BFB8001A38E1 /* newspaper_icon@2x.png */,
+				9C1A062225F7AF12001F0AC6 /* newspaper_icon.png */,
+				9C1A062125F7AF12001F0AC6 /* newspaper_icon@2x.png */,
 				9C76BB9A25B9BFB8001A38E1 /* newspaper_icon@3x.png */,
 			);
 			path = LocusLabsSamples;
@@ -326,14 +326,14 @@
 				9C09FFD2258B8026005A8BE5 /* CursusLibrary.bundle in Resources */,
 				9CA19D642465A1CA001EB6CD /* LaunchScreen.storyboard in Resources */,
 				9CA19D952465AE72001EB6CD /* custom_icon_1.png in Resources */,
+				9C1A062325F7AF12001F0AC6 /* newspaper_icon@2x.png in Resources */,
 				9C76BB9D25B9BFB8001A38E1 /* newspaper_icon@3x.png in Resources */,
+				9C1A062425F7AF12001F0AC6 /* newspaper_icon.png in Resources */,
 				9CA19D962465AE72001EB6CD /* custom_icon_1@2x.png in Resources */,
 				9CA19D612465A1CA001EB6CD /* Assets.xcassets in Resources */,
 				9CA19D8D2465AE10001EB6CD /* starbucks.png in Resources */,
-				9C76BB9C25B9BFB8001A38E1 /* newspaper_icon.png in Resources */,
 				9CA19D942465AE72001EB6CD /* custom_icon_1@3x.png in Resources */,
 				9CA19D5F2465A1C8001EB6CD /* Main.storyboard in Resources */,
-				9C76BB9B25B9BFB8001A38E1 /* newspaper_icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -23,13 +23,13 @@ class IntegrationGrab: UIViewController, LLVenueDatabaseDelegate, LLMapViewDeleg
         LLLocusLabs.setup().accountId = "A11F4Y6SZRXH4X"
         
         navigationController?.navigationBar.isHidden = true
-                
+        
         // The grab customer id is for testing purposes only and cannot be used in production
         LLLocusLabs.setup().grabCustomerId = "abc2e5a1cdcebc486a6710b484aeaf9d"
         LLLocusLabs.setup().grabNavigationController = navigationController
         
         // Optional - Only uncomment if you wish to customize the grab interface - see docs for available keys
-        // LLLocusLabs.setup()?.grabStyleDictionary = []
+        // LLLocusLabs.setup().grabStyleDictionary = []
         
         // Create a new LLMapView, register as its delegate and add it as a subview
         mapView = LLMapView(frame: view.bounds)

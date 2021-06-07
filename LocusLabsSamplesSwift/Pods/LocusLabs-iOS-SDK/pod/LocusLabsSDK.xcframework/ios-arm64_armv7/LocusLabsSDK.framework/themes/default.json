@@ -1,0 +1,802 @@
+{
+    "colors" : {
+        "globalPrimary": "#2266DD",
+        "globalPrimaryText": "#333333",
+        "globalPrimaryButton": "#2266DD",
+        "globalPrimaryButtonHover": "#124CB1",
+        "globalPrimaryButtonText": "#FFFFFF",
+        "globalSecondary": "#999999",
+        "globalSecondaryText": "#666666",
+        "globalSecondaryButton": "#EBEBEB",
+        "globalSecondaryButtonHover": "#D9D9D9",
+        "globalSecondaryButtonText": "#2266DD",
+        "globalBackground": "#FFFFFF",
+        "globalOverlay": "#000000",
+
+        "mapNavBackground": "#333333",
+        "mapNavText": "#FFFFFF",
+        "mapNavSearchResults": "#CA4800",
+        "mapNavSearchResultsText": "#FFFFFF",
+
+        "widgetBackground": "#F9F9F9",
+        "widgetText": "#333333",
+        "widgetIcons": "#333333",
+        
+        "myLocationPrimary": "#2266DD",
+
+        "statusWaitTimeBackground": "#E52727",
+        "statusWaitTimeText": "#FFFFFF",
+        "statusOnTimeAndOpenBackground": "#219653",
+        "statusOnTimeAndOpenText": "#FFFFFF",
+        "statusClosedDepartedArrivedOccupiedBackground": "#EBEBEB",
+        "statusClosedDepartedArrivedOccupiedText": "#333333"
+    },
+    "fonts" : {
+        "H1_Regular" : { "name": "SFProText-Regular", "size": 20 },
+        "H1_Semibold" : { "name": "SFProText-Semibold", "size": 20 },
+        "H2_Light" : { "name": "SFProText-Light", "size": 17 },
+        "H2_Regular" : { "name": "SFProText-Regular", "size": 17 },
+        "H2_Medium" : { "name": "SFProText-Medium", "size": 17 },
+        "H2_Semibold" : { "name": "SFProText-Semibold", "size": 17 },
+        "H2_Bold" : { "name": "SFProText-Bold", "size": 17 },
+        "H3_Light" : { "name": "SFProText-Light", "size": 15 },
+        "H3_Regular" : { "name": "SFProText-Regular", "size": 15 },
+        "H3_Medium" : { "name": "SFProText-Medium", "size": 15 },
+        "H3_Semibold" : { "name": "SFProText-Semibold", "size": 15 },
+        "H4_Regular" : { "name": "SFProText-Regular", "size": 14 },
+        "H4_Semibold" : { "name": "SFProText-Semibold", "size": 14 },
+        "H4_Medium" : { "name": "SFProText-Medium", "size": 14 },
+        "H5_Medium" : { "name": "SFProText-Medium", "size": 12 }
+    },
+    "buttons" : {
+        "Primary" : {
+            "cornerRadius": 26,
+            "backgroundColor" : "@colors.globalPrimaryButton",
+            "highlightedBackgroundColor": "@colors.globalPrimaryButtonHover",
+            "disabledBackgroundColor" : "@colors.globalPrimaryButton",
+            "disabledBackgroundColor.alpha" : 0.4,
+            "Title" : {
+                "font" : "@fonts.H2_Semibold",
+                "textColor" : "@colors.globalPrimaryButtonText",
+                "disabledTextColor" : "@colors.globalPrimaryButtonText",
+                "disabledTextColor.alpha" : 0.4
+            },
+            "Icon" : {
+                "tintColor" : "@colors.globalPrimaryButtonText",
+                "disabledTintColor" : "@colors.globalPrimaryButtonText",
+                "disabledTintColor.alpha" : 0.4
+            }
+        },
+        "Secondary" : {
+            "cornerRadius": 26,
+            "backgroundColor": "@colors.globalSecondaryButton",
+            "highlightedBackgroundColor": "@colors.globalSecondaryButtonHover",
+            "selectedBackgroundColor" : "@colors.globalPrimaryButton",
+            "Title" : {
+                "font" : "@fonts.H2_Semibold",
+                "textColor": "@colors.globalSecondaryButtonText",
+                "disabledTextColor": "@colors.globalSecondaryButtonText",
+                "disabledTextColor.alpha" : 0.4,
+                "selectedTextColor" : "@colors.globalPrimaryButtonText"
+            },
+            "Icon" : {
+                "tintColor": "@colors.globalSecondaryButtonText",
+                "disabledTintColor" : "@colors.globalSecondaryButtonText",
+                "disabledTintColor.alpha" : 0.4,
+                "selectedTintColor" : "@colors.globalPrimaryButtonText"
+            }
+        }
+    },
+    "views" : {
+        "POIBookingOpenBadge" : {
+            "backgroundColor" : "@colors.statusOnTimeAndOpenBackground",
+            "Title" : {
+                "font" : "@fonts.H4_Semibold",
+                "textColor" : "@colors.statusOnTimeAndOpenText"
+            }
+        },
+        "POIBookingOccupiedBadge" : {
+            "backgroundColor" : "@colors.statusClosedDepartedArrivedOccupiedBackground",
+            "Title" : {
+                "font" : "@fonts.H4_Semibold",
+                "textColor" : "@colors.statusClosedDepartedArrivedOccupiedText"
+            }
+        }
+    },
+    "MapView" : {
+        "DirectionsView" : {
+            "backgroundColor": "@colors.widgetBackground",
+            "fieldsBackgroundColor": "@colors.widgetText",
+            "fieldsBackgroundColor.alpha": 0.1,
+            "Title" : {
+                "font" : "@fonts.H2_Semibold",
+                "textColor" : "@colors.widgetText"
+            },
+            "CancelButton" : {
+                "font" : "@fonts.H2_Regular",
+                "textColor" : "@colors.widgetText"
+            },
+            "StartField" : {
+                "Label" : {
+                    "font" : "@fonts.H3_Regular",
+                    "textColor" : "@colors.widgetText",
+                    "textColor.alpha" : 0.6
+                },
+                "Text" : {
+                    "font" : "@fonts.H3_Regular",
+                    "textColor" : "@colors.widgetText"
+                }
+            },
+            "EndField" : {
+                "Label" : {
+                    "font" : "@fonts.H3_Regular",
+                    "textColor" : "@colors.widgetText",
+                    "textColor.alpha" : 0.6
+                },
+                "Text" : {
+                    "font" : "@fonts.H3_Regular",
+                    "textColor" : "@colors.widgetText"
+                }
+            },
+            "ReverseButton" : {
+                "backgroundColor" : "@colors.widgetBackground",
+                "tintColor" : "@colors.widgetIcons"
+            },
+            "RouteSelector" : {
+                "cornerRadius" : 15,
+                "backgroundColor" : "@colors.widgetText",
+                "backgroundColor.alpha" : 0.1,
+                "selectedBackgroundColor" : "@colors.widgetText",
+                "Button" : {
+                    "Title" : {
+                        "font" : "@fonts.H4_Semibold",
+                        "textColor" : "@colors.widgetIcons",
+                        "selectedTextColor" : "@colors.widgetBackground"
+                    },
+                    "Icon" : {
+                        "tintColor" : "@colors.widgetIcons",
+                        "selectedTintColor" : "@colors.widgetBackground"
+                    }
+                }
+            },
+            "ResultsTable" : {
+                "backgroundColor" : "@colors.globalPrimaryText",
+                "backgroundColor.alpha" : 0.1,
+                "POI" : {
+                    "backgroundColor": "@colors.globalBackground",
+                    "selectedBackgroundColor" : "@colors.globalPrimary",
+                    "selectedBackgroundColor.alpha" : 0.1,
+                    "Title" : {
+                        "font" : "@fonts.H2_Semibold",
+                        "textColor" : "@colors.globalPrimaryText"
+                    },
+                    "Detail" : {
+                        "font" : "@fonts.H3_Regular",
+                        "textColor" : "@colors.globalSecondaryText"
+                    },
+                    "Distance": {
+                        "font" : "@fonts.H4_Medium",
+                        "textColor" : "@colors.globalPrimary"
+                    },
+                    "POIBookingOpenBadge" : "@views.POIBookingOpenBadge",
+                    "POIBookingOccupiedBadge" : "@views.POIBookingOccupiedBadge"
+                },
+                "SearchSuggestion" : {
+                    "backgroundColor": "@colors.globalBackground",
+                    "selectedBackgroundColor" : "@colors.globalPrimary",
+                    "selectedBackgroundColor.alpha" : 0.1,
+                    "Title" : {
+                        "font" : "@fonts.H2_Regular",
+                        "textColor" : "@colors.globalPrimaryText"
+                    },
+                    "Icon" : {
+                        "tintColor" : "@colors.globalSecondaryText"
+                    }
+                },
+                "CurrentLocation" : {
+                    "backgroundColor": "@colors.globalBackground",
+                    "selectedBackgroundColor" : "@colors.globalPrimary",
+                    "selectedBackgroundColor.alpha" : 0.1,
+                    "Title" : {
+                        "font" : "@fonts.H2_Regular",
+                        "textColor" : "@colors.globalPrimaryText"
+                    },
+                    "Icon" : {
+                        "tintColor" : "@colors.globalPrimaryButton"
+                    }
+                }
+            }
+        },
+        "ToastView" : {
+            "backgroundColor": "@colors.mapNavBackground",
+            "Title" : {
+                "font" : "@fonts.H4_Semibold",
+                "textColor" : "@colors.mapNavText"
+            }
+        },
+        "RouteSummaryBar" : {
+            "backgroundColor" : "@colors.widgetBackground",
+            "TotalTravelTimeText" : {
+                "font" : "@fonts.H3_Medium",
+                "textColor" : "@colors.widgetText",
+                "ClosedBadge" : {
+                    "backgroundColor" : "@colors.statusClosedDepartedArrivedOccupiedBackground",
+                    "Title" : {
+                        "font" : "@fonts.H4_Semibold",
+                        "textColor" : "@colors.statusClosedDepartedArrivedOccupiedText"
+                    }
+                }
+            }
+        },
+        "RouteGuidanceView" : {
+            "backgroundColor" : "@colors.globalBackground",
+            "Button" : "@buttons.Secondary",
+            "Button.cornerRadius" : 20,
+            "GoButton" : "@buttons.Primary",
+            "GoButton.cornerRadius" : 20,
+            "StepByStepView" : {
+                "Title" : {
+                    "font" : "@fonts.H1_Semibold",
+                    "textColor" : "@colors.globalPrimaryText"
+                },
+                "Detail" : {
+                    "font" : "@fonts.H3_Regular",
+                    "textColor" : "@colors.globalSecondaryText"
+                },
+                "DetailEmphasised" : {
+                    "font" : "@fonts.H3_Semibold",
+                    "textColor" : "@colors.globalPrimary"
+                },
+                "TimeBadge" : {
+                    "backgroundColor" : "@colors.statusWaitTimeBackground",
+                    "Title" : {
+                        "font" : "@fonts.H4_Semibold",
+                        "textColor" : "@colors.statusWaitTimeText"
+                    },
+                    "Icon" : {
+                        "tintColor": "@colors.statusWaitTimeText"
+                    }
+                },
+                "ClosedBadge" : {
+                    "backgroundColor" : "@colors.statusClosedDepartedArrivedOccupiedBackground",
+                    "Title" : {
+                        "font" : "@fonts.H4_Semibold",
+                        "textColor" : "@colors.statusClosedDepartedArrivedOccupiedText"
+                    }
+                }
+            },
+            "List" : {
+                "backgroundColor" : "@colors.globalBackground",
+                "selectedBackgroundColor" : "@colors.globalPrimary",
+                "selectedBackgroundColor.alpha" : 0.1,
+                "selectionIndicatorColor" : "@colors.globalPrimary",
+                "Title" : {
+                    "font" : "@fonts.H2_Semibold",
+                    "textColor" : "@colors.globalPrimaryText"
+                },
+                "Detail" : {
+                    "font" : "@fonts.H3_Regular",
+                    "textColor" : "@colors.globalSecondaryText"
+                },
+                "TimeBadge" : {
+                    "backgroundColor" : "@colors.statusWaitTimeBackground",
+                    "Title" : {
+                        "font" : "@fonts.H4_Semibold",
+                        "textColor" : "@colors.statusWaitTimeText"
+                    },
+                    "Icon" : {
+                        "tintColor": "@colors.statusWaitTimeText"
+                    }
+                },
+                "ClosedBadge" : {
+                    "backgroundColor" : "@colors.statusClosedDepartedArrivedOccupiedBackground",
+                    "Title" : {
+                        "font" : "@fonts.H4_Semibold",
+                        "textColor" : "@colors.statusClosedDepartedArrivedOccupiedText"
+                    }
+                }
+            }
+        },
+        "CheckInView" : {
+            "navBarColor" : "@colors.globalPrimary",
+            "navBarTextColor" : "@colors.globalPrimaryButtonText",
+            "backgroundColor" : "@colors.globalBackground",
+            "Title" : {
+                "font" : "@fonts.H1_Semibold",
+                "textColor" : "@colors.globalPrimaryText"
+            },
+            "Description" : {
+                "font" : "@fonts.H2_Regular",
+                "font.lineHeight" : 24,
+                "textColor" : "@colors.globalPrimaryText"
+            },
+            "DataBackgroundView" : {
+                "backgroundColor" : "@colors.globalPrimary",
+                "backgroundColor.alpha" : 0.1,
+                "borderColor": "@colors.globalPrimaryText",
+                "borderColor.alpha": 0.1
+            },
+            "LocationHeader" : {
+                "font" : "@fonts.H4_Semibold",
+                "textColor" : "@colors.globalSecondaryText"
+            },
+            "LocationTerminal" : {
+                "font" : "@fonts.H1_Semibold",
+                "textColor" : "@colors.globalPrimaryText"
+            },
+            "GuestHeader" : {
+                "font" : "@fonts.H4_Semibold",
+                "textColor" : "@colors.globalSecondaryText"
+            },
+            "GuestValue" : {
+                "font.size" : 20,
+                "font" : "@fonts.H1_Semibold",
+                "textColor" : "@colors.globalPrimaryText"
+            },
+            "CancelButton" : {
+                "font" : "@fonts.H2_Regular",
+                "textColor" : "@colors.globalPrimaryButtonText"
+            },
+            "SubmitButton" : {
+                "backgroundColor" : "@colors.globalPrimaryButton",
+                "font" : "@fonts.H3_Semibold",
+                "textColor" : "@colors.globalPrimaryButtonText"
+            },
+            "Code" : {
+                "font" : "@fonts.H1_Semibold",
+                "font.size" : 40,
+                "textColor" : "@colors.globalPrimaryText"
+            },
+            "Name" : {
+                "font" : "@fonts.H1_Semibold",
+                "textColor" : "@colors.globalPrimaryText"
+            },
+            "GateDateTime" : {
+                "font" : "@fonts.H4_Medium",
+                "textColor" : "@colors.globalSecondaryText"
+            }
+        },
+        "POIView" : {
+            "cornerRadius" : 12,
+            "backgroundColor" : "@colors.globalBackground",
+            "HeaderView" : {
+                "backgroundColor" : "@colors.globalBackground",
+                "Title" : {
+                    "font" : "@fonts.H1_Semibold",
+                    "textColor" : "@colors.globalPrimaryText"
+                },
+                "ClosedBadge" : {
+                    "backgroundColor" : "@colors.statusClosedDepartedArrivedOccupiedBackground",
+                    "Title" : {
+                        "font" : "@fonts.H4_Semibold",
+                        "textColor" : "@colors.statusClosedDepartedArrivedOccupiedText"
+                    }
+                },
+                "TimeBadge" : {
+                    "backgroundColor" : "@colors.statusWaitTimeBackground",
+                    "Title" : {
+                        "font" : "@fonts.H4_Semibold",
+                        "textColor" : "@colors.statusWaitTimeText"
+                    },
+                    "Icon" : {
+                        "tintColor" : "@colors.statusWaitTimeText"
+                    }
+                },
+                "Location" : {
+                    "Title" : {
+                        "font" : "@fonts.H3_Regular",
+                        "textColor" : "@colors.globalSecondaryText"
+                    },
+                    "Icon" : {
+                        "tintColor" : "@colors.globalSecondaryText"
+                    }
+                },
+                "Level" : {
+                    "Title" : {
+                        "font" : "@fonts.H3_Regular",
+                        "textColor" : "@colors.globalSecondaryText"
+                    },
+                    "Icon" : {
+                        "tintColor" : "@colors.globalSecondaryText"
+                    }
+                },
+                "Building" : {
+                    "Title" : {
+                        "font" : "@fonts.H3_Regular",
+                        "textColor" : "@colors.globalSecondaryText"
+                    },
+                    "Icon" : {
+                        "tintColor" : "@colors.globalSecondaryText"
+                    }
+                }
+            },
+            "Divider": {
+                "backgroundColor": "@colors.globalPrimaryText",
+                "backgroundColor.alpha": 0.1
+            },
+            "ImagesView" : {
+                "CounterView" : {
+                    "backgroundColor": "@colors.mapNavBackground",
+                    "backgroundColor.alpha": 0.9,
+                    "Title" : {
+                        "font" : "@fonts.H4_Semibold",
+                        "textColor" : "@colors.mapNavText"
+                    }
+                },
+                "MessageView" : {
+                    "backgroundColor": "@colors.mapNavBackground",
+                    "backgroundColor.alpha": 0.1,
+                    "tintColor" : "@colors.globalPrimary",
+                    "Title" : {
+                        "font" : "@fonts.H4_Regular",
+                        "textColor" : "@colors.globalPrimaryText"
+                    }
+                }
+            },
+            "ButtonBar" : {
+                "DirectionsButton" : "@buttons.Primary",
+                "SingleButton" : "@buttons.Secondary",
+                "Button" : "@buttons.Secondary",
+                "Button.cornerRadius" : 12,
+                "Button.Title.font" : "@fonts.H5_Medium"
+            },
+            "SecurityLanes" : {
+                "backgroundColor" : "@colors.globalPrimary",
+                "backgroundColor.alpha" : 0.1,
+                "Header" : {
+                    "font" : "@fonts.H4_Semibold",
+                    "font.size" : 13,
+                    "font.letterSpacing" : -0.45,
+                    "textColor" : "@colors.globalPrimaryText"
+                },
+                "Button" : {
+                    "backgroundColor" : "@colors.globalBackground",
+                    "borderWidth": 1,
+                    "borderColor": "@colors.globalPrimaryText",
+                    "borderColor.alpha": 0.1,
+                    "cornerRadius" : 26,
+                    "Title" : {
+                        "font" : "@fonts.H3_Semibold",
+                        "font.letterSpacing" : -0.45,
+                        "textColor" : "@colors.globalSecondaryButtonText"
+                    }
+                }
+            },
+            "Description" : {
+                "font" : "@fonts.H2_Light",
+                "font.lineSpacing" : 1.29,
+                "textColor" : "@colors.globalPrimaryText",
+                "Expand" : {
+                    "font" : "@fonts.H2_Medium",
+                    "font.underline" : 1,
+                    "textColor" : "@colors.globalPrimary"
+                }
+            },
+            "KeywordsView" : {
+                "Keyword" : {
+                    "borderWidth": 1,
+                    "borderColor": "@colors.globalPrimaryButton",
+                    "highlightedBorderColor": "@colors.globalPrimaryButtonHover",
+                    "cornerRadius" : 13,
+                    "backgroundColor" : "@colors.globalBackground",
+                    "Title" : {
+                        "font" : "@fonts.H3_Regular",
+                        "textColor": "@colors.globalPrimaryButton",
+                        "highlightedTextColor": "@colors.globalPrimaryButtonHove"
+                    }
+                }
+            },
+            "InfoHeader" : {
+                "backgroundColor": "@colors.globalPrimary",
+                "backgroundColor.alpha": 0.1,
+                "font" : "@fonts.H4_Semibold",
+                "font.size" : 13.0,
+                "textColor" : "@colors.globalPrimaryText"
+            },
+            "HoursView" : {
+                "CollapsedHours" : {
+                    "font" : "@fonts.H2_Regular",
+                    "textColor" : "@colors.globalPrimaryText"
+                },
+                "ExpandedHours" : {
+                    "CurrentDay" : {
+                        "font" : "@fonts.H3_Semibold",
+                        "textColor" : "@colors.globalPrimaryText"
+                    },
+                    "OtherDays" : {
+                        "font" : "@fonts.H3_Light",
+                        "textColor" : "@colors.globalPrimaryText"
+                    }
+                },
+                "Icon" : {
+                    "tintColor" : "@colors.globalPrimaryText"
+                },
+                "Sidebar" : {
+                    "backgroundColor": "@colors.globalPrimary"
+                }
+            },
+            "PhoneView" : {
+                "Title" : {
+                    "font" : "@fonts.H2_Regular",
+                    "textColor" : "@colors.globalPrimaryText"
+                },
+                "Icon" : {
+                    "tintColor" : "@colors.globalPrimaryText"
+                }
+            },
+            "WebsiteView" : {
+                "Title" : {
+                    "font" : "@fonts.H2_Regular",
+                    "textColor" : "@colors.globalPrimaryText"
+                },
+                "Icon" : {
+                    "tintColor" : "@colors.globalPrimaryText"
+                }
+            },
+            "AmenityView" : {
+                "backgroundColor" : "@colors.globalPrimary",
+                "backgroundColor.alpha": 0.1,
+                "cornerRadius" : 4,
+                "borderWidth": 1,
+                "borderColor" : "@colors.globalPrimaryText",
+                "borderColor.alpha": 0.1,
+                "Title" : {
+                    "font" : "@fonts.H4_Semibold",
+                    "textColor" : "@colors.globalPrimaryText"
+                },
+                "AmenityItem" : {
+                    "font" : "@fonts.H3_Regular",
+                    "textColor" : "@colors.globalPrimaryText",
+                    "Icon" : {
+                        "tintColor" : "@colors.globalPrimaryText"
+                    }
+                }
+            }
+        },
+        "BookingView" : {
+            "cornerRadius" : 12,
+            "backgroundColor" : "@colors.globalBackground",
+            "separatorColor": "@colors.globalPrimaryText",
+            "separatorColor.alpha": 0.1,
+            "ButtonBar" : {
+                "Button" : "@buttons.Secondary",
+                "Button.cornerRadius" : 12,
+                "Button.Title.font" : "@fonts.H5_Medium"
+            },
+            "Label" : {
+                "font": "@fonts.H2_Semibold",
+                "textColor": "@colors.globalPrimaryText"
+            },
+            "DateAndTimeSummaryLabel" : {
+                "font": "@fonts.H3_Medium",
+                "textColor": "@colors.globalPrimaryButton"
+            },
+            "SlotsView" : {
+                "CellView" : {
+                    "disabledBackgroundColor": "@colors.globalSecondaryButton",
+                    "selectedBackgroundColor": "@colors.globalPrimaryButton",
+                    "borderColor": "@colors.globalSecondaryButton",
+                    "selectedBorderColor": "@colors.globalPrimaryButton",
+                    "disabledBorderColor": "@colors.globalSecondaryButton",
+                    "highlightedBorderColor": "@colors.globalPrimaryButtonHover",
+                    "Title" : {
+                        "font" : "@fonts.H3_Regular",
+                        "textColor": "@colors.globalPrimaryText",
+                        "selectedTextColor" : "@colors.globalPrimaryButtonText",
+                        "disabledTextColor" : "@colors.globalPrimaryText",
+                        "disabledTextColor.alpha" : 0.5
+                    }
+                }
+            },
+            "ValidationMessage" : {
+                "font" : "@fonts.H4_Regular",
+                "textColor" : "@colors.statusWaitTimeBackground"
+            },
+            "TextField" : {
+                "backgroundColor" : "@colors.globalPrimaryText",
+                "backgroundColor.alpha" : 0.1,
+                "invalidBackgroundColor" : "@colors.statusWaitTimeBackground",
+                "invalidBackgroundColor.alpha": 0.15,
+                "Text" : {
+                    "font" : "@fonts.H3_Regular",
+                    "textColor" : "@colors.globalPrimaryText",
+                    "invalidTextColor" : "@colors.statusWaitTimeBackground",
+                    "placeholderTextColor" : "@colors.globalPrimaryText",
+                    "placeholderTextColor.alpha" : 0.6
+                }
+            }
+        },
+        "LevelsMenu" : {
+            "overlayColor" : "@colors.globalOverlay",
+            "overlayColor.alpha" : 0.5,
+            "backgroundColor" : "@colors.globalBackground",
+            "separatorColor" : "@colors.globalPrimaryText",
+            "separatorColor.alpha" : 0.2,
+            "Building" : {
+                "backgroundColor" : "@colors.globalBackground",
+                "Title" : {
+                    "font" : "@fonts.H2_Bold",
+                    "textColor" : "@colors.globalSecondaryText"
+                },
+                "SearchResults" : {
+                    "font" : "@fonts.H3_Semibold",
+                    "textColor" : "@colors.mapNavSearchResultsText",
+                    "backgroundColor" : "@colors.mapNavSearchResults"
+                }
+            },
+            "Level" : {
+                "backgroundColor" : "@colors.globalPrimaryText",
+                "backgroundColor.alpha" : 0.1,
+                "selectedBackgroundColor" : "@colors.globalPrimary",
+                "selectedBackgroundColor.alpha" : 0.1,
+                "selectionIndicatorColor" : "@colors.globalPrimary",
+                "Title" : {
+                    "font" : "@fonts.H2_Semibold",
+                    "textColor" : "@colors.globalPrimaryText"
+                },
+                "Detail" : {
+                    "font" : "@fonts.H3_Regular",
+                    "textColor" : "@colors.globalSecondaryText"
+                },
+                "SearchResults" : {
+                    "font" : "@fonts.H3_Semibold",
+                    "textColor" : "@colors.mapNavSearchResultsText",
+                    "backgroundColor" : "@colors.mapNavSearchResults"
+                }
+            }
+        },
+        "TopBar" : {
+            "BackButton" : {
+                "backgroundColor": "@colors.globalBackground",
+                "Icon" : {
+                    "tintColor" : "@colors.globalSecondaryText"
+                }
+            }
+        },
+        "LoadingBar" : {
+            "CancelButton" : {
+                "backgroundColor" : "@colors.globalSecondaryButton",
+                "highlightedBackgroundColor": "@colors.globalSecondaryButtonHover",
+                "Title" : {
+                    "font" : "@fonts.H2_Semibold",
+                    "textColor" : "@colors.globalSecondaryButtonText"
+                }
+            }
+        },
+        "BottomBar" : {
+            "backgroundColor" : "@colors.globalBackground",
+            "SearchBar" : {
+                "backgroundColor" : "@colors.globalPrimaryText",
+                "backgroundColor.alpha" : 0.1,
+                "borderWidth": 0,
+                "borderColor": "@colors.globalBackground",
+                "Text" : {
+                    "font" : "@fonts.H2_Regular",
+                    "textColor" : "@colors.globalPrimaryText",
+                    "placeholderTextColor" : "@colors.globalPrimaryText",
+                    "placeholderTextColor.alpha" : 0.6 
+                },
+                "Icon" : {
+                    "tintColor" : "@colors.globalSecondaryText"
+                },
+                "CancelButton" : {
+                    "Title" : {
+                        "font" : "@fonts.H2_Regular",
+                        "textColor" : "@colors.globalPrimaryButton"
+                    }
+                }
+            },
+            "Button" : {
+                "Icon" : {
+                    "tintColor" : "@colors.globalSecondaryText",
+                    "disabledColor" : "@colors.globalSecondaryText",
+                    "disabledColor.alpha" : 0.4,
+                    "emphasisedTintColor" : "@colors.mapNavSearchResults"
+                }
+            }
+        },
+        "ActionsView" : {
+            "Action" : {
+                "backgroundColor" : "@colors.globalBackground",
+                "selectedBackgroundColor" : "@colors.globalPrimary",
+                "selectedBackgroundColor.alpha" : 0.1,
+                "Title" : {
+                    "font" : "@fonts.H3_Semibold",
+                    "textColor" : "@colors.globalPrimaryText"
+                }
+            }
+        },
+        "SearchView" : {
+            "backgroundColor" : "@colors.globalBackground",
+            "AutocompleteResult" : {
+                "backgroundColor" : "@colors.globalBackground",
+                "selectedBackgroundColor" : "@colors.globalPrimary",
+                "selectedBackgroundColor.alpha" : 0.1,
+                "Title" : {
+                    "font" : "@fonts.H2_Regular",
+                    "textColor" : "@colors.globalPrimaryText"
+                },
+                "Icon" : {
+                    "tintColor" : "@colors.globalSecondaryText"
+                }
+            },
+            "SearchSuggestion" : {
+                "backgroundColor" : "@colors.globalBackground",
+                "selectedBackgroundColor" : "@colors.globalPrimary",
+                "selectedBackgroundColor.alpha" : 0.1,
+                "Title" : {
+                    "font" : "@fonts.H2_Regular",
+                    "textColor" : "@colors.globalPrimaryText"
+                },
+                "Icon" : {
+                    "tintColor" : "@colors.globalSecondaryText"
+                }
+            },
+            "POIResult" : {
+                "backgroundColor" : "@colors.globalBackground",
+                "selectedBackgroundColor" : "@colors.globalPrimary",
+                "selectedBackgroundColor.alpha" : 0.1,
+                "Title" : {
+                    "font" : "@fonts.H2_Semibold",
+                    "textColor" : "@colors.globalPrimaryText"
+                },
+                "Detail" : {
+                    "font" : "@fonts.H3_Regular",
+                    "textColor" : "@colors.globalSecondaryText"
+                },
+                "Distance": {
+                    "font" : "@fonts.H4_Medium",
+                    "textColor" : "@colors.globalPrimary"
+                },
+                "POIBookingOpenBadge" : "@views.POIBookingOpenBadge",
+                "POIBookingOccupiedBadge" : "@views.POIBookingOccupiedBadge"
+            },
+            "Header" : {
+                "backgroundColor" : "@colors.globalPrimary",
+                "backgroundColor.alpha" : 0.1,
+                "font" : "@fonts.H4_Semibold",
+                "textColor" : "@colors.globalPrimaryText"
+            }
+        },
+        "AlertView" : {
+            "overlayColor": "@colors.globalOverlay",
+            "overlayColor.alpha" : 0.5,
+            "backgroundColor": "@colors.globalBackground",
+            "cornerRadius": 12,
+            "Title" : {
+                "font" : "@fonts.H1_Semibold",
+                "textColor" : "@colors.globalPrimaryText"
+            },
+            "Message" : {
+                "font" : "@fonts.H3_Regular",
+                "emphasisedFont" : "@fonts.H3_Semibold",
+                "textColor" : "@colors.globalPrimaryText"
+            },
+            "Button" : "@buttons.Primary",
+            "CancelButton" : "@buttons.Secondary"
+        },
+        "ActionSheet" : {
+            "overlayColor": "@colors.globalOverlay",
+            "overlayColor.alpha" : 0.5,
+            "backgroundColor": "@colors.globalBackground",
+            "cornerRadius": 12,
+            "Title" : {
+                "font" : "@fonts.H2_Semibold",
+                "textColor" : "@colors.globalPrimaryText"
+            },
+            "Description" : {
+                "font" : "@fonts.H3_Regular",
+                "font.lineHeight" : 20.0,
+                "textColor" : "@colors.globalPrimaryText"
+            },
+            "OptionButton" : "@buttons.Secondary",
+            "OptionButton.Icon.tintColor" : null,
+            "ActionButton" : "@buttons.Primary",
+            "ActionButton.cornerRadius" : 0
+        },
+        "MyLocationButton" : {
+            "backgroundColor": "@colors.globalBackground",
+            "tintColor": "@colors.myLocationPrimary"
+        }
+    }
+}

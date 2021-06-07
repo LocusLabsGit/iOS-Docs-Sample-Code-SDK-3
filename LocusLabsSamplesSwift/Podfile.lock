@@ -1,14 +1,14 @@
 PODS:
   - CardIO (5.4.1)
-  - LocusLabs-iOS-SDK (3.0.4):
+  - LocusLabs-iOS-SDK (3.1.0):
     - Mapbox-iOS-SDK (~> 6.3.0)
   - Mapbox-iOS-SDK (6.3.0):
     - MapboxMobileEvents (~> 0.10.4)
-  - MapboxMobileEvents (0.10.7)
+  - MapboxMobileEvents (0.10.8)
 
 DEPENDENCIES:
   - CardIO
-  - LocusLabs-iOS-SDK (= 3.0.4)
+  - LocusLabs-iOS-SDK (= 3.1.0)
 
 SPEC REPOS:
   trunk:
@@ -19,10 +19,10 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   CardIO: 56983b39b62f495fc6dae9ad7cf875143df06443
-  LocusLabs-iOS-SDK: f759fc59a86917aaf54d05be6278ae35aadb968d
+  LocusLabs-iOS-SDK: 9ce78f36cc6c84913019bd5be053a369d7216dc8
   Mapbox-iOS-SDK: 6a67397df2bcafe5d2851604192aa8de6f8d6c89
-  MapboxMobileEvents: d0a581dedd8f47411cc65ea520b965e83914316e
+  MapboxMobileEvents: 36ff53b135aac486eed94b61f813c7967a0c2c6f
 
-PODFILE CHECKSUM: 72ee8b4522d7c78749f17238e87efd64ba0c7134
+PODFILE CHECKSUM: f598ae823f2fadb241c299e38c158c9f882b8513
 
-COCOAPODS: 1.10.0
+COCOAPODS: 1.10.1

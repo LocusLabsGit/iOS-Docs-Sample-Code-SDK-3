@@ -67,7 +67,7 @@ class DirectionsUI: UIViewController, LLVenueDatabaseDelegate, LLMapViewDelegate
             
             if startPOI != nil && endPOI != nil {
                 
-                self.mapView?.navigate(fromStart: startPOI?.position, end: endPOI?.position)
+                self.mapView?.openNavigationView(withStart: startPOI?.position, andEnd: endPOI?.position)
             }
         })
     }

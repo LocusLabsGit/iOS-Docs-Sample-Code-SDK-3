@@ -71,7 +71,7 @@
             else if ([poi.poiId isEqualToString:@"566"]) endPOI = poi;
         }
         
-        [self.mapView navigateFromStart:startPOI.position end:endPOI.position];
+        [self.mapView openNavigationViewWithStart:startPOI.position andEnd:endPOI.position];
     }];
 }
 
