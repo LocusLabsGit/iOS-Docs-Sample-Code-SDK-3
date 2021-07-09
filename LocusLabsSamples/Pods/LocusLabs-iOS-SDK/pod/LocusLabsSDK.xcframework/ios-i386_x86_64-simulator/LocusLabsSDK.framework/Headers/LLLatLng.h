@@ -3,7 +3,8 @@
 //  LocusLabsSDK
 //
 //  Created by Samuel Ziegler on 6/18/14.
-//  Copyright (c) 2014 LocusLabs. All rights reserved.
+//  Copyright © 2014-2021 LocusLabs, Inc. All rights reserved.
+//  Copyright © 2021 Acuity Brands, Inc. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

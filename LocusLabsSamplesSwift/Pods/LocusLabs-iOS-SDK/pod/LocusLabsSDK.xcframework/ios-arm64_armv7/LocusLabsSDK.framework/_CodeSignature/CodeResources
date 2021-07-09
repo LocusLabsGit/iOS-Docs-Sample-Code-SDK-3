@@ -10,79 +10,79 @@
 		</data>
 		<key>Headers/LLAccessibilityIdentifier.h</key>
 		<data>
-		sca5LBQqaenMJYGaILZeaFVYMMY=
+		k3kyH0rn9Mpu4E5afOvAPZZW3yo=
 		</data>
 		<key>Headers/LLAirline.h</key>
 		<data>
-		fAqjlI6iMG5k9Fz83xWdzKCI4yA=
+		WGvqdrJiHO+7tlBXefhdf4AUOZc=
 		</data>
 		<key>Headers/LLBeacon.h</key>
 		<data>
-		4hhKZx3fDZaNkLVuAJh51wkfOhw=
+		qAgRCpy68pXvGSsf9ZUekVKdTpw=
 		</data>
 		<key>Headers/LLBeaconDetection.h</key>
 		<data>
-		T6D99MdTne53lVqTtZe17z1C/c8=
+		eZTa8WdfdWHELJ8FpRhQHYALlZg=
 		</data>
 		<key>Headers/LLBuilding.h</key>
 		<data>
-		qU5pYu9Ig4iMiXxe0xYSa6Dby2M=
+		X+edQAqHI9MeShUBv2/7PYM5Xa0=
 		</data>
 		<key>Headers/LLBuildingInfo.h</key>
 		<data>
-		Ti2R0r9j6qvv10ioGTPQGgCXt68=
+		C6Pu8Da0GT4VRLTsq5kBVQ9hKe0=
 		</data>
 		<key>Headers/LLCircle.h</key>
 		<data>
-		q5TKgq4aoKQfObI40L9EJiUsn0o=
+		ns6ER/TK1wbuACv20K2u0nzRtpM=
 		</data>
 		<key>Headers/LLConfiguration.h</key>
 		<data>
-		/KfBjJhp8a7Y/iaY3Z5QTXLEhVQ=
+		478pI1HVvDIryrDyj5VQqzl+pwk=
 		</data>
 		<key>Headers/LLCurvedPath.h</key>
 		<data>
-		Aw7kt6pevSgj5EqjmJrHiGTAW5k=
+		GBtShdfRUkLJMtlbtqEuTp3aaPc=
 		</data>
 		<key>Headers/LLDirectionsRequest.h</key>
 		<data>
-		VST+dUi/7aYRbI3spoq+DxzutM4=
+		MaX+M+AJVGgbGnBn5A2ATZPBHV4=
 		</data>
 		<key>Headers/LLFlight.h</key>
 		<data>
-		lgGuyw+Ftdszkd/pP6kbBomq4Vs=
+		75xEbQ9UpK5kN2chWXnoZ5hQ8XE=
 		</data>
 		<key>Headers/LLFloor.h</key>
 		<data>
-		er4XJYpv/U1rQZBs9UGMtbVrseA=
+		as5AJPfGXfYevr3UU/kV7hALKBM=
 		</data>
 		<key>Headers/LLFloorInfo.h</key>
 		<data>
-		b1DORyKnbGHi9LABKOiDhmsjYQI=
+		F797Bsm4x96wLUwFkNWbN8eqeoY=
 		</data>
 		<key>Headers/LLIconButton.h</key>
 		<data>
-		RwGVyMlBF0ntyEus7LVvG1RAarc=
+		1F5VucBMa96aKmKj6X7I9QFQP8s=
 		</data>
 		<key>Headers/LLImages.h</key>
 		<data>
-		z1BK90ArF/KGSZ2GCoN+e14RlmI=
+		9ew7L3l++lk+KkR0EFq4HUtpY80=
 		</data>
 		<key>Headers/LLLatLng.h</key>
 		<data>
-		g/FE3+Xngy3bWmr6ZFOh6S3hZVs=
+		kr7eUwkxZ+IPjXciJD4+NZS1xa8=
 		</data>
 		<key>Headers/LLLocation.h</key>
 		<data>
-		141TLpMUErGjcRknVU5wyRBQMjg=
+		bAysbZOVfmCuKMp+I3h9HVONZZY=
 		</data>
 		<key>Headers/LLLocusLabs.h</key>
 		<data>
-		38w2WVCyz/tgkkMl4CFa7PX116Q=
+		uyNd05k7WvtlG4H4dk38fZwoMhg=
 		</data>
 		<key>Headers/LLLocusLabsDelegate.h</key>
 		<data>
-		3a7spsWrm056U9yERgSRWP8tRx8=
+		P4pt0lw6/3L215t8XDp/MoqTv4Q=
 		</data>
 		<key>Headers/LLLogger.h</key>
 		<data>
@@ -90,59 +90,59 @@
 		</data>
 		<key>Headers/LLMap.h</key>
 		<data>
-		W9LxOQXkHpP2jRizCtTJzDfU2f4=
+		hMgUhrD2xRroGiEqTjPqRO+EqWE=
 		</data>
 		<key>Headers/LLMapPack.h</key>
 		<data>
-		kPnkq/NKzJxtDDLPerLWSe5x3h4=
+		LzUKxGWDEhAiZTlp51Z5ll+Ce0A=
 		</data>
 		<key>Headers/LLMapPackFinder.h</key>
 		<data>
-		DLBmiK5CqUDrzQZZl2kh0vSthe8=
+		BSl2dBBbryMfmVVIna6yefHXIgo=
 		</data>
 		<key>Headers/LLMapTips.h</key>
 		<data>
-		2aBS1a3YqDpJh61CEVnfkLzghOg=
+		bsvhFaOfLTnHLx31USDt/GLsnB4=
 		</data>
 		<key>Headers/LLMapView.h</key>
 		<data>
-		jfVWB00AWvAZGVtinLoRtjpHc+s=
+		cegCy63jq1NElyTMQ+kSvlgHc/c=
 		</data>
 		<key>Headers/LLMapViewDelegate.h</key>
 		<data>
-		EazP2Fn2nnsptPUq008pl0h49vc=
+		6fMdsoR0YuyfUQij9ssxDemR3bQ=
 		</data>
 		<key>Headers/LLMapViewPreferences.h</key>
 		<data>
-		kK0IXhy4aXu0oclm0S++N9OWtEc=
+		N1iDPWknjvvWeamv8IOhi2tZvCI=
 		</data>
 		<key>Headers/LLMarker.h</key>
 		<data>
-		mkgUDnkI9hUDnJCuA6S/WjcycKM=
+		kpnQuSfhKnRvFprB/E0zfkFDnTM=
 		</data>
 		<key>Headers/LLMultiTermSearchResults.h</key>
 		<data>
-		ubqN9PQ2UggQsWQrhxeKCirCKyg=
+		gWKMx4xyLFkrIQnDBu/raM7/UeA=
 		</data>
 		<key>Headers/LLNavigation.h</key>
 		<data>
-		cHBQNXaaPpkmD38GCWLmYNqPkQI=
+		tG77bGfIKiMHkFDBgjqD+LPyZC8=
 		</data>
 		<key>Headers/LLNavigationPath.h</key>
 		<data>
-		WYimhXcveeb28TR9Oxh8HJudZ3E=
+		r99K3ug4nLaHILki0KzN8D3av54=
 		</data>
 		<key>Headers/LLOperatingHours.h</key>
 		<data>
-		MuTXrF5EpJQ39xm0krKDOoN0ImQ=
+		LFyqZGacM3/Mw/twQ1Ddy1enOJk=
 		</data>
 		<key>Headers/LLOverlay.h</key>
 		<data>
-		VASTs6PWAr8o2JM2h1+ovlB7znQ=
+		9cCPJwr/yQ2zSWPBZFyqBSDH+tw=
 		</data>
 		<key>Headers/LLPOI.h</key>
 		<data>
-		k+sH/RWQr/7k77Rl98a31cOkvLU=
+		c1IEqgChucNipoSQm8KAhhJkl0o=
 		</data>
 		<key>Headers/LLPOICheckinDelegate.h</key>
 		<data>
@@ -150,119 +150,123 @@
 		</data>
 		<key>Headers/LLPOIDataProtocol.h</key>
 		<data>
-		ZSSi0jjOONTste03IL71NU6/P/M=
+		QeOAqzhu0uzfjMSbdM94dCD2EsM=
 		</data>
 		<key>Headers/LLPOIDatabase.h</key>
 		<data>
-		eHsYCazcbN3bAw5Uo9IzpG4PBuw=
+		/381iikB2fOvJ9PLUXE2XV6gdto=
 		</data>
 		<key>Headers/LLPOIDatabaseDelegate.h</key>
 		<data>
-		FCI4TK/v3sNmMZDi9OO8Nu0If9Q=
+		ytBi2gFlKcVi0NmnUqhcfIyli+I=
 		</data>
 		<key>Headers/LLPath.h</key>
 		<data>
-		ztSb6vxzhM49UI3i6+4/tS1cVu8=
+		yulznWi+80jxgBLzZ/opLyEpw3Q=
 		</data>
 		<key>Headers/LLPerson.h</key>
 		<data>
-		fshHPKQYKgtIHH4jEDrx04wwxz8=
+		5BL/tjbGKtiez03KLzYUna7zjVo=
 		</data>
 		<key>Headers/LLPersonLoader.h</key>
 		<data>
-		hlx5DZxSvg/8lZrXq+Xxm5U3pB8=
+		zM6GFcV6X1B+mydcX074oRHkj7c=
 		</data>
 		<key>Headers/LLPersonLoaderDelegate.h</key>
 		<data>
-		0TqUNkSOp7SE06JcIMcruaW1Yvo=
+		YwbJWouOD/OlI1ymR0olpvWT1v4=
 		</data>
 		<key>Headers/LLPlace.h</key>
 		<data>
-		QQmSSaTll/qbQkIVggtECj21a54=
+		pcSCh6LpzbL/Da2iOtKaWS1C7eM=
 		</data>
 		<key>Headers/LLPoint.h</key>
 		<data>
-		PO79ZxVTA0h2mgGgPZ/TaWxzsC8=
+		1EEuRwW9qzKyHMGSL/hngV9E7E0=
 		</data>
 		<key>Headers/LLPolycurve.h</key>
 		<data>
-		N1Iltq9wvfXIyyXEtawqdgwv3Rs=
+		n3M+0niCgEIE7FKz3Eoiyy0XLsk=
 		</data>
 		<key>Headers/LLPolyline.h</key>
 		<data>
-		ibsoML+ESg+SBx+yQJ4iA0H+a0M=
+		3Jx3XKEwtH2/UBToWdGze7RaZho=
 		</data>
 		<key>Headers/LLPosition.h</key>
 		<data>
-		qK9gDEzk73eLG17ECL2Dugt0HuA=
+		FAelHpBhBox5JR92t+zPaqYvLCE=
 		</data>
 		<key>Headers/LLPositionManager.h</key>
 		<data>
-		D3VSY1HN+hoGaYGlY229CuWWKBM=
+		m1otz4coj/vOM3z8ACuSsTAwSnw=
 		</data>
 		<key>Headers/LLPositionManagerDelegate.h</key>
 		<data>
-		elX0WUlxEnRlTMEvlb5vmrWqGvQ=
+		H76hyqiSHXZRf9wZyGkk1ZHWzPY=
 		</data>
 		<key>Headers/LLQueue.h</key>
 		<data>
-		ovfkFF1yebCu5EewRlgsQZn129Y=
+		Fx3+LX3q9oX2Knim6+kgMtbAaKg=
 		</data>
 		<key>Headers/LLSearch.h</key>
 		<data>
-		5CDChZv/ZpA4NAVWu3pk+qJEJV4=
+		tEGpJuGSaHR13/3GebcGnMQV6Tk=
 		</data>
 		<key>Headers/LLSearchDelegate.h</key>
 		<data>
-		j/mtV9727sw3GrZH3mYv7YlxBYs=
+		6MeR36WjYEwqNQyMvBiZQVRrDnA=
 		</data>
 		<key>Headers/LLSearchResult.h</key>
 		<data>
-		NbN7VPDaXXU7q3zz00gHmX04Dos=
+		A0IYIXiyaSgx1MF1051orU3p/zA=
 		</data>
 		<key>Headers/LLSearchResults.h</key>
 		<data>
-		DNDh/anw5ouF+L3DCzGLoOnEbo0=
+		uTMu0k6VwOFykdgidM1cE+Qt78Q=
 		</data>
 		<key>Headers/LLSecurity.h</key>
 		<data>
-		J/divZk1mwM74Tt6Oc2mHS7t1JE=
+		0PM6g251lZFDpxnjN2qvVenSc9o=
 		</data>
 		<key>Headers/LLTheme.h</key>
 		<data>
-		LUUTqCKGgWS6WhKat18OtRg3MPw=
+		lq5DFtSYaALHflAWzsHi2rPamuQ=
 		</data>
 		<key>Headers/LLThemeBuilder.h</key>
 		<data>
-		s9FOpxVD956Z6jIsrMn1s3HebGU=
+		AoXyR6gDKl5EAjtet4I47W6RWpw=
 		</data>
 		<key>Headers/LLUserPreferences.h</key>
 		<data>
-		3FFV5mok9CJYNt/7seUAlvX8uQ8=
+		hkoU9jHBZnJ6TfOpbWIZojj052Y=
 		</data>
 		<key>Headers/LLVenue.h</key>
 		<data>
-		mZi/MuotFqLVwBrWA9nEbA2dfEY=
+		vLaKsBvQ/hNg98pu9yOIEn82QuE=
 		</data>
 		<key>Headers/LLVenueDatabase.h</key>
 		<data>
-		UxARQ1K/kFef9vw6HWH4s0uglt0=
+		uHua0Pem9CwA+caJ9GuLGQmEw0g=
 		</data>
 		<key>Headers/LLVenueInfo.h</key>
 		<data>
-		SpSeV1cciDgya1FwGmypyr5bNIw=
+		2IC7BmJno4uJBpecWyEDMsY9Dlg=
 		</data>
 		<key>Headers/LLWaypoint.h</key>
 		<data>
-		KDZTo3N5W/LHNDvH41+dL8qvBiw=
+		PyZ5Lwj9kRjrStRDz/KjRtoxjyQ=
 		</data>
 		<key>Headers/LocusLabsSDK.h</key>
 		<data>
-		8lyOAQnTEMonVqPj7OVXq0PLhTM=
+		eMjUBdlif5cgWog04ddBR4pbhxU=
+		</data>
+		<key>Info-acuitybrands-signing.plist</key>
+		<data>
+		VAPKClZMyn/qzrvPZO+leD8sqPk=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		9kP7GcHClKz46Lhs+p02gwLNONg=
+		DZpmhBTrrowLeCJ8RKZHS+wtovA=
 		</data>
 		<key>LICENSE.txt</key>
 		<data>
@@ -274,19 +278,19 @@
 		</data>
 		<key>LLCheckin.storyboardc/LLPOICheckinConfirmationViewController.nib</key>
 		<data>
-		RTMxafYMJU2urGBLuQ3K5GYNfjg=
+		4Lp7YUwrLlIK9p6F8rp5OATZg0Y=
 		</data>
 		<key>LLCheckin.storyboardc/OXB-vg-Or6-view-Ifx-xp-MAE.nib</key>
 		<data>
-		YyK/htXlowIMDkp9p7kYTeAdHFM=
+		+PSTsU+VwfNKIPknVCPtpVm/wEw=
 		</data>
 		<key>LLCheckin.storyboardc/UINavigationController-Hhv-bT-bCH.nib</key>
 		<data>
-		9q9mzzM+4rvmolS/WzYzRuQCHxM=
+		JqWhD+nf1u3hEI70ffgp+S+W0Ds=
 		</data>
 		<key>LLCheckin.storyboardc/nxJ-hw-N77-view-qc0-UL-9CA.nib</key>
 		<data>
-		++CsS5tI1U6OBr3RwICyxbw85m4=
+		n9taVDYGQtJAEOQzaQw9VyOKZA8=
 		</data>
 		<key>LLPOIVoucherViewController.storyboardc/Info.plist</key>
 		<data>
@@ -294,11 +298,11 @@
 		</data>
 		<key>LLPOIVoucherViewController.storyboardc/LLPOIVoucherViewController.nib</key>
 		<data>
-		s+YhNInK/F4wxVcgrOG93qGRvyo=
+		l3WhiH6zPr3KT6itXqtAGKwTVf8=
 		</data>
 		<key>LLPOIVoucherViewController.storyboardc/Rzg-8O-Wji-view-euY-vq-BsK.nib</key>
 		<data>
-		qg/nV9afrXAcERRl74ggKlKM2GI=
+		mBaJhLzr34+JVPhRYswlmeHgJ+k=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -306,27 +310,27 @@
 		</data>
 		<key>PrivateHeaders/LLConfiguration_Private.h</key>
 		<data>
-		nryaMqGItHN3YBpmod09v+Qgvks=
+		HuAqtM7AJbX+MM0zxIbDCpP+GiU=
 		</data>
 		<key>PrivateHeaders/LLLogger_Private.h</key>
 		<data>
-		bM3M2oxR7T+AuMGES841oUX/jss=
+		8NKkwNoxUVviB0ElmcLd/xfGDqw=
 		</data>
 		<key>PrivateHeaders/LLMapView_Private.h</key>
 		<data>
-		eTpXAkKHPUv+w4V9XZ6rlxruRmE=
+		qghWW2KbxW7Ats/Muo164sJwyBU=
 		</data>
 		<key>PrivateHeaders/LLMap_Private.h</key>
 		<data>
-		cQmKipNbAK+zAeGoL3b2VHZbEMc=
+		nPcBFcT76W6Uqk4uOjbMriF1OYs=
 		</data>
 		<key>PrivateHeaders/LLPlace_Private.h</key>
 		<data>
-		PHw9YWLCZQpgJZcdyXsKqGijX1o=
+		V4RxPna4S5tpZzAsRaoNITCZyzw=
 		</data>
 		<key>PrivateHeaders/LLPositionManager_Private.h</key>
 		<data>
-		tSMz92T+JSYAdsRGCscK/nSJAn0=
+		uq+UOCj/Z7VozJcaK+qpUwCLIts=
 		</data>
 		<key>README.markdown</key>
 		<data>
@@ -1500,6 +1504,18 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>images/Atrius-logo.png</key>
+		<data>
+		hYpz0Xi86hV8RciZmXtmx+q//z8=
+		</data>
+		<key>images/Atrius-logo@2.png</key>
+		<data>
+		LvK0SGpd0Dx3mf6ogQKAheixQzA=
+		</data>
+		<key>images/Atrius-logo@3.png</key>
+		<data>
+		/XBfQ8AhT9n/tJzv6cR1JSwy8ZI=
+		</data>
 		<key>images/Loading_Animation_0.png</key>
 		<data>
 		RFvw8Hm+zJmIXpqykeqJChH5ZtY=
@@ -1775,18 +1791,6 @@
 		<key>images/Loading_Animation_9.png</key>
 		<data>
 		kDDHcBj6s60pU+dGgx1h0MtLmGc=
-		</data>
-		<key>images/LocusLabs-logo.png</key>
-		<data>
-		OQYNxKTvUGX8j0P5PrNWblmBHpw=
-		</data>
-		<key>images/LocusLabs-logo@2x.png</key>
-		<data>
-		23LlTyo1V6/ZbL5TP+poYyF1kV8=
-		</data>
-		<key>images/LocusLabs-logo@3x.png</key>
-		<data>
-		kLiAplzuitXqu2+To7uvdTkVQbQ=
 		</data>
 		<key>images/actions-close.png</key>
 		<data>
@@ -4454,27 +4458,27 @@
 		</data>
 		<key>images/watermark - fill.png</key>
 		<data>
-		2pCuwoWaEzQDqeHlOxefFqd2Xow=
+		+FT+r2i2z2B246BnaYijXJ3rLPo=
 		</data>
 		<key>images/watermark - fill@2x.png</key>
 		<data>
-		PfCHZfCDsId1P7E4ovZXN+VLhOk=
+		iFZEmERSgIF2Bv13AYyhtyFKUr0=
 		</data>
 		<key>images/watermark - fill@3x.png</key>
 		<data>
-		m0rpxyBX+TkHko6CafpTe1od8RA=
+		KvHzyFgHKZBsLX0BAOyLBshOxfI=
 		</data>
 		<key>images/watermark - stroke.png</key>
 		<data>
-		vlB3mSx9manMu3Xsvzo/+eIQr/s=
+		RnKsXPkUwMzRruGa4Wj5UKOgF7A=
 		</data>
 		<key>images/watermark - stroke@2x.png</key>
 		<data>
-		yiVfySTjeselQXAH8NeGi0NdBqU=
+		2I1+jkBIbNRcZUQmrlXsGyu/7aA=
 		</data>
 		<key>images/watermark - stroke@3x.png</key>
 		<data>
-		vwSqPMAk56EKrY04uPyTzuhiuBA=
+		Jgfo7WajW8HQDaoKSYUfnuvMyIA=
 		</data>
 		<key>images/wayfinding.routeunavailable.png</key>
 		<data>
@@ -4680,209 +4684,209 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			sca5LBQqaenMJYGaILZeaFVYMMY=
+			k3kyH0rn9Mpu4E5afOvAPZZW3yo=
 			</data>
 			<key>hash2</key>
 			<data>
-			6WYSzPshM5rqUHtasG9fZ8U9Ya4v1JeYAIUjOcugfX8=
+			rOKwcIiIWrhliSfheIus2DyWlLg2Tk1kXzE5jElAmmc=
 			</data>
 		</dict>
 		<key>Headers/LLAirline.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fAqjlI6iMG5k9Fz83xWdzKCI4yA=
+			WGvqdrJiHO+7tlBXefhdf4AUOZc=
 			</data>
 			<key>hash2</key>
 			<data>
-			HW+Zu2G4W49txVxlU9x1ByFqD8OzF5NP06r1SyJqiaA=
+			laiv/tg+FgPzitt6kDOcvweeMXSKN/UoTOSE8xT5yH8=
 			</data>
 		</dict>
 		<key>Headers/LLBeacon.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4hhKZx3fDZaNkLVuAJh51wkfOhw=
+			qAgRCpy68pXvGSsf9ZUekVKdTpw=
 			</data>
 			<key>hash2</key>
 			<data>
-			xHClhzxDjQ2uecGQuG8eG/JwCGkC06n00LhMXzjT0Q0=
+			lH6dA9a7o1XPHln/hHWVHwBdVeItrVZqWwgEdUwH7mk=
 			</data>
 		</dict>
 		<key>Headers/LLBeaconDetection.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			T6D99MdTne53lVqTtZe17z1C/c8=
+			eZTa8WdfdWHELJ8FpRhQHYALlZg=
 			</data>
 			<key>hash2</key>
 			<data>
-			7Ar6eJMs/CftCxIMgIyO/03vC4qV4c7+bQCrf3X3AtM=
+			ehL/APYudJXYRgnRrShvXzqZhnA26kMYmpeZ//H1V/Y=
 			</data>
 		</dict>
 		<key>Headers/LLBuilding.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qU5pYu9Ig4iMiXxe0xYSa6Dby2M=
+			X+edQAqHI9MeShUBv2/7PYM5Xa0=
 			</data>
 			<key>hash2</key>
 			<data>
-			tG8IjnpExSF4SDSNKcDxbD/9wgxCYwb8csFE+P4jIZA=
+			anUgzWIQbb6D/OJkrjNgKULxdG6ADx6kTexF3ICxFfs=
 			</data>
 		</dict>
 		<key>Headers/LLBuildingInfo.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Ti2R0r9j6qvv10ioGTPQGgCXt68=
+			C6Pu8Da0GT4VRLTsq5kBVQ9hKe0=
 			</data>
 			<key>hash2</key>
 			<data>
-			zCnLRBioNq0irKYTZl1EbG4H/29U3E7D8t4BUO6cpOg=
+			0LVZwu8okcuxZ4vlUI9AoTbRTaDMI9R0S3D9/U+x/3k=
 			</data>
 		</dict>
 		<key>Headers/LLCircle.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			q5TKgq4aoKQfObI40L9EJiUsn0o=
+			ns6ER/TK1wbuACv20K2u0nzRtpM=
 			</data>
 			<key>hash2</key>
 			<data>
-			wx/0BMnL//ejegx+aA3cMjIld6qtT/z01rbeP2vSlhE=
+			2Vb6JS0soNLJDEDrYk8qabK/Qsit8RdRqUNLnwOptUg=
 			</data>
 		</dict>
 		<key>Headers/LLConfiguration.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/KfBjJhp8a7Y/iaY3Z5QTXLEhVQ=
+			478pI1HVvDIryrDyj5VQqzl+pwk=
 			</data>
 			<key>hash2</key>
 			<data>
-			VDJzXVJhjZYyRemvVymVVihpln43fY45RO9iNXkHAcw=
+			Ib8WS2rgRDEBzQhc+MXJe1896KABVW1bGXp48brlxHI=
 			</data>
 		</dict>
 		<key>Headers/LLCurvedPath.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Aw7kt6pevSgj5EqjmJrHiGTAW5k=
+			GBtShdfRUkLJMtlbtqEuTp3aaPc=
 			</data>
 			<key>hash2</key>
 			<data>
-			FQhudutn88XjVgcGP19/yZMtRjQIV2t2MIZahRlcL6w=
+			7sl1PlD5PnQUahkJnpMegzzhMgsW68XzJ+5kpCnv/28=
 			</data>
 		</dict>
 		<key>Headers/LLDirectionsRequest.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VST+dUi/7aYRbI3spoq+DxzutM4=
+			MaX+M+AJVGgbGnBn5A2ATZPBHV4=
 			</data>
 			<key>hash2</key>
 			<data>
-			4eurs+Yr/09aVfJXoqRJc4AlRyBzCxgl8Dy9TqMtQVY=
+			NKLgsmZGy2MauSWwjiC/uy4b0dYz65fePCAbskUKKOg=
 			</data>
 		</dict>
 		<key>Headers/LLFlight.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lgGuyw+Ftdszkd/pP6kbBomq4Vs=
+			75xEbQ9UpK5kN2chWXnoZ5hQ8XE=
 			</data>
 			<key>hash2</key>
 			<data>
-			6MgPUivALUHk3SOCqjGWQ6GAOlq426F56pAaDkKWWks=
+			7DukfEG1RFNOcyDGdzXRzFTq7L68GzveIkh3Xe+jGIw=
 			</data>
 		</dict>
 		<key>Headers/LLFloor.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			er4XJYpv/U1rQZBs9UGMtbVrseA=
+			as5AJPfGXfYevr3UU/kV7hALKBM=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ano5KKrQcjMbXpM2FND+iHjIRWtu0/biyuh2NqSvZIs=
+			YHk7rbvA96U9X426mLPCBdfm4mKGcX2tynP9lp06/7s=
 			</data>
 		</dict>
 		<key>Headers/LLFloorInfo.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			b1DORyKnbGHi9LABKOiDhmsjYQI=
+			F797Bsm4x96wLUwFkNWbN8eqeoY=
 			</data>
 			<key>hash2</key>
 			<data>
-			JpT7uW5dUd2q/G0P9haIyPLs/pED+d1MLx5rhotVAvo=
+			tSfiQOWPjAxaOk6MVYkrNHh3rYUnVGUZTTi1+30lniY=
 			</data>
 		</dict>
 		<key>Headers/LLIconButton.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			RwGVyMlBF0ntyEus7LVvG1RAarc=
+			1F5VucBMa96aKmKj6X7I9QFQP8s=
 			</data>
 			<key>hash2</key>
 			<data>
-			m+zQRkwln0zroUPbFW/KfxAhM5egTJXEJj/quS7nE3g=
+			GADT4aueUW9j759RqH2TwxbfP9zBksB+U14RdK2BqCw=
 			</data>
 		</dict>
 		<key>Headers/LLImages.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			z1BK90ArF/KGSZ2GCoN+e14RlmI=
+			9ew7L3l++lk+KkR0EFq4HUtpY80=
 			</data>
 			<key>hash2</key>
 			<data>
-			XxOrggSaOIeIkkG5CCGEHvbeAAZ4Y8COVGwyrPMq+u8=
+			YAS7CDaInYUfb/lHSOEV+uOfzhUznYtJgkYX2d4t1Es=
 			</data>
 		</dict>
 		<key>Headers/LLLatLng.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			g/FE3+Xngy3bWmr6ZFOh6S3hZVs=
+			kr7eUwkxZ+IPjXciJD4+NZS1xa8=
 			</data>
 			<key>hash2</key>
 			<data>
-			o1yM7x7PU/Lis8DyLxnK0dwEjWYNE8TzXMgerhWtM9o=
+			E7zhqITlZ59cR0j9prDuFtBfMFW7xaX8jVbEkgKBwR4=
 			</data>
 		</dict>
 		<key>Headers/LLLocation.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			141TLpMUErGjcRknVU5wyRBQMjg=
+			bAysbZOVfmCuKMp+I3h9HVONZZY=
 			</data>
 			<key>hash2</key>
 			<data>
-			7LoifgNBZz8Gr0uuJIJvssM6Vb2VmQ2ms9ov0P+yI0A=
+			TJ6J9QQ1CCJT5XTYS6wQiX3UeDSJ9QoS4zlrY4P8J6Q=
 			</data>
 		</dict>
 		<key>Headers/LLLocusLabs.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			38w2WVCyz/tgkkMl4CFa7PX116Q=
+			uyNd05k7WvtlG4H4dk38fZwoMhg=
 			</data>
 			<key>hash2</key>
 			<data>
-			mJX7M3+lgljBDx5V2YwgKwhQHpIGMZzy/tIxXzhHGxo=
+			B3ND6eE4rJfU1Paf9NlXUP7b5myyAHlHvv3NtJJWoIo=
 			</data>
 		</dict>
 		<key>Headers/LLLocusLabsDelegate.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3a7spsWrm056U9yERgSRWP8tRx8=
+			P4pt0lw6/3L215t8XDp/MoqTv4Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			BnmwpwSxJy5WWRRYbwvhjoulaP0j3AvewidV25HWZ/w=
+			TfY4IKsqvE4xZN8m+ciOC2NrSbZeQ/EL2grO+tolZao=
 			</data>
 		</dict>
 		<key>Headers/LLLogger.h</key>
@@ -4900,154 +4904,154 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			W9LxOQXkHpP2jRizCtTJzDfU2f4=
+			hMgUhrD2xRroGiEqTjPqRO+EqWE=
 			</data>
 			<key>hash2</key>
 			<data>
-			i/ymXxYWl5Ao+V2b+32WpoIiF+6yk+51kx1IN0+n5YM=
+			7BnBKqr7Cb87dTc9yWKzKwdlBamIKpC8XIyJOZ02uqA=
 			</data>
 		</dict>
 		<key>Headers/LLMapPack.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kPnkq/NKzJxtDDLPerLWSe5x3h4=
+			LzUKxGWDEhAiZTlp51Z5ll+Ce0A=
 			</data>
 			<key>hash2</key>
 			<data>
-			9GGYjNCNaY2ykANO3O2uL/JOHD/67QrdPdmqVwZh0nc=
+			owtLnKrHKCMdFijk6f0WxwnmS7iJcIUX1G/5NnS+O+U=
 			</data>
 		</dict>
 		<key>Headers/LLMapPackFinder.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			DLBmiK5CqUDrzQZZl2kh0vSthe8=
+			BSl2dBBbryMfmVVIna6yefHXIgo=
 			</data>
 			<key>hash2</key>
 			<data>
-			r23xM1RU4IJfcY8d35YCeIv6qPsg4wDdiDt+AQkJ0a8=
+			Ago4V5eyzkYgk5npPEGzJ6nCkDL8Xkvx3L8MtopubKw=
 			</data>
 		</dict>
 		<key>Headers/LLMapTips.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			2aBS1a3YqDpJh61CEVnfkLzghOg=
+			bsvhFaOfLTnHLx31USDt/GLsnB4=
 			</data>
 			<key>hash2</key>
 			<data>
-			gqKqq/uFzyCQIMd/OD02U/L/8TpaiiTky7AxX8VXy4w=
+			/lHUgprnj8j4hCC1/ybwyYItGJHBLggfDFLSgri6LIU=
 			</data>
 		</dict>
 		<key>Headers/LLMapView.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jfVWB00AWvAZGVtinLoRtjpHc+s=
+			cegCy63jq1NElyTMQ+kSvlgHc/c=
 			</data>
 			<key>hash2</key>
 			<data>
-			6D31pn07zT7NMs1kylwBdY/zNc0OQZBkuNpO2DUl+a0=
+			21c7QNuvlaFtPdqUxP6by8wINeBRObnJOJ5YTo9h2fA=
 			</data>
 		</dict>
 		<key>Headers/LLMapViewDelegate.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			EazP2Fn2nnsptPUq008pl0h49vc=
+			6fMdsoR0YuyfUQij9ssxDemR3bQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			Kz7upxpBws1+rNYhRrpzLAcwb2xUCs69buaMKUGWtzg=
+			tfWfZj0NZCAFg1MR6WAXKjFejdarWjBxGUTHzgC/2fY=
 			</data>
 		</dict>
 		<key>Headers/LLMapViewPreferences.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kK0IXhy4aXu0oclm0S++N9OWtEc=
+			N1iDPWknjvvWeamv8IOhi2tZvCI=
 			</data>
 			<key>hash2</key>
 			<data>
-			qGXJRzavNp/WXwByFogM24DXieV9iiYwj2c2Yjt9PxY=
+			FhTF9xh3JVeo64zJTJkWxcQfyXw0O0JAnKNLE9bXsLg=
 			</data>
 		</dict>
 		<key>Headers/LLMarker.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			mkgUDnkI9hUDnJCuA6S/WjcycKM=
+			kpnQuSfhKnRvFprB/E0zfkFDnTM=
 			</data>
 			<key>hash2</key>
 			<data>
-			IDX4O+LsZdNVMZhIcnLMZXQvUlW8DudjTL5rmb3vpSU=
+			SQy4fMYzVDUPFQRcs8CFs1r+rLVHLop9mVg+4qaLODU=
 			</data>
 		</dict>
 		<key>Headers/LLMultiTermSearchResults.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ubqN9PQ2UggQsWQrhxeKCirCKyg=
+			gWKMx4xyLFkrIQnDBu/raM7/UeA=
 			</data>
 			<key>hash2</key>
 			<data>
-			Z5uzttTXkg82+p+akEp9rzdbfAT77eODlGwk1b2N2Rg=
+			SVHIlWVX2B9NFkKI9dmkBg34hR3RRx/J6xPv9tR6SnE=
 			</data>
 		</dict>
 		<key>Headers/LLNavigation.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cHBQNXaaPpkmD38GCWLmYNqPkQI=
+			tG77bGfIKiMHkFDBgjqD+LPyZC8=
 			</data>
 			<key>hash2</key>
 			<data>
-			7EOzFBDpghlQjj10XjeT07HAW8o2yXyp0YRgkJenfDc=
+			jsMXwrrgZsB77D4bbh30vLggFvllpewDYJhMZfD5ZHM=
 			</data>
 		</dict>
 		<key>Headers/LLNavigationPath.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WYimhXcveeb28TR9Oxh8HJudZ3E=
+			r99K3ug4nLaHILki0KzN8D3av54=
 			</data>
 			<key>hash2</key>
 			<data>
-			anRn2ytMyB252ZZL4NGDh8Ph4d5spEhqR984gDXzvjk=
+			Q2GaetOvlTzaJJLwQgXAVKBNLZ12zFcopwMrvsOOrxE=
 			</data>
 		</dict>
 		<key>Headers/LLOperatingHours.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MuTXrF5EpJQ39xm0krKDOoN0ImQ=
+			LFyqZGacM3/Mw/twQ1Ddy1enOJk=
 			</data>
 			<key>hash2</key>
 			<data>
-			1tuT9dvpZvTZ7k30buHyQW5JhET2tox3m5RCQz4qEn4=
+			g9maqGDVnGRNDzCi7DOlzRxT/lfoJocDI9jCSwzDqIQ=
 			</data>
 		</dict>
 		<key>Headers/LLOverlay.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VASTs6PWAr8o2JM2h1+ovlB7znQ=
+			9cCPJwr/yQ2zSWPBZFyqBSDH+tw=
 			</data>
 			<key>hash2</key>
 			<data>
-			wsD3gRtvFI90cSuP/bBf2Cry8Jsvc+cfapW9wJcn8tc=
+			KVP2MQcJ1Eqxk2SUMVm3h8TBtlrQsc4laa+/UsZMHIU=
 			</data>
 		</dict>
 		<key>Headers/LLPOI.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			k+sH/RWQr/7k77Rl98a31cOkvLU=
+			c1IEqgChucNipoSQm8KAhhJkl0o=
 			</data>
 			<key>hash2</key>
 			<data>
-			dRuQvwGA+KpY0td/eXVy7jWfmYcqZVZp82Vqv7qfGkM=
+			wRvtQ7mQ5FTMYQQrRjsKrNOeF+/MvyNcie9fMzgRj+M=
 			</data>
 		</dict>
 		<key>Headers/LLPOICheckinDelegate.h</key>
@@ -5065,308 +5069,319 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZSSi0jjOONTste03IL71NU6/P/M=
+			QeOAqzhu0uzfjMSbdM94dCD2EsM=
 			</data>
 			<key>hash2</key>
 			<data>
-			lH7Q7esbs2CiotJ432K6e4NzAEyQryBMCNoPgH81b1Q=
+			Cgc1F11DqZLSYEyrpgOK+rpMXW/SXV8JCgtjxAsCA30=
 			</data>
 		</dict>
 		<key>Headers/LLPOIDatabase.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			eHsYCazcbN3bAw5Uo9IzpG4PBuw=
+			/381iikB2fOvJ9PLUXE2XV6gdto=
 			</data>
 			<key>hash2</key>
 			<data>
-			4r8wkaz1/IpCFL1e1keCuMBbzY7+4cUr4g+S7FVMHpA=
+			Hsz/X/WjIJmHsGYPA8KY8P6lZ5WcpHBEZvjgg8z9Mmg=
 			</data>
 		</dict>
 		<key>Headers/LLPOIDatabaseDelegate.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FCI4TK/v3sNmMZDi9OO8Nu0If9Q=
+			ytBi2gFlKcVi0NmnUqhcfIyli+I=
 			</data>
 			<key>hash2</key>
 			<data>
-			zBdn4qMEIaiUScy4kDZVMvtkPKkiTxG0mco/F/M3JTU=
+			h2JYdg5lWYtDCiGR0aRaJWZpnX4Xr2j8EYnSx1lurHk=
 			</data>
 		</dict>
 		<key>Headers/LLPath.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ztSb6vxzhM49UI3i6+4/tS1cVu8=
+			yulznWi+80jxgBLzZ/opLyEpw3Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			cBCeIuOt66ULcyZIWRcfb9dHAsKb9Yq1qzYjLJch/rk=
+			tc0YaetWG7Ru1ulb596HhpGcqdtfPFXrbLnX5dn8QCA=
 			</data>
 		</dict>
 		<key>Headers/LLPerson.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fshHPKQYKgtIHH4jEDrx04wwxz8=
+			5BL/tjbGKtiez03KLzYUna7zjVo=
 			</data>
 			<key>hash2</key>
 			<data>
-			Co2qGhPmYdS3XOGfs8fWmCbVQ4BJCokjHi+mk7Tw0JA=
+			3INfrLZ2xqxfhAL25l2ZNJyHvhZ9E1qfdHpK32acO3w=
 			</data>
 		</dict>
 		<key>Headers/LLPersonLoader.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hlx5DZxSvg/8lZrXq+Xxm5U3pB8=
+			zM6GFcV6X1B+mydcX074oRHkj7c=
 			</data>
 			<key>hash2</key>
 			<data>
-			Hk1l9hXV/r9R7XwQ3Oyx5tJK2mKpBbHO4uumVhJrQFE=
+			fNARN2pq+JPTfk4JvF71LzBjelIXJ9eYrbNDn/fqHU4=
 			</data>
 		</dict>
 		<key>Headers/LLPersonLoaderDelegate.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0TqUNkSOp7SE06JcIMcruaW1Yvo=
+			YwbJWouOD/OlI1ymR0olpvWT1v4=
 			</data>
 			<key>hash2</key>
 			<data>
-			hg8fJ3eFml/NoT/K3cX/PEaJHAdGTXX1m9BpJ/y6BJE=
+			XFoxdmyMDUCeUMzu8Acm69pupI/TalnrbXBaKhhl8oU=
 			</data>
 		</dict>
 		<key>Headers/LLPlace.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QQmSSaTll/qbQkIVggtECj21a54=
+			pcSCh6LpzbL/Da2iOtKaWS1C7eM=
 			</data>
 			<key>hash2</key>
 			<data>
-			bpJGpzaKp9JDppCjo1Ex5asb3eZ9Mov76ujLBI3+oTI=
+			o1gZZI61ddTXtu3gOiLWbkDIAJmR+XcsmpIocrwRqSE=
 			</data>
 		</dict>
 		<key>Headers/LLPoint.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PO79ZxVTA0h2mgGgPZ/TaWxzsC8=
+			1EEuRwW9qzKyHMGSL/hngV9E7E0=
 			</data>
 			<key>hash2</key>
 			<data>
-			vu1b7nOkreGxif3iS3eg7VGmwK6fzVcyyFD7IarXsJY=
+			Dtzww8d4D0f3nGLj8vRNFEZL9JZe/M28EOiNmxQZAG4=
 			</data>
 		</dict>
 		<key>Headers/LLPolycurve.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			N1Iltq9wvfXIyyXEtawqdgwv3Rs=
+			n3M+0niCgEIE7FKz3Eoiyy0XLsk=
 			</data>
 			<key>hash2</key>
 			<data>
-			/zWBSSVXOFRwZHmB1TtxLFkUM4tzDmT1k3ixBNaei7I=
+			ZKZs1sMMAninfhHEC9AnbaQwNVXIFa52B1R4fSlR9zg=
 			</data>
 		</dict>
 		<key>Headers/LLPolyline.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ibsoML+ESg+SBx+yQJ4iA0H+a0M=
+			3Jx3XKEwtH2/UBToWdGze7RaZho=
 			</data>
 			<key>hash2</key>
 			<data>
-			WdFaAeBKyhiHgL/kfZDTuc4nmG9S52U9I1OUHQ5sz6g=
+			dcZ4ogE3PkGO++GZBlFwBWzI3GuYGJGlVdhsL9INVOM=
 			</data>
 		</dict>
 		<key>Headers/LLPosition.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qK9gDEzk73eLG17ECL2Dugt0HuA=
+			FAelHpBhBox5JR92t+zPaqYvLCE=
 			</data>
 			<key>hash2</key>
 			<data>
-			+0Gwz2+WvNaQ5IDOV5RzNmgEADf56V/jv9gir5VXmq0=
+			CZ8kgRtuV4o7vu4O/J62Blou0bm4GbnewxIquWTkZrw=
 			</data>
 		</dict>
 		<key>Headers/LLPositionManager.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			D3VSY1HN+hoGaYGlY229CuWWKBM=
+			m1otz4coj/vOM3z8ACuSsTAwSnw=
 			</data>
 			<key>hash2</key>
 			<data>
-			/wXpf45h+Nb0mlrMKl5LH+z5wSpqwDNvupPzrO8n9yc=
+			cQLlO95/UlQAYa8aj2iB8vGlczdQ3gJdYE8B9pfU3F4=
 			</data>
 		</dict>
 		<key>Headers/LLPositionManagerDelegate.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			elX0WUlxEnRlTMEvlb5vmrWqGvQ=
+			H76hyqiSHXZRf9wZyGkk1ZHWzPY=
 			</data>
 			<key>hash2</key>
 			<data>
-			oOd7eSlMyfj3CK1Mfwir/4JP4wsbogYiByOn7EZkKiY=
+			c5CeB2DN8+/DPsljfTlXkfZAqhimtp7VNB1HxjzCcTg=
 			</data>
 		</dict>
 		<key>Headers/LLQueue.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ovfkFF1yebCu5EewRlgsQZn129Y=
+			Fx3+LX3q9oX2Knim6+kgMtbAaKg=
 			</data>
 			<key>hash2</key>
 			<data>
-			pg6b7b5kVkVUnE2G4/KAoyxXpJiDZsg2NJLmztFmROM=
+			yROqBIgvBpXmJO5YRvFz82ZrJ4eVkT/nrHqkQfJcCxI=
 			</data>
 		</dict>
 		<key>Headers/LLSearch.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5CDChZv/ZpA4NAVWu3pk+qJEJV4=
+			tEGpJuGSaHR13/3GebcGnMQV6Tk=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZU6j2k4gAjIPLFXncFZf65gTVn9MgXM2vkAVLpKAeVs=
+			T7t+A52RIaoI25MN0a6GCspB6A31V11jFfqciVooeTg=
 			</data>
 		</dict>
 		<key>Headers/LLSearchDelegate.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			j/mtV9727sw3GrZH3mYv7YlxBYs=
+			6MeR36WjYEwqNQyMvBiZQVRrDnA=
 			</data>
 			<key>hash2</key>
 			<data>
-			XvDOoYsTa/kpKxYw+eV8eiSBZ1Y0NVq+ijWfPMePeS0=
+			gfI2wNxIlmmzUaHduwXGIjCW1azjAyBhZJMju+Wh8q4=
 			</data>
 		</dict>
 		<key>Headers/LLSearchResult.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			NbN7VPDaXXU7q3zz00gHmX04Dos=
+			A0IYIXiyaSgx1MF1051orU3p/zA=
 			</data>
 			<key>hash2</key>
 			<data>
-			peiBmCkk5TRPwdOVv50R1mWGqhtIoQNp4jCvDwp2w3Y=
+			SrFioL23+Wr2DYCA6GiW0LzmSGceGB29NvhyPITHLiw=
 			</data>
 		</dict>
 		<key>Headers/LLSearchResults.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			DNDh/anw5ouF+L3DCzGLoOnEbo0=
+			uTMu0k6VwOFykdgidM1cE+Qt78Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			hstqcyC2njTKaohOUwtear2QPaHIQr0MiUlGBLxpp6k=
+			VOKg26dw2yNcm1F7lr10dUf1tREstt/TcTzMkDU0PaY=
 			</data>
 		</dict>
 		<key>Headers/LLSecurity.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			J/divZk1mwM74Tt6Oc2mHS7t1JE=
+			0PM6g251lZFDpxnjN2qvVenSc9o=
 			</data>
 			<key>hash2</key>
 			<data>
-			GnAh+d4dKLcCd3zWBy9L9T8Jzam662CjV96x8UmFE04=
+			YNqrR08DAMncN9aOojne8fgr449//GzfVmkqPmkvdyw=
 			</data>
 		</dict>
 		<key>Headers/LLTheme.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			LUUTqCKGgWS6WhKat18OtRg3MPw=
+			lq5DFtSYaALHflAWzsHi2rPamuQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			0y4pVPMfeXf3bEkn9ai+BsnTgNNt4WmD3nUC2KbvGW8=
+			srjDY8kSl5AL6IMYuXBM5fQMls1Q7zc6R1Ma5nTSFts=
 			</data>
 		</dict>
 		<key>Headers/LLThemeBuilder.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			s9FOpxVD956Z6jIsrMn1s3HebGU=
+			AoXyR6gDKl5EAjtet4I47W6RWpw=
 			</data>
 			<key>hash2</key>
 			<data>
-			Rqy8dUYa1qq64K0I9xZuYmx4bLIRcuNQtbin7R2U+GM=
+			xOZKLXo/Z1mQ1r+cZtS/QoV0yMUhuT4IK3DXSyXkWv8=
 			</data>
 		</dict>
 		<key>Headers/LLUserPreferences.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3FFV5mok9CJYNt/7seUAlvX8uQ8=
+			hkoU9jHBZnJ6TfOpbWIZojj052Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			xbjTO0CJhFVX9f1EHhJGGuuIwTCoI//2tqYNBJ0re60=
+			f5NyaAbsUxcI4LupQlfJY0t61qpH0ufRvnyd3u4Czc8=
 			</data>
 		</dict>
 		<key>Headers/LLVenue.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			mZi/MuotFqLVwBrWA9nEbA2dfEY=
+			vLaKsBvQ/hNg98pu9yOIEn82QuE=
 			</data>
 			<key>hash2</key>
 			<data>
-			C7AvrLqkGuLd69O+IY9kExtcLR15yanU1EBEzdGIriQ=
+			+fO0FXrqXibxHXF8YaP2e9a/DoWtGwm2amP40ZOquvU=
 			</data>
 		</dict>
 		<key>Headers/LLVenueDatabase.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			UxARQ1K/kFef9vw6HWH4s0uglt0=
+			uHua0Pem9CwA+caJ9GuLGQmEw0g=
 			</data>
 			<key>hash2</key>
 			<data>
-			HINbyhXBJifdC4sol+80N2cjvIkN33EgIAoCw1XMrUQ=
+			sNBG/byJ+mp9UCFSqjO3kzahBMv3Ai83+IJ1LoeTOzc=
 			</data>
 		</dict>
 		<key>Headers/LLVenueInfo.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			SpSeV1cciDgya1FwGmypyr5bNIw=
+			2IC7BmJno4uJBpecWyEDMsY9Dlg=
 			</data>
 			<key>hash2</key>
 			<data>
-			L9TwTfqi8AEZKVveFdoHupnpJoDY1Hel1mltjnqjRyY=
+			LGhsLDKY8a36b9bPf+NrbS61FVjH+bkaXLfWRYRp6/8=
 			</data>
 		</dict>
 		<key>Headers/LLWaypoint.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KDZTo3N5W/LHNDvH41+dL8qvBiw=
+			PyZ5Lwj9kRjrStRDz/KjRtoxjyQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			Hfr+PfHAarU383nfdsRJen3PTM1Hl+lbCdQsxilh9hA=
+			eULOJblJ/KzJCA6gtpnSowEKf4xXGyoM0i7KeuGGXHY=
 			</data>
 		</dict>
 		<key>Headers/LocusLabsSDK.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8lyOAQnTEMonVqPj7OVXq0PLhTM=
+			eMjUBdlif5cgWog04ddBR4pbhxU=
 			</data>
 			<key>hash2</key>
 			<data>
-			s44HFeP+3mbJ4ITP7z1UCbxsl4sM1HEgIg0HGaQnt84=
+			siNtTV8gl3obx/oJpVyibwr5DV/7qqaX8hI7ASk7VjA=
+			</data>
+		</dict>
+		<key>Info-acuitybrands-signing.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			VAPKClZMyn/qzrvPZO+leD8sqPk=
+			</data>
+			<key>hash2</key>
+			<data>
+			G9LBTkOIGH5fwks6iju560f6d6QaV1gxlvs8QbTPATM=
 			</data>
 		</dict>
 		<key>LICENSE.txt</key>
@@ -5395,44 +5410,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RTMxafYMJU2urGBLuQ3K5GYNfjg=
+			4Lp7YUwrLlIK9p6F8rp5OATZg0Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			XviQnXbrVEWQmupBoF5BkdIC3X8B8zaWLXGvhqYSSrM=
+			YhWi/VZvmVucweqDsh0pzENmMgRN2OAK9ugjbGuYKRs=
 			</data>
 		</dict>
 		<key>LLCheckin.storyboardc/OXB-vg-Or6-view-Ifx-xp-MAE.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YyK/htXlowIMDkp9p7kYTeAdHFM=
+			+PSTsU+VwfNKIPknVCPtpVm/wEw=
 			</data>
 			<key>hash2</key>
 			<data>
-			1mc5V0Wqp7oqqMt1bolFJoVKbxCLABf8L86XMDzrPtU=
+			cfucqA+p9UoAWWFnB0Qnp9fTKj96q77iCxAmMdaX05Y=
 			</data>
 		</dict>
 		<key>LLCheckin.storyboardc/UINavigationController-Hhv-bT-bCH.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9q9mzzM+4rvmolS/WzYzRuQCHxM=
+			JqWhD+nf1u3hEI70ffgp+S+W0Ds=
 			</data>
 			<key>hash2</key>
 			<data>
-			aAsmZxaeCb6pITB47mCg4esmM59HDd89MWrdIXGlT84=
+			lwn4nkyLwL/76YEvXJXy51mEnu3Y/tCYqlA+Txtoj7A=
 			</data>
 		</dict>
 		<key>LLCheckin.storyboardc/nxJ-hw-N77-view-qc0-UL-9CA.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			++CsS5tI1U6OBr3RwICyxbw85m4=
+			n9taVDYGQtJAEOQzaQw9VyOKZA8=
 			</data>
 			<key>hash2</key>
 			<data>
-			FFPKcTl+AXcJHzK1X0blKvdleoqEmdsNz1SqKqqxZrc=
+			M51t6sLw1/v88QKXfmYCGhea1HKsOibC50X3TMbGNTI=
 			</data>
 		</dict>
 		<key>LLPOIVoucherViewController.storyboardc/Info.plist</key>
@@ -5450,22 +5465,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			s+YhNInK/F4wxVcgrOG93qGRvyo=
+			l3WhiH6zPr3KT6itXqtAGKwTVf8=
 			</data>
 			<key>hash2</key>
 			<data>
-			XLGhe8Im7sCwfupiGxRzMEzD2jr7bv2d9YTUmUEaRag=
+			clHOlJLMCyb7tfp5U/W3R0t+kC2FI96SwhKZBISc9lU=
 			</data>
 		</dict>
 		<key>LLPOIVoucherViewController.storyboardc/Rzg-8O-Wji-view-euY-vq-BsK.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qg/nV9afrXAcERRl74ggKlKM2GI=
+			mBaJhLzr34+JVPhRYswlmeHgJ+k=
 			</data>
 			<key>hash2</key>
 			<data>
-			e9JEbaDWQspwkFT7b2Pe91kAMql+6yZmQOen4gj56SI=
+			KH1jRxJtDtedYaElKC7tYmxucXKF2g2MAhjkmNlt62c=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -5483,66 +5498,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nryaMqGItHN3YBpmod09v+Qgvks=
+			HuAqtM7AJbX+MM0zxIbDCpP+GiU=
 			</data>
 			<key>hash2</key>
 			<data>
-			y4Q9XpuDlRV7RN/a+Ko1mdGPh1nHKZsrHfFimNC4ZMI=
+			Qy8MKGf78Jy/6XfFIirtXZMbndVsCM5IdNf4+JYcNmA=
 			</data>
 		</dict>
 		<key>PrivateHeaders/LLLogger_Private.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bM3M2oxR7T+AuMGES841oUX/jss=
+			8NKkwNoxUVviB0ElmcLd/xfGDqw=
 			</data>
 			<key>hash2</key>
 			<data>
-			w65mUZoYS/vpSpXGZOeh55es6exWL7r+n+91kTR8i3I=
+			/60W//bbWCaY3Aj2BgsRGvpeB4F3i5Fw/AakZLQgyZ4=
 			</data>
 		</dict>
 		<key>PrivateHeaders/LLMapView_Private.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			eTpXAkKHPUv+w4V9XZ6rlxruRmE=
+			qghWW2KbxW7Ats/Muo164sJwyBU=
 			</data>
 			<key>hash2</key>
 			<data>
-			2wxANTJXH5yjO5jmBF9ReMkgKj1i07XJbNNnHqmLfP4=
+			l9Cs0xcAyVrPFP8Gb4AzHeL8ciSAxg40/1bLgymQUEA=
 			</data>
 		</dict>
 		<key>PrivateHeaders/LLMap_Private.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cQmKipNbAK+zAeGoL3b2VHZbEMc=
+			nPcBFcT76W6Uqk4uOjbMriF1OYs=
 			</data>
 			<key>hash2</key>
 			<data>
-			LPCgHMMLqebgt65OFgbCrxQTPcU3pgHPLsl4hz6IbGQ=
+			iqW0WYohvl7JTc1sCd5mvcdo4vyK4h69C9xOZBE9KHo=
 			</data>
 		</dict>
 		<key>PrivateHeaders/LLPlace_Private.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PHw9YWLCZQpgJZcdyXsKqGijX1o=
+			V4RxPna4S5tpZzAsRaoNITCZyzw=
 			</data>
 			<key>hash2</key>
 			<data>
-			pgaKTdc30kjMjZx88T4D/dtF18B7qJhtbg/NkvTKcJU=
+			z/4FTsl67FgHx01p/IKEX2ep5Y5OywizkooUEoiPksI=
 			</data>
 		</dict>
 		<key>PrivateHeaders/LLPositionManager_Private.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			tSMz92T+JSYAdsRGCscK/nSJAn0=
+			uq+UOCj/Z7VozJcaK+qpUwCLIts=
 			</data>
 			<key>hash2</key>
 			<data>
-			sJ9z4RYGBs/Ok8TodlOB7mmUhqtyxGxvZyBmX60EeJY=
+			NSs3PP9vLY7y/CyE+XDJAqhRTL97KgLnWQdQWKBE0s0=
 			</data>
 		</dict>
 		<key>README.markdown</key>
@@ -8580,6 +8595,39 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>images/Atrius-logo.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			hYpz0Xi86hV8RciZmXtmx+q//z8=
+			</data>
+			<key>hash2</key>
+			<data>
+			TC/3rJYPFFWT4f+C/m7s44ECmjr+t7+rKwUfq5uh6XI=
+			</data>
+		</dict>
+		<key>images/Atrius-logo@2.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			LvK0SGpd0Dx3mf6ogQKAheixQzA=
+			</data>
+			<key>hash2</key>
+			<data>
+			wLFU+Ge7jMQWUQK5PDC5j3cKBYgiBZXPQZij6mZFwTM=
+			</data>
+		</dict>
+		<key>images/Atrius-logo@3.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/XBfQ8AhT9n/tJzv6cR1JSwy8ZI=
+			</data>
+			<key>hash2</key>
+			<data>
+			M2Vz3o7nrqQeMlfELjtK+nPJI2jJxOY24y+lGDZ7rVs=
+			</data>
+		</dict>
 		<key>images/Loading_Animation_0.png</key>
 		<dict>
 			<key>hash</key>
@@ -9337,39 +9385,6 @@
 			<key>hash2</key>
 			<data>
 			C6pw9hNtP17b+bvXF8M4DeW8THKmMNPXGCEJRzZ+6tE=
-			</data>
-		</dict>
-		<key>images/LocusLabs-logo.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			OQYNxKTvUGX8j0P5PrNWblmBHpw=
-			</data>
-			<key>hash2</key>
-			<data>
-			Q2fWXxOURnfDYw2u343nIS+5zDyG8Y5P71nETHvuomI=
-			</data>
-		</dict>
-		<key>images/LocusLabs-logo@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			23LlTyo1V6/ZbL5TP+poYyF1kV8=
-			</data>
-			<key>hash2</key>
-			<data>
-			O9NDHNu5H8iJMQzwQswSd9iuun7cxRgxWmQF+iDd2q8=
-			</data>
-		</dict>
-		<key>images/LocusLabs-logo@3x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			kLiAplzuitXqu2+To7uvdTkVQbQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			TmjBJrt0qs3bM+4oDlC+bC+6J23cjKqhLGEo24r7Zzk=
 			</data>
 		</dict>
 		<key>images/actions-close.png</key>
@@ -16702,66 +16717,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2pCuwoWaEzQDqeHlOxefFqd2Xow=
+			+FT+r2i2z2B246BnaYijXJ3rLPo=
 			</data>
 			<key>hash2</key>
 			<data>
-			7L9XP6pB5a/0xPUc3s6VZAvF6kOVHAkVl8jS5U230mQ=
+			qfHl3CwKlaT+C76cle0MBy1mfWiQQ5s4qT+gefMDLYo=
 			</data>
 		</dict>
 		<key>images/watermark - fill@2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PfCHZfCDsId1P7E4ovZXN+VLhOk=
+			iFZEmERSgIF2Bv13AYyhtyFKUr0=
 			</data>
 			<key>hash2</key>
 			<data>
-			M+6iu8dyahjN/GheAcdb1AbFCSojMb4nXKDIqt5LzEA=
+			qjal230QlSEIw83aBOit4A7bBkRFU9RvF77arFKkuUE=
 			</data>
 		</dict>
 		<key>images/watermark - fill@3x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			m0rpxyBX+TkHko6CafpTe1od8RA=
+			KvHzyFgHKZBsLX0BAOyLBshOxfI=
 			</data>
 			<key>hash2</key>
 			<data>
-			zzftLx9EuTTF2j8ZmxWdnHNUB7oS1MI9DtMQvmAFzlw=
+			1ESrGay3UPL2ZUzqHt5Dga1VxFVGaZz2wpzvOOdCpnY=
 			</data>
 		</dict>
 		<key>images/watermark - stroke.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vlB3mSx9manMu3Xsvzo/+eIQr/s=
+			RnKsXPkUwMzRruGa4Wj5UKOgF7A=
 			</data>
 			<key>hash2</key>
 			<data>
-			1QeMh4zKVXxel85x/5PZc9DkH8iZUj9BHn9QU7GQ9Ls=
+			QXwibfakTgBGCDIWlWuQuHluIwIfoZp8zv4NYT/o9IE=
 			</data>
 		</dict>
 		<key>images/watermark - stroke@2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			yiVfySTjeselQXAH8NeGi0NdBqU=
+			2I1+jkBIbNRcZUQmrlXsGyu/7aA=
 			</data>
 			<key>hash2</key>
 			<data>
-			3Nge1Nnqp0FTLOiQLZU9mAYs0vA8QsWbYYRh0M8lVxw=
+			VfMcp08j1dD1tVfIbPgzLJUzZ9dYNCkWEOwFDZbek8Y=
 			</data>
 		</dict>
 		<key>images/watermark - stroke@3x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vwSqPMAk56EKrY04uPyTzuhiuBA=
+			Jgfo7WajW8HQDaoKSYUfnuvMyIA=
 			</data>
 			<key>hash2</key>
 			<data>
-			em+lRMyqCfkwFujoS9rg7ANJVz3ArK/ki9h0m/KH0do=
+			BrmGCKLo47FpIHy9E5kkT4fiHERASSHcU0SQG4iIvjE=
 			</data>
 		</dict>
 		<key>images/wayfinding.routeunavailable.png</key>

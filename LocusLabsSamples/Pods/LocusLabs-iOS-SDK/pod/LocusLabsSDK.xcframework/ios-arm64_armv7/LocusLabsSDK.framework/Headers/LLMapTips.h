@@ -1,6 +1,7 @@
 //
 // Created by Jeff Goldberg on 4/8/15.
-// Copyright (c) 2015 LocusLabs. All rights reserved.
+//  Copyright © 2015-2021 LocusLabs, Inc. All rights reserved.
+//  Copyright © 2021 Acuity Brands, Inc. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

@@ -1,8 +1,8 @@
 //
 //  ViewController.m
-//  LocusLabsSamples
+//  Atrius Personal Wayfinder iOS SDK Samples
 //
-//  Copyright © 2020 LocusLabs. All rights reserved.
+//  Copyright © 2021 Atrius, part of Acuity Brands. All rights reserved.
 //
 
 #import "ViewController.h"
@@ -50,7 +50,7 @@
     
     [super viewDidLoad];
     
-    self.title = @"LocusLabs Samples";
+    self.title = @"Atrius Samples";
     
     self.samples = @[@"Fullscreen Map", @"Embedded Map", @"Bundled Map", @"Custom Actions", @"Directions Requested", @"Directions - Steps & ETA",
                     @"Directions UI", @"External Location Services", @"GRAB Integration", @"Map Basics", @"Markers", @"POI Buttons", @"POI Show",

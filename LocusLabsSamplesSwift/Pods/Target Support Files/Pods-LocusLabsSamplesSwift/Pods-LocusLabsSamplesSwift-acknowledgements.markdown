@@ -30,7 +30,7 @@ All files are released under the MIT License:
 
 ## LocusLabs-iOS-SDK
 
-LocusLabs Inc.
+Acuity Brands, Inc.
 
 ## Mapbox-iOS-SDK
 

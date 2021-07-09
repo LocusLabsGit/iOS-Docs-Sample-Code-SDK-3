@@ -3,7 +3,8 @@
 //  LocusLabsSDK
 //
 //  Created by Rafal Hotlos on 26/05/2020.
-//  Copyright © 2020 LocusLabs. All rights reserved.
+//  Copyright © 2020-2021 LocusLabs, Inc. All rights reserved.
+//  Copyright © 2021 Acuity Brands, Inc. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

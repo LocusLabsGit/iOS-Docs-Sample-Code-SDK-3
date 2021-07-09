@@ -1,6 +1,6 @@
 //
 
-//  Copyright © 2020 LocusLabs. All rights reserved.
+//  Copyright © 2021 Atrius, part of Acuity Brands. All rights reserved.
 //
 
 import UIKit
@@ -20,7 +20,7 @@ class Markers: UIViewController, LLVenueDatabaseDelegate, LLMapViewDelegate {
         
         super.viewDidLoad()
         
-        // Initialize the LocusLabs SDK with the accountId provided by LocusLabs
+        // Initialize the SDK with the accountId provided
         LLLocusLabs.setup().accountId = "A11F4Y6SZRXH4X"
         
         // Create a new LLMapView, register as its delegate and add it as a subview

@@ -1,8 +1,8 @@
 //
 //  ViewController.h
-//  LocusLabsSamples
+//  Atrius Personal Wayfinder iOS SDK Samples
 //
-//  Copyright © 2020 LocusLabs. All rights reserved.
+//  Copyright © 2021 Atrius, part of Acuity Brands. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

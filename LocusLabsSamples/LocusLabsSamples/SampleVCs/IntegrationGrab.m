@@ -25,7 +25,7 @@
     
     [super viewDidLoad];
     
-    // Initialize the LocusLabs SDK with the accountId provided by LocusLabs
+    // Initialize the SDK with the accountId provided
     [LLLocusLabs setup].accountId = @"A11F4Y6SZRXH4X";
     
     self.navigationController.navigationBar.hidden = YES;

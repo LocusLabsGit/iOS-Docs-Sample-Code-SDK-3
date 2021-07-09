@@ -1,6 +1,7 @@
 //
 // Created by Rafal Hotlos on 05/12/2018.
-// Copyright (c) 2018 LocusLabs. All rights reserved.
+//  Copyright © 2018-2021 LocusLabs, Inc. All rights reserved.
+//  Copyright © 2021 Acuity Brands, Inc. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

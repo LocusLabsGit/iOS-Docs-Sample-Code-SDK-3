@@ -1,9 +1,9 @@
 //
 //  Swift-Bridge.h
-//  LocusLabsSamplesSwift
+//  Atrius Personal Wayfinder iOS SDK SamplesSwift
 //
 //  Created by Juan Kruger on 2020/05/11.
-//  Copyright © 2020 LocusLabs. All rights reserved.
+//  Copyright © 2021 Atrius, part of Acuity Brands. All rights reserved.
 //
 #import <LocusLabsSDK/LocusLabsSDK.h>
 
