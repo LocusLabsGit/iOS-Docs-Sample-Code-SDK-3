@@ -5,7 +5,7 @@ target 'LocusLabsSamplesSwift' do
   use_frameworks!
 
   # Pods for LocusLabsSamplesSwift
-  pod 'LocusLabs-iOS-SDK', '3.2.0'
+  pod 'LocusLabs-iOS-SDK', '3.2.1'
 
   # Only needed if integrating GRAB
   pod 'CardIO'

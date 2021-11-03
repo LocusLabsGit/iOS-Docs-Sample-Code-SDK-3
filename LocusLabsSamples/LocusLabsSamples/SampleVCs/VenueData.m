@@ -88,6 +88,19 @@
     }];
 }
 
+- (void)loadPOIWithID:(NSString *)poiID {
+    
+    [self.venue.poiDatabase loadPois:@[poiID] withBlock:^(NSArray *pois) {
+        
+        for (LLPOI *poi in pois) {
+            
+            NSLog(@"Name:%@", poi.name);
+            NSLog(@"ID:%@", poi.poiId);
+            NSLog(@"Position:%@", poi.position);
+        }
+    }];
+}
+
 #pragma mark Delegates - LLVenueDatabase
 
 - (void)venueDatabase:(LLVenueDatabase *)venueDatabase venueList:(NSArray *)venueList {

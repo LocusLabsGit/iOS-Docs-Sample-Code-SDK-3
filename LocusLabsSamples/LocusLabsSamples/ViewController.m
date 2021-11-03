@@ -68,7 +68,6 @@
   
     [super viewWillDisappear:animated];
     [self.navigationController setNavigationBarHidden:YES animated:animated];
-    
 }
 
 #pragma mark Delegates - TableView

@@ -81,6 +81,19 @@ class VenueData: UIViewController, LLVenueDatabaseDelegate, LLMapViewDelegate {
         })
     }
     
+    func loadPOI(poiID: String) {
+        
+        venue?.poiDatabase().loadPois([poiID], with: { pois in
+            
+            for poi in pois as! [LLPOI] {
+                
+                print("Name:", poi.name!)
+                print("ID:", poi.poiId!)
+                print("Position:", poi.position!)
+            }
+        })
+    }
+    
     // MARK: Delegates - LLVenueDatabase
     func venueDatabase(_ venueDatabase: LLVenueDatabase!, venueList: [Any]!) {
         
