@@ -85,6 +85,7 @@
                 NSLog(@"ETA:%@", wayPoint.eta);
                 NSLog(@"Distance:%@", wayPoint.distance);
                 NSLog(@"Details:%@", wayPoint.details);
+                NSLog(@"Action:%@", wayPoint.action);
                 NSLog(@"Security Checkpoint?:%@", wayPoint.securityCheckpoint);
                 NSLog(@"\n");
             }

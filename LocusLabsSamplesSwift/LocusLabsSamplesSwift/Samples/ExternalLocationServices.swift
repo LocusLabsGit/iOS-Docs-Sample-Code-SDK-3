@@ -94,7 +94,7 @@ class ExternalLocationServices: UIViewController, LLVenueDatabaseDelegate, LLMap
         // To obtain a list of all LocusLabs buildings and associated floors for this venue, uncomment the line [self.venue listBuildings] in viewDidLoad
         var locusLabsFloorId: String?
         
-        if externalFloorId == "T48L3" {locusLabsFloorId = "lax-south-departures"}
+        if externalFloorId == "T48L3" {locusLabsFloorId = "lax-terminal6-departures"}
         else if externalFloorId == "???" {locusLabsFloorId = "???"}
         else if externalFloorId == "???" {locusLabsFloorId = "???"}
         

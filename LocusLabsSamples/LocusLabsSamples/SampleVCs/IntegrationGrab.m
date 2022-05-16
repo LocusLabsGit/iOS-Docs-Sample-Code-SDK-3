@@ -51,7 +51,7 @@
     self.venueDatabase.delegate = self;
     
     // Load the venue LAX async
-    [self.venueDatabase loadVenueAndMap:@"lax" block:^(LLVenue *venue, LLMap *map, LLFloor *floor, LLMarker *marker) {
+    [self.venueDatabase loadVenueAndMap:@"dca" block:^(LLVenue *venue, LLMap *map, LLFloor *floor, LLMarker *marker) {
         
         self.venue = venue;
     }];
@@ -79,6 +79,13 @@
 - (UIViewController *)presentingControllerForMapView:(LLMapView *)mapView forContext:(LLMapViewPresentationContext)context {
     
     return self;
+}
+
+- (NSString *)mapView:(LLMapView *)mapView markerIconUrlForPOI:(LLPOI *)poi {
+    
+    if ([poi.poiId isEqualToString:@"613"]) return [[NSBundle mainBundle] pathForResource:@"newspaper_icon" ofType:@"png"];
+    
+    return nil;
 }
 
 @end

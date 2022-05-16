@@ -124,7 +124,7 @@
 - (NSString *)locusLabsFloorIDForExternalFloorID:(NSString *)externalFloorId {
     
     NSString *locusLabsFloorId = nil;
-    if ([externalFloorId isEqualToString:@"T48L3"]) locusLabsFloorId = @"lax-south-departures";
+    if ([externalFloorId isEqualToString:@"T48L3"]) locusLabsFloorId = @"lax-terminal6-departures";
     else if ([externalFloorId isEqualToString:@"???"]) locusLabsFloorId = @"???";
     else if ([externalFloorId isEqualToString:@"???"]) locusLabsFloorId = @"???";
         
@@ -150,6 +150,11 @@
     
     // The map is ready to be used in calls e.g. zooming, showing poi, etc.
     [self mockExternalLocationData];
+}
+
+- (void)mapView:(LLMapView *)mapView didTapAtPosition:(LLPosition *)position {
+    
+    NSLog(@"floor:%@", position.floorId);
 }
 
 - (UIViewController *)presentingControllerForMapView:(LLMapView *)mapView forContext:(LLMapViewPresentationContext)context {

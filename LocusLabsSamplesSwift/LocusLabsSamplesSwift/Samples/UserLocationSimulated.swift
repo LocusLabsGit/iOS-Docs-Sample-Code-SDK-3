@@ -92,35 +92,35 @@ class UserLocationSimulated: UIViewController, LLVenueDatabaseDelegate, LLMapVie
         // Position 1 (Initial - DFS Duty Free)
         DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(1)) {
             
-            locationDict = self.locationDict(lat: NSNumber(value: 33.941485), lon: NSNumber(value: -118.40195), floorID: "lax-south-departures")
+            locationDict = self.locationDict(lat: NSNumber(value: 33.941485), lon: NSNumber(value: -118.40195), floorID: "lax-terminal6-departures")
             self.postUserPosition(locationDict: locationDict)
         }
         
         // Position 2 (2 secs later)
         DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(2)) {
            
-            locationDict = self.locationDict(lat: NSNumber(value: 33.941398), lon: NSNumber(value: -118.401916), floorID: "lax-south-departures")
+            locationDict = self.locationDict(lat: NSNumber(value: 33.941398), lon: NSNumber(value: -118.401916), floorID: "lax-terminal6-departures")
             self.postUserPosition(locationDict: locationDict)
         }
         
         // Position 3 (4 secs later)
         DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(4)) {
             
-            locationDict = self.locationDict(lat: NSNumber(value: 33.941283), lon: NSNumber(value: -118.401863), floorID: "lax-south-departures")
+            locationDict = self.locationDict(lat: NSNumber(value: 33.941283), lon: NSNumber(value: -118.401863), floorID: "lax-terminal6-departures")
             self.postUserPosition(locationDict: locationDict)
         }
         
         // Position 4 (6 secs later)
         DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(6)) {
             
-            locationDict = self.locationDict(lat: NSNumber(value: 33.941102), lon: NSNumber(value: -118.401902), floorID: "lax-south-departures")
+            locationDict = self.locationDict(lat: NSNumber(value: 33.941102), lon: NSNumber(value: -118.401902), floorID: "lax-terminal6-departures")
             self.postUserPosition(locationDict: locationDict)
         }
         
         // Position 5 (8 secs later - Destination - Gate 64B)
         DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(8)) {
             
-            locationDict = self.locationDict(lat: NSNumber(value: 33.940908), lon: NSNumber(value: -118.40177), floorID: "lax-south-departures")
+            locationDict = self.locationDict(lat: NSNumber(value: 33.940908), lon: NSNumber(value: -118.40177), floorID: "lax-terminal6-departures")
             self.postUserPosition(locationDict: locationDict)
         }
     }

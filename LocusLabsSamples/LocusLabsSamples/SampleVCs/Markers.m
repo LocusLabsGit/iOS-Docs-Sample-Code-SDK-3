@@ -68,7 +68,7 @@
         }
         
         if (starbucksPOI) {
-            NSLog(@"a1");
+            
             // Add a custom marker
             LLMarker *marker = [[LLMarker alloc] init];
             marker.position = starbucksPOI.position;

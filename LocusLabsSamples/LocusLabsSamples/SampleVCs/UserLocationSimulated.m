@@ -97,23 +97,23 @@
                                                       userInfo:@{@"positioningSensorAlgorithm":@(LLPositioningSensorAlgorithmExternal)}];
     
     // Position 1 (Initial - DFS Duty Free)
-    NSDictionary *locationDict = [self locationDictWithLat:@33.941485 lon:@-118.40195 floorID:@"lax-south-departures"];
+    NSDictionary *locationDict = [self locationDictWithLat:@33.941485 lon:@-118.40195 floorID:@"lax-terminal6-departures"];
     [self performSelector:@selector(postUserPosition:) withObject:locationDict afterDelay:1.0];
     
     // Position 2 (2 secs later)
-    locationDict = [self locationDictWithLat:@33.941398 lon:@-118.401916 floorID:@"lax-south-departures"];
+    locationDict = [self locationDictWithLat:@33.941398 lon:@-118.401916 floorID:@"lax-terminal6-departures"];
     [self performSelector:@selector(postUserPosition:) withObject:locationDict afterDelay:2.0];
     
     // Position 3 (4 secs later)
-    locationDict = [self locationDictWithLat:@33.941283 lon:@-118.401863 floorID:@"lax-south-departures"];
+    locationDict = [self locationDictWithLat:@33.941283 lon:@-118.401863 floorID:@"lax-terminal6-departures"];
     [self performSelector:@selector(postUserPosition:) withObject:locationDict afterDelay:4.0];
     
     // Position 4 (6 secs later)
-    locationDict = [self locationDictWithLat:@33.941102 lon:@-118.401902 floorID:@"lax-south-departures"];
+    locationDict = [self locationDictWithLat:@33.941102 lon:@-118.401902 floorID:@"lax-terminal6-departures"];
     [self performSelector:@selector(postUserPosition:) withObject:locationDict afterDelay:6.0];
     
     // Position 5 (8 secs later - Destination - Gate 64B)
-    locationDict = [self locationDictWithLat:@33.940908 lon:@-118.40177 floorID:@"lax-south-departures"];
+    locationDict = [self locationDictWithLat:@33.940908 lon:@-118.40177 floorID:@"lax-terminal6-departures"];
     [self performSelector:@selector(postUserPosition:) withObject:locationDict afterDelay:8.0];
 }
 

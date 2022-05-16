@@ -84,6 +84,7 @@
 - (void)mapViewReady:(LLMapView *)mapView {
     
     // The map is ready to be used in calls e.g. zooming, showing poi, etc.
+    
 }
 
 - (UIViewController *)presentingControllerForMapView:(LLMapView *)mapView forContext:(LLMapViewPresentationContext)context {

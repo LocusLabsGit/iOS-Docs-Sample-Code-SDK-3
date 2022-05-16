@@ -42,6 +42,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		02357AEA1866FD65C911D1B612505149 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		0AD3B358D707C091A3D7269F2F090221 /* MMEEventLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 65846FE307D2A60AE8A8C3E9D900CA1C /* MMEEventLogger.m */; };
 		12C1F273FF2CE5D02FA065E61D018E0C /* CLLocationManager+MMEMobileEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC85ADF80AD21BD3BA9F07E025A81BD /* CLLocationManager+MMEMobileEvents.m */; };
 		14B8E7B9B72AFC02563ACDCC9013E516 /* MMECategoryLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 17CD8625FB1D5E2BD3E74522E871C297 /* MMECategoryLoader.m */; };
@@ -87,37 +88,36 @@
 		97F55535963C4410592CEFE6C779D2CE /* MMETypes.h in Headers */ = {isa = PBXBuildFile; fileRef = DBA313E7034DAFEA0075B0A1D6B5A40D /* MMETypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F1D15EEC7C25EBD87597E181893BD3F /* MMEReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 8613E3B51E71CFFB707261D8147A48A0 /* MMEReachability.m */; };
 		A3E87DED164033F46668C94C9277BF63 /* MMELocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D62B41FB411A068CFF7DF139FB2891C7 /* MMELocationManager.m */; };
-		A62E6C48FC9CE01B112119C3F9AD3860 /* Pods-LocusLabsSamples-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC47E7B2490C4FA2DC3D0761D2B96F03 /* Pods-LocusLabsSamples-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A6E1D836E9B29CA512574FC12427035E /* MapboxMobileEvents-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8290B6A29D7657A90D0C7BCE69E38F /* MapboxMobileEvents-dummy.m */; };
 		A760F82EAEFBDB9EDA369368B0D344BE /* NSUserDefaults+MMEConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 655449CBE3CC3F5EBD552023627FF89F /* NSUserDefaults+MMEConfiguration.m */; };
 		A8DD6D39853A785DC63061C84ECE54E6 /* MMEEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 51A2EB18F893CADE4B98C4C8E32627CA /* MMEEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA6F35FD40475E17F79BEF9BF2691479 /* MMETimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8322258DE7627E4CCA800C7BC67F5F /* MMETimerManager.m */; };
-		B536630027A0A02BAC4AFA9F1214585D /* Pods-LocusLabsSamples-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B23708B2E09D81569A6340B43E587E20 /* Pods-LocusLabsSamples-dummy.m */; };
+		BD7E55D1273688F75A1CF324E10BED40 /* Pods-LocusLabsSamples-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC47E7B2490C4FA2DC3D0761D2B96F03 /* Pods-LocusLabsSamples-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C2570EDEC895361B3E1AA1D165D0C6D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		C27087F56ACED2E2B7F859F2636BE271 /* MMEMetrics.h in Headers */ = {isa = PBXBuildFile; fileRef = C90FF7D4AB99C8EA089141031B371D8D /* MMEMetrics.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C2DA258381215AE939F68479ADA8F151 /* MMEMetricsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1831D1EC976853D924FDBE58B7889FA2 /* MMEMetricsManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C368F2D40D7F35F36E8D9C517FE86532 /* MMEEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 621E09527D9618C6AB650F50D4E023B9 /* MMEEvent.m */; };
 		C52DC83F33A2004A284D1705B4B1FD4B /* MMECategoryLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A9E69630C6C482B1F0A91D50F0060B9 /* MMECategoryLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C8F853829E6974BBA63703E31213648E /* NSString+MMEVersions.m in Sources */ = {isa = PBXBuildFile; fileRef = 094E3DA4BCA124F0B8269C516CFA6064 /* NSString+MMEVersions.m */; };
+		C9EE00305A7BF99FF78F7C085C76C4E3 /* Pods-LocusLabsSamples-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B23708B2E09D81569A6340B43E587E20 /* Pods-LocusLabsSamples-dummy.m */; };
 		D483462CF50CD8A68B2539FA08E88D96 /* NSProcessInfo+SystemInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 875C06CCCDC3DEE23B13BD3CF7C027F8 /* NSProcessInfo+SystemInfo.m */; };
 		E58FA3EF499152A93524FB444FC3B920 /* MMEMetrics.m in Sources */ = {isa = PBXBuildFile; fileRef = B13C5008721AB7B7507D8A28AAA45B9E /* MMEMetrics.m */; };
 		EE9C9D59063024D6491E788F1A4953B0 /* CLLocation+MMEMobileEvents.h in Headers */ = {isa = PBXBuildFile; fileRef = 67A472FEE501E861C59C531FA39C7797 /* CLLocation+MMEMobileEvents.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EF1C61483B247CFAF1B3351D38D5D188 /* MMEDate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CD84857C78011AB350D426A2C7CD067 /* MMEDate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F7119D49269515CCC6C8BC7C38A007B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		FB5D619472F372D07ABEBD71C376C8F2 /* MMEEventLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B359624EEECE5680EF607822954B26B /* MMEEventLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FC36C97E76C9E80110D414BAAB6324BA /* MMEDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 598D2F07F5530CB1D0CC1B2E60A3A85C /* MMEDate.m */; };
 		FE037C11D48C562CE6107C9A85D66A03 /* MMENSURLSessionWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 8261449A6C5A2F355EE82DAC7C82569C /* MMENSURLSessionWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4FCF128088F2EBCC8925BF8B8777E05D /* PBXContainerItemProxy */ = {
+		3A4B2F12BCC4A76232F719B080C0826B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A5AFDBFF44C91B5332DDBF2B370A941E;
 			remoteInfo = CardIO;
 		};
-		513AB9B93788BF70C074C83EE2677F31 /* PBXContainerItemProxy */ = {
+		422156C14DCFC68C3C8C39DBEEEEAC1D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -145,14 +145,14 @@
 			remoteGlobalIDString = F20E041B920E9DD7BA087321915E730F;
 			remoteInfo = MapboxMobileEvents;
 		};
-		D13FA66E65DEBBDF0920E28693E53B2A /* PBXContainerItemProxy */ = {
+		7684F2F0F4094505775619D0C5B9BAD3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F20E041B920E9DD7BA087321915E730F;
 			remoteInfo = MapboxMobileEvents;
 		};
-		F855D2ED3CFF6D99EC8451BB5920F9D8 /* PBXContainerItemProxy */ = {
+		CBFE20B83EC23F75AE9F6CEF8FC88199 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -192,17 +192,18 @@
 		4E4D6861D61F1C4A6F502450AB99469F /* Pods-LocusLabsSamples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocusLabsSamples.debug.xcconfig"; sourceTree = "<group>"; };
 		4F60DF78D3B88B1C99B04204C104397A /* NSData+MMEGZIP.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+MMEGZIP.m"; path = "Sources/MapboxMobileEvents/NSData+MMEGZIP.m"; sourceTree = "<group>"; };
 		51A2EB18F893CADE4B98C4C8E32627CA /* MMEEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMEEvent.h; path = Sources/MapboxMobileEvents/include/MMEEvent.h; sourceTree = "<group>"; };
+		525CA026CA08EE56A5FBE693202AB632 /* Mapbox-iOS-SDK-copy-dsyms.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Mapbox-iOS-SDK-copy-dsyms.sh"; sourceTree = "<group>"; };
 		56076BAD5136F16410C70B1FF917F227 /* MMEDispatchManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMEDispatchManager.m; path = Sources/MapboxMobileEvents/MMEDispatchManager.m; sourceTree = "<group>"; };
 		598D2F07F5530CB1D0CC1B2E60A3A85C /* MMEDate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMEDate.m; path = Sources/MapboxMobileEvents/MMEDate.m; sourceTree = "<group>"; };
 		5A9E69630C6C482B1F0A91D50F0060B9 /* MMECategoryLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMECategoryLoader.h; path = Sources/MapboxMobileEvents/MMECategoryLoader.h; sourceTree = "<group>"; };
 		5C22F0E6CFE5A0413BDCEC55D0959EAB /* libopencv_imgproc.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libopencv_imgproc.a; path = CardIO/libopencv_imgproc.a; sourceTree = "<group>"; };
 		60D38E85D13469959DC1C0636B7577D1 /* CardIO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CardIO.h; path = CardIO/CardIO.h; sourceTree = "<group>"; };
 		621E09527D9618C6AB650F50D4E023B9 /* MMEEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMEEvent.m; path = Sources/MapboxMobileEvents/MMEEvent.m; sourceTree = "<group>"; };
+		631538BD4571607A73DB0C449959BBF2 /* Mapbox-iOS-SDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Mapbox-iOS-SDK.debug.xcconfig"; sourceTree = "<group>"; };
 		63A4E1908CF5509B914153FDC97801D3 /* LocusLabs-iOS-SDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "LocusLabs-iOS-SDK.debug.xcconfig"; sourceTree = "<group>"; };
 		655449CBE3CC3F5EBD552023627FF89F /* NSUserDefaults+MMEConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSUserDefaults+MMEConfiguration.m"; path = "Sources/MapboxMobileEvents/NSUserDefaults+MMEConfiguration.m"; sourceTree = "<group>"; };
 		65846FE307D2A60AE8A8C3E9D900CA1C /* MMEEventLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMEEventLogger.m; path = Sources/MapboxMobileEvents/MMEEventLogger.m; sourceTree = "<group>"; };
 		67A472FEE501E861C59C531FA39C7797 /* CLLocation+MMEMobileEvents.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CLLocation+MMEMobileEvents.h"; path = "Sources/MapboxMobileEvents/CLLocation+MMEMobileEvents.h"; sourceTree = "<group>"; };
-		68CFB34FD2C17E9896115F557DFFD99A /* Mapbox-iOS-SDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Mapbox-iOS-SDK.release.xcconfig"; sourceTree = "<group>"; };
 		68FEE7C530B04960FACEAA8829A5035E /* MapboxMobileEvents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MapboxMobileEvents.debug.xcconfig; sourceTree = "<group>"; };
 		6CD0DB10340F4F934A6E2B13E4C1E1EC /* MMEDispatchManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMEDispatchManager.h; path = Sources/MapboxMobileEvents/MMEDispatchManager.h; sourceTree = "<group>"; };
 		6E1A9CD4D3730023B97C866D81EFB8C5 /* MMEEventsManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMEEventsManager.h; path = Sources/MapboxMobileEvents/include/MMEEventsManager.h; sourceTree = "<group>"; };
@@ -214,7 +215,7 @@
 		77BFD94A343A61E93DF87CD93B5ADDB1 /* MMECertPin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMECertPin.m; path = Sources/MapboxMobileEvents/MMECertPin.m; sourceTree = "<group>"; };
 		77E5A0CBC685884B726642265846F83F /* MMEDependencyManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMEDependencyManager.h; path = Sources/MapboxMobileEvents/MMEDependencyManager.h; sourceTree = "<group>"; };
 		7AA982D2ECFC912E9DC4BF113BC6A797 /* NSUserDefaults+MMEConfiguration_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSUserDefaults+MMEConfiguration_Private.h"; path = "Sources/MapboxMobileEvents/NSUserDefaults+MMEConfiguration_Private.h"; sourceTree = "<group>"; };
-		7CDFA2DAE745FD57264494A16D3C14B6 /* MapboxMobileEvents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MapboxMobileEvents.framework; path = MapboxMobileEvents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CDFA2DAE745FD57264494A16D3C14B6 /* MapboxMobileEvents */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MapboxMobileEvents; path = MapboxMobileEvents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DA023CBA510A4D518604421AC7D3666 /* MapboxMobileEvents.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MapboxMobileEvents.release.xcconfig; sourceTree = "<group>"; };
 		81601FA92C3994CD5997657E72379671 /* MapboxMobileEvents.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MapboxMobileEvents.h; path = Sources/MapboxMobileEvents/include/MapboxMobileEvents.h; sourceTree = "<group>"; };
 		8261449A6C5A2F355EE82DAC7C82569C /* MMENSURLSessionWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMENSURLSessionWrapper.h; path = Sources/MapboxMobileEvents/MMENSURLSessionWrapper.h; sourceTree = "<group>"; };
@@ -223,13 +224,13 @@
 		8624B5D48CBE1E3A63BBECC574D594BD /* MMEUniqueIdentifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMEUniqueIdentifier.h; path = Sources/MapboxMobileEvents/MMEUniqueIdentifier.h; sourceTree = "<group>"; };
 		875C06CCCDC3DEE23B13BD3CF7C027F8 /* NSProcessInfo+SystemInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSProcessInfo+SystemInfo.m"; path = "Sources/MapboxMobileEvents/NSProcessInfo+SystemInfo.m"; sourceTree = "<group>"; };
 		87B43711D5A739CB6F22373352F39CDE /* Pods-LocusLabsSamples.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LocusLabsSamples.modulemap"; sourceTree = "<group>"; };
-		90A598A6EAAFFF0545CF75E651323CC2 /* Mapbox-iOS-SDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Mapbox-iOS-SDK.debug.xcconfig"; sourceTree = "<group>"; };
+		9356A3B1EC43D5BDCC43FFB2B926B884 /* Mapbox-iOS-SDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Mapbox-iOS-SDK.release.xcconfig"; sourceTree = "<group>"; };
 		945476517035FFDF59D8CDA63E0C2960 /* MapboxMobileEvents.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MapboxMobileEvents.modulemap; sourceTree = "<group>"; };
 		9A5ECE2527171687B91DCFB0161E8B8F /* libopencv_core.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libopencv_core.a; path = CardIO/libopencv_core.a; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F3661E6BCDCA9CC72275E3CA46C69AE /* CardIOView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CardIOView.h; path = CardIO/CardIOView.h; sourceTree = "<group>"; };
 		9F944D23EF54A1AC3B4FDE52FAF1D699 /* CardIOUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CardIOUtilities.h; path = CardIO/CardIOUtilities.h; sourceTree = "<group>"; };
-		A15236C7E22E48D5FF1F0D8C8D3E5335 /* Pods_LocusLabsSamples.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LocusLabsSamples.framework; path = "Pods-LocusLabsSamples.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A15236C7E22E48D5FF1F0D8C8D3E5335 /* Pods-LocusLabsSamples */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LocusLabsSamples"; path = Pods_LocusLabsSamples.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7A0F4F8FFA396D9BBA9E6186945BE09 /* Pods-LocusLabsSamples-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LocusLabsSamples-acknowledgements.markdown"; sourceTree = "<group>"; };
 		ABE434EFB2B499F85ECCDA62BEB802BF /* MMEDependencyManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMEDependencyManager.m; path = Sources/MapboxMobileEvents/MMEDependencyManager.m; sourceTree = "<group>"; };
 		AC47E7B2490C4FA2DC3D0761D2B96F03 /* Pods-LocusLabsSamples-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LocusLabsSamples-umbrella.h"; sourceTree = "<group>"; };
@@ -258,18 +259,17 @@
 		E7EC2935DBCC6E7E540EE241F6077AD2 /* UIKit+MMEMobileEvents.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+MMEMobileEvents.h"; path = "Sources/MapboxMobileEvents/UIKit+MMEMobileEvents.h"; sourceTree = "<group>"; };
 		ECA37B84D9FF19AB827EF38A9A8A8E3C /* CardIO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CardIO.debug.xcconfig; sourceTree = "<group>"; };
 		EFC598BD5E1A06FA277F90A4AA36CA65 /* MMECommonEventData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMECommonEventData.h; path = Sources/MapboxMobileEvents/MMECommonEventData.h; sourceTree = "<group>"; };
-		F07EE63FE82CC9DEF7AB12B11797FDF7 /* Mapbox-iOS-SDK-copy-dsyms.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Mapbox-iOS-SDK-copy-dsyms.sh"; sourceTree = "<group>"; };
 		F418ABBC9D1D96361F8453E79133DBB3 /* MMEUniqueIdentifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMEUniqueIdentifier.m; path = Sources/MapboxMobileEvents/MMEUniqueIdentifier.m; sourceTree = "<group>"; };
 		FA3B3131B69E5155F629FA89D2B2988D /* MMEMetricsManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMEMetricsManager.m; path = Sources/MapboxMobileEvents/MMEMetricsManager.m; sourceTree = "<group>"; };
 		FBC85ADF80AD21BD3BA9F07E025A81BD /* CLLocationManager+MMEMobileEvents.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CLLocationManager+MMEMobileEvents.m"; path = "Sources/MapboxMobileEvents/CLLocationManager+MMEMobileEvents.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0263162CEFC2D663A06CA49BE7753601 /* Frameworks */ = {
+		32A544710E08D32A820243FD06D018E9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7119D49269515CCC6C8BC7C38A007B4 /* Foundation.framework in Frameworks */,
+				02357AEA1866FD65C911D1B612505149 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,17 +297,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/MapboxMobileEvents";
-			sourceTree = "<group>";
-		};
-		082C614A5FDE51112A86278EAB3246DF /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F07EE63FE82CC9DEF7AB12B11797FDF7 /* Mapbox-iOS-SDK-copy-dsyms.sh */,
-				90A598A6EAAFFF0545CF75E651323CC2 /* Mapbox-iOS-SDK.debug.xcconfig */,
-				68CFB34FD2C17E9896115F557DFFD99A /* Mapbox-iOS-SDK.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Mapbox-iOS-SDK";
 			sourceTree = "<group>";
 		};
 		099EA343127551A192306E284BAA98DD /* Support Files */ = {
@@ -366,11 +355,22 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		41804990C0F7A3670B522D643997CD9E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				525CA026CA08EE56A5FBE693202AB632 /* Mapbox-iOS-SDK-copy-dsyms.sh */,
+				631538BD4571607A73DB0C449959BBF2 /* Mapbox-iOS-SDK.debug.xcconfig */,
+				9356A3B1EC43D5BDCC43FFB2B926B884 /* Mapbox-iOS-SDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Mapbox-iOS-SDK";
+			sourceTree = "<group>";
+		};
 		523A12486B844FB7AAB99A28916193F5 /* Mapbox-iOS-SDK */ = {
 			isa = PBXGroup;
 			children = (
 				C2E7E984CBEBF10D990CF3B9F19E1434 /* Frameworks */,
-				082C614A5FDE51112A86278EAB3246DF /* Support Files */,
+				41804990C0F7A3670B522D643997CD9E /* Support Files */,
 			);
 			name = "Mapbox-iOS-SDK";
 			path = "Mapbox-iOS-SDK";
@@ -399,6 +399,15 @@
 			);
 			name = "Pods-LocusLabsSamples";
 			path = "Target Support Files/Pods-LocusLabsSamples";
+			sourceTree = "<group>";
+		};
+		6D22623091D5925D89AC6724E77820B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CDFA2DAE745FD57264494A16D3C14B6 /* MapboxMobileEvents */,
+				A15236C7E22E48D5FF1F0D8C8D3E5335 /* Pods-LocusLabsSamples */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		9600EC16B91303DE58FA18B3367B4587 /* LocusLabs-iOS-SDK */ = {
@@ -513,7 +522,7 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				312352BCEBD471E31C7EAE04F6AF91EE /* Pods */,
-				D41C0DF755CEA428DD71465DA5EC0931 /* Products */,
+				6D22623091D5925D89AC6724E77820B7 /* Products */,
 				30FE7E745402798997AB053B04662598 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -526,15 +535,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D41C0DF755CEA428DD71465DA5EC0931 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				7CDFA2DAE745FD57264494A16D3C14B6 /* MapboxMobileEvents.framework */,
-				A15236C7E22E48D5FF1F0D8C8D3E5335 /* Pods_LocusLabsSamples.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -544,8 +544,8 @@
 			files = (
 				EE9C9D59063024D6491E788F1A4953B0 /* CLLocation+MMEMobileEvents.h in Headers */,
 				3C96352BC24314FC5C003D3589949A11 /* CLLocationManager+MMEMobileEvents.h in Headers */,
-				1F53FEC050D1DC8D42C77BCCEA0972CC /* MapboxMobileEvents-umbrella.h in Headers */,
 				5DCC69F1EA55F23002734BB753875DCA /* MapboxMobileEvents.h in Headers */,
+				1F53FEC050D1DC8D42C77BCCEA0972CC /* MapboxMobileEvents-umbrella.h in Headers */,
 				6E629733372499146F79B8262FE08C3C /* MMEAPIClient.h in Headers */,
 				453A906BB068EC36717DCD796C8A98A2 /* MMEAPIClient_Private.h in Headers */,
 				C52DC83F33A2004A284D1705B4B1FD4B /* MMECategoryLoader.h in Headers */,
@@ -578,11 +578,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D120C5548DA1FE2973799537BC17FD8A /* Headers */ = {
+		4984651D7E766DECBAD44B0E2F97192C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A62E6C48FC9CE01B112119C3F9AD3860 /* Pods-LocusLabsSamples-umbrella.h in Headers */,
+				BD7E55D1273688F75A1CF324E10BED40 /* Pods-LocusLabsSamples-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -591,24 +591,24 @@
 /* Begin PBXNativeTarget section */
 		F07CD91ABB17F95A1DAD70053E67F5C5 /* Pods-LocusLabsSamples */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3F260E1DC2A48A8663F70F1C8C8FDACE /* Build configuration list for PBXNativeTarget "Pods-LocusLabsSamples" */;
+			buildConfigurationList = 9C8918066BEB5E2D4B1CCE3CAD7EA205 /* Build configuration list for PBXNativeTarget "Pods-LocusLabsSamples" */;
 			buildPhases = (
-				D120C5548DA1FE2973799537BC17FD8A /* Headers */,
-				E035F51F668C4E915570E1269B84C3D6 /* Sources */,
-				0263162CEFC2D663A06CA49BE7753601 /* Frameworks */,
-				9AE82EA29696E0364B8969FA642F6056 /* Resources */,
+				4984651D7E766DECBAD44B0E2F97192C /* Headers */,
+				33662D3834063C442D84DEDF01E2FB3C /* Sources */,
+				32A544710E08D32A820243FD06D018E9 /* Frameworks */,
+				1B3B418A576EC82CEC7D65EA991ADB7E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				084DB50E499D933B399ED7B97D4FBA1D /* PBXTargetDependency */,
-				26AC4BF2C49058E1E55B91AB8EFC54A7 /* PBXTargetDependency */,
-				EF41B1F3A37E7AE7C1472B6C3CAFAC94 /* PBXTargetDependency */,
-				42812CFEA55C3995A2F56CE770AA4DB4 /* PBXTargetDependency */,
+				B757B82AD22D47CCC3ABAC6B2EFDC381 /* PBXTargetDependency */,
+				77BAD4DF6FF9C70FA3CD759BA45FD151 /* PBXTargetDependency */,
+				68345D5D222A8088ED569A09FCDA6A80 /* PBXTargetDependency */,
+				E40A9D4E3E9B8EC23EDB9D603525C6B4 /* PBXTargetDependency */,
 			);
 			name = "Pods-LocusLabsSamples";
-			productName = "Pods-LocusLabsSamples";
-			productReference = A15236C7E22E48D5FF1F0D8C8D3E5335 /* Pods_LocusLabsSamples.framework */;
+			productName = Pods_LocusLabsSamples;
+			productReference = A15236C7E22E48D5FF1F0D8C8D3E5335 /* Pods-LocusLabsSamples */;
 			productType = "com.apple.product-type.framework";
 		};
 		F20E041B920E9DD7BA087321915E730F /* MapboxMobileEvents */ = {
@@ -626,7 +626,7 @@
 			);
 			name = MapboxMobileEvents;
 			productName = MapboxMobileEvents;
-			productReference = 7CDFA2DAE745FD57264494A16D3C14B6 /* MapboxMobileEvents.framework */;
+			productReference = 7CDFA2DAE745FD57264494A16D3C14B6 /* MapboxMobileEvents */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -635,19 +635,19 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = D41C0DF755CEA428DD71465DA5EC0931 /* Products */;
+			productRefGroup = 6D22623091D5925D89AC6724E77820B7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -668,7 +668,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9AE82EA29696E0364B8969FA642F6056 /* Resources */ = {
+		1B3B418A576EC82CEC7D65EA991ADB7E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -750,40 +750,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E035F51F668C4E915570E1269B84C3D6 /* Sources */ = {
+		33662D3834063C442D84DEDF01E2FB3C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B536630027A0A02BAC4AFA9F1214585D /* Pods-LocusLabsSamples-dummy.m in Sources */,
+				C9EE00305A7BF99FF78F7C085C76C4E3 /* Pods-LocusLabsSamples-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		084DB50E499D933B399ED7B97D4FBA1D /* PBXTargetDependency */ = {
+		68345D5D222A8088ED569A09FCDA6A80 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = CardIO;
-			target = A5AFDBFF44C91B5332DDBF2B370A941E /* CardIO */;
-			targetProxy = 4FCF128088F2EBCC8925BF8B8777E05D /* PBXContainerItemProxy */;
+			name = "Mapbox-iOS-SDK";
+			target = 6746AB6F4D992402B59D1651512EA19E /* Mapbox-iOS-SDK */;
+			targetProxy = 422156C14DCFC68C3C8C39DBEEEEAC1D /* PBXContainerItemProxy */;
 		};
-		26AC4BF2C49058E1E55B91AB8EFC54A7 /* PBXTargetDependency */ = {
+		77BAD4DF6FF9C70FA3CD759BA45FD151 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "LocusLabs-iOS-SDK";
 			target = 3A73BBFF3ADDE03B45EE50BE99A761F9 /* LocusLabs-iOS-SDK */;
-			targetProxy = F855D2ED3CFF6D99EC8451BB5920F9D8 /* PBXContainerItemProxy */;
-		};
-		42812CFEA55C3995A2F56CE770AA4DB4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MapboxMobileEvents;
-			target = F20E041B920E9DD7BA087321915E730F /* MapboxMobileEvents */;
-			targetProxy = D13FA66E65DEBBDF0920E28693E53B2A /* PBXContainerItemProxy */;
+			targetProxy = CBFE20B83EC23F75AE9F6CEF8FC88199 /* PBXContainerItemProxy */;
 		};
 		A2FA4322B0425873EB17966A1EFA2689 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Mapbox-iOS-SDK";
 			target = 6746AB6F4D992402B59D1651512EA19E /* Mapbox-iOS-SDK */;
 			targetProxy = 610B0DEEB13CB7C5285E7C7F1FC81F14 /* PBXContainerItemProxy */;
+		};
+		B757B82AD22D47CCC3ABAC6B2EFDC381 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CardIO;
+			target = A5AFDBFF44C91B5332DDBF2B370A941E /* CardIO */;
+			targetProxy = 3A4B2F12BCC4A76232F719B080C0826B /* PBXContainerItemProxy */;
 		};
 		CC2493BBC9BEC6E201FCB58052BBB8A0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -797,11 +797,11 @@
 			target = F20E041B920E9DD7BA087321915E730F /* MapboxMobileEvents */;
 			targetProxy = 59791A6B6681BDDD8B8957A32FD9E40E /* PBXContainerItemProxy */;
 		};
-		EF41B1F3A37E7AE7C1472B6C3CAFAC94 /* PBXTargetDependency */ = {
+		E40A9D4E3E9B8EC23EDB9D603525C6B4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Mapbox-iOS-SDK";
-			target = 6746AB6F4D992402B59D1651512EA19E /* Mapbox-iOS-SDK */;
-			targetProxy = 513AB9B93788BF70C074C83EE2677F31 /* PBXContainerItemProxy */;
+			name = MapboxMobileEvents;
+			target = F20E041B920E9DD7BA087321915E730F /* MapboxMobileEvents */;
+			targetProxy = 7684F2F0F4094505775619D0C5B9BAD3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -888,9 +888,9 @@
 			};
 			name = Debug;
 		};
-		2FD737D6FE028CCBE25252698BBEA2B9 /* Release */ = {
+		50C2CB75FBDF9FAD151B032635648D0F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E0C907E711ABEFDB54019F04CDAC742 /* Pods-LocusLabsSamples.release.xcconfig */;
+			baseConfigurationReference = 4E4D6861D61F1C4A6F502450AB99469F /* Pods-LocusLabsSamples.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -920,15 +920,14 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		6DCB316F9F2873AD006ACC2174FB8D1E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 90A598A6EAAFFF0545CF75E651323CC2 /* Mapbox-iOS-SDK.debug.xcconfig */;
+			baseConfigurationReference = 631538BD4571607A73DB0C449959BBF2 /* Mapbox-iOS-SDK.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1001,6 +1000,44 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9C6ECAD1BB59A58B924BF290BE643EA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E0C907E711ABEFDB54019F04CDAC742 /* Pods-LocusLabsSamples.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LocusLabsSamples/Pods-LocusLabsSamples-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LocusLabsSamples/Pods-LocusLabsSamples.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -1103,46 +1140,9 @@
 			};
 			name = Release;
 		};
-		DC625A298CDC6699A65B2878CB0EC358 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E4D6861D61F1C4A6F502450AB99469F /* Pods-LocusLabsSamples.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LocusLabsSamples/Pods-LocusLabsSamples-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LocusLabsSamples/Pods-LocusLabsSamples.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		F7B7B6323116DF291FD6E5A9A290CE5B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 68CFB34FD2C17E9896115F557DFFD99A /* Mapbox-iOS-SDK.release.xcconfig */;
+			baseConfigurationReference = 9356A3B1EC43D5BDCC43FFB2B926B884 /* Mapbox-iOS-SDK.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1178,20 +1178,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3F260E1DC2A48A8663F70F1C8C8FDACE /* Build configuration list for PBXNativeTarget "Pods-LocusLabsSamples" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DC625A298CDC6699A65B2878CB0EC358 /* Debug */,
-				2FD737D6FE028CCBE25252698BBEA2B9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
 				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C8918066BEB5E2D4B1CCE3CAD7EA205 /* Build configuration list for PBXNativeTarget "Pods-LocusLabsSamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50C2CB75FBDF9FAD151B032635648D0F /* Debug */,
+				9C6ECAD1BB59A58B924BF290BE643EA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

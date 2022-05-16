@@ -1,4 +1,4 @@
 ${PODS_ROOT}/Target Support Files/Pods-LocusLabsSamplesSwift/Pods-LocusLabsSamplesSwift-frameworks.sh
 ${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework
 ${BUILT_PRODUCTS_DIR}/MapboxMobileEvents/MapboxMobileEvents.framework
-${PODS_XCFRAMEWORKS_BUILD_DIR}/LocusLabsSDK/LocusLabsSDK.framework/LocusLabsSDK
+${PODS_XCFRAMEWORKS_BUILD_DIR}/LocusLabs-iOS-SDK/LocusLabsSDK.framework/LocusLabsSDK

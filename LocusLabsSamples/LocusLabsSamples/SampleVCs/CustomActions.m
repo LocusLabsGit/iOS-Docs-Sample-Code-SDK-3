@@ -62,6 +62,7 @@
 
     // Create a custom action to show a POI e.g. POI 519 is gate 68A at lax
     LLPlace *customPOIAction = [[LLPlace alloc] initWithBehavior:LLPlaceBehaviorPOI values:@[@"519"] displayName:@"Departure Gate" icon:@"map-icon-airports.png"];
+    
     [customActions addObject:customPOIAction];
     
     // Create a custom action to trigger a search
