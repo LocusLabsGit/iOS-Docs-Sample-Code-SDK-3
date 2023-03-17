@@ -1,0 +1,27 @@
+{
+    "colors": {
+        "globalPrimary": "#5C98FF",
+        "globalPrimaryText": "#DBDBDB",
+        "globalPrimaryButton": "#5C98FF",
+        "globalPrimaryButtonHover": "#407ADE",
+        "globalPrimaryButtonText": "#FFFFFF",
+        "globalSecondary": "#666666",
+        "globalSecondaryText": "#C9C9C9",
+        "globalSecondaryButton": "#1C2533",
+        "globalSecondaryButtonHover": "#323F54",
+        "globalSecondaryButtonText": "#5C98FF",
+        "globalBackground": "#000000",
+        "globalOverlay": "#33323A",
+
+        "mapNavBackground": "#5C98FF",
+        "mapNavText": "#FFFFFF",
+        "mapNavSearchResults": "#CA4800",
+        "mapNavSearchResultsText": "#FFFFFF",
+
+        "widgetBackground": "#111720",
+        "widgetText": "#FFFFFF",
+        "widgetIcons": "#FFFFFF",
+        
+        "myLocationPrimary": "#5C98FF"
+    }
+}

@@ -1,0 +1,58 @@
+{
+   "places":[
+      {
+         "behavior":"search",
+         "value":"coffee",
+         "name":"Coffee",
+         "icon":"places-eat.coffee"
+      },
+      {
+         "behavior":"search",
+         "value":"bar",
+         "name":"Bars",
+         "icon":"eat.bar"
+      },
+      {
+         "behavior":"search",
+         "value":"atm",
+         "name":"ATMs",
+         "icon":"services.atm"
+      },
+      {
+         "behavior":"search",
+         "value":"lounge",
+         "name":"Lounges",
+         "icon":"relax.lounge"
+      },
+      {
+         "behavior":"search",
+         "value":"services.chargingstation",
+         "name":"Charging Stations",
+         "icon":"services.chargingstation"
+      },
+      {
+         "behavior":"search",
+         "value":"headphones",
+         "name":"Headphones",
+         "icon":"shop"
+      },
+      {
+         "behavior":"search",
+         "value":"restroom",
+         "name":"Restrooms",
+         "icon":"restroom"
+      },
+      {
+         "behavior":"search",
+         "value":"baggage.claim",
+         "name":"Baggage Claims",
+         "icon":"baggage"
+      },
+      {
+         "behavior":"search",
+         "value":"shuttle shuttles bus category:portal.bus category:transport.shuttle",
+         "name":"Shuttles",
+         "icon":"portal.bus"
+      }
+   ]
+}

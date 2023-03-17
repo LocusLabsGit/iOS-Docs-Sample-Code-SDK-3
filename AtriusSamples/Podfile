@@ -1,0 +1,13 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '10.0'
+
+target 'AtriusSamples' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  #use_frameworks!
+
+  # Pods for AtriusSamples
+  pod 'LocusLabs-iOS-SDK', '3.3.10'
+  
+  # Only needed if integrating GRAB
+  pod 'CardIO'
+end
