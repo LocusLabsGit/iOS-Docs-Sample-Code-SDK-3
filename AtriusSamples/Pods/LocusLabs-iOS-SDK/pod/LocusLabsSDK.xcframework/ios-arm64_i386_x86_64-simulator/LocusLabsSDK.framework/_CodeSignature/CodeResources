@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/LLAccessibilityIdentifier.h</key>
 		<data>
-		SyYc2at0PlUNRZCj8aR+5pYOGcA=
+		DQ+4vRgcw3rpZ0hLUgLB0syD5TA=
 		</data>
 		<key>Headers/LLAirline.h</key>
 		<data>
@@ -43,6 +43,10 @@
 		<key>Headers/LLConfiguration.h</key>
 		<data>
 		478pI1HVvDIryrDyj5VQqzl+pwk=
+		</data>
+		<key>Headers/LLConstants.h</key>
+		<data>
+		3L93+thwUk376CUTVvqCoFfqLpE=
 		</data>
 		<key>Headers/LLCurvedPath.h</key>
 		<data>
@@ -110,7 +114,7 @@
 		</data>
 		<key>Headers/LLMapView.h</key>
 		<data>
-		t803z+70bNdzMfOYVibz3hc9BgI=
+		/w09XPOmlF8UHtvQUkeph0ZWha8=
 		</data>
 		<key>Headers/LLMapViewDelegate.h</key>
 		<data>
@@ -202,7 +206,7 @@
 		</data>
 		<key>Headers/LLPositionManager.h</key>
 		<data>
-		m1otz4coj/vOM3z8ACuSsTAwSnw=
+		tRzi8RiN/Nsid+f6QCOlGJ0CWiA=
 		</data>
 		<key>Headers/LLPositionManagerDelegate.h</key>
 		<data>
@@ -246,7 +250,7 @@
 		</data>
 		<key>Headers/LLVenue.h</key>
 		<data>
-		vNQDw0B8SI9be/VwgkwJeckRHms=
+		pNYY/AezQP2kQLxdUO/M0QK+5Rw=
 		</data>
 		<key>Headers/LLVenueDatabase.h</key>
 		<data>
@@ -270,7 +274,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		zoqTAPY8VRVWeXxkxsJJX/IxXf8=
+		8ijueOeLRlu2afXHDIY6Yeqxmac=
 		</data>
 		<key>LICENSE.txt</key>
 		<data>
@@ -342,7 +346,7 @@
 		</data>
 		<key>ShellApp-Atrius-Enterprise-Info.plist</key>
 		<data>
-		ys5+011BzhASaGA1Uo3pGAdDnVM=
+		EwtPqsetvoeIAEx2lZAQJMTXCog=
 		</data>
 		<key>ar.lproj/Localizable.strings</key>
 		<dict>
@@ -4703,11 +4707,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SyYc2at0PlUNRZCj8aR+5pYOGcA=
+			DQ+4vRgcw3rpZ0hLUgLB0syD5TA=
 			</data>
 			<key>hash2</key>
 			<data>
-			bC8y6ZBPOqAK2ksx/TGMEPXueSaHQ7vtpQScQv3jXbo=
+			v518tUHLMVVA/IDNmXqOQLUqFqcTnyqqJKg4wQVnWsw=
 			</data>
 		</dict>
 		<key>Headers/LLAirline.h</key>
@@ -4785,6 +4789,17 @@
 			<key>hash2</key>
 			<data>
 			Ib8WS2rgRDEBzQhc+MXJe1896KABVW1bGXp48brlxHI=
+			</data>
+		</dict>
+		<key>Headers/LLConstants.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			3L93+thwUk376CUTVvqCoFfqLpE=
+			</data>
+			<key>hash2</key>
+			<data>
+			Nt4TL+CAjQnTpSUjSME8jBs+TbOTfzkqAG8zx6P8QZg=
 			</data>
 		</dict>
 		<key>Headers/LLCurvedPath.h</key>
@@ -4967,11 +4982,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			t803z+70bNdzMfOYVibz3hc9BgI=
+			/w09XPOmlF8UHtvQUkeph0ZWha8=
 			</data>
 			<key>hash2</key>
 			<data>
-			lEmXoOZTm534oBU4Cd35j8POfTGspDN3zVbyDJp2mJM=
+			02ss++pFEuUhey8gJpWbiE6jnWg+vIpJRQ1kq1t4Ul0=
 			</data>
 		</dict>
 		<key>Headers/LLMapViewDelegate.h</key>
@@ -5220,11 +5235,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			m1otz4coj/vOM3z8ACuSsTAwSnw=
+			tRzi8RiN/Nsid+f6QCOlGJ0CWiA=
 			</data>
 			<key>hash2</key>
 			<data>
-			cQLlO95/UlQAYa8aj2iB8vGlczdQ3gJdYE8B9pfU3F4=
+			pymltSgYcuYdZpIXMo0ZJWmlcFpzm+vnqSpmEbgL+e4=
 			</data>
 		</dict>
 		<key>Headers/LLPositionManagerDelegate.h</key>
@@ -5341,11 +5356,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vNQDw0B8SI9be/VwgkwJeckRHms=
+			pNYY/AezQP2kQLxdUO/M0QK+5Rw=
 			</data>
 			<key>hash2</key>
 			<data>
-			YSjPSRHe9WB3P2mw7q0NQoS9734ff8dC1pqZ1EOdg+M=
+			AP8gADr4tb00zZ1sLZdbNUlfCzd+qH+sOBZr8oBj3HE=
 			</data>
 		</dict>
 		<key>Headers/LLVenueDatabase.h</key>
@@ -5594,11 +5609,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ys5+011BzhASaGA1Uo3pGAdDnVM=
+			EwtPqsetvoeIAEx2lZAQJMTXCog=
 			</data>
 			<key>hash2</key>
 			<data>
-			Qacu5JUngKfTIULaooy+YRkJKpPJRqe99T8jegW4jp4=
+			T59pHAQdDpEvt18oL+gInbPLPv4KQB887hLKvXkdARs=
 			</data>
 		</dict>
 		<key>ar.lproj/Localizable.strings</key>

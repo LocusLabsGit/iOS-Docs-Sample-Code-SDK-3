@@ -26,14 +26,12 @@
     [super viewDidLoad];
     
     // Initialize the SDK with the accountId provided
-    //[LLLocusLabs setup].accountId = @"A11F4Y6SZRXH4X"; ll
-    [LLLocusLabs setup].accountId = @"A10HSGGLQ8RDTF"; //clt
+    [LLLocusLabs setup].accountId = @"A11F4Y6SZRXH4X";
     
     self.navigationController.navigationBar.hidden = YES;
     
     // The grab customer id is for testing purposes only and cannot be used in production
-    //[LLLocusLabs setup].grabCustomerId = @"abc2e5a1cdcebc486a6710b484aeaf9d";//ll
-    [LLLocusLabs setup].grabCustomerId = @"310f33f00e6712c52b99a4dad6a324f5"; // clt
+    [LLLocusLabs setup].grabCustomerId = @"abc2e5a1cdcebc486a6710b484aeaf9d";
     
     [LLLocusLabs setup].grabNavigationController = self.navigationController;
     

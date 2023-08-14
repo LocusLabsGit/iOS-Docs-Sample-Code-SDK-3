@@ -7,6 +7,7 @@
 
 #import "UserLocationSimulated.h"
 #import <LocusLabsSDK/LocusLabsSDK.h>
+#import <LocusLabsSDK/LLConstants.h>
 
 @interface UserLocationSimulated () <LLMapViewDelegate, LLVenueDatabaseDelegate>
 

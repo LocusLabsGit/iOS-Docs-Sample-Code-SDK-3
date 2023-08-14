@@ -23,7 +23,8 @@
     
     [super viewDidLoad];
     
-    [LLLocusLabs setup].accountId = @"A11F4Y6SZRXH4X";
+    //[LLLocusLabs setup].accountId = @"A11F4Y6SZRXH4X"; LL
+    [LLLocusLabs setup].accountId = @"A1JFQCH77X945U";
 
     // Create a new LLMapView, register as its delegate and add it as a subview
     LLMapView *mapView = [[LLMapView alloc] initWithFrame:self.view.bounds];
@@ -39,7 +40,7 @@
     self.venueDatabase = [LLVenueDatabase venueDatabaseWithMapView:self.mapView];
     self.venueDatabase.delegate = self;
     
-    [self.venueDatabase loadVenueAndMap:@"lax" block:^(LLVenue *venue, LLMap *map, LLFloor *floor, LLMarker *marker) {
+    [self.venueDatabase loadVenueAndMap:@"yvr" block:^(LLVenue *venue, LLMap *map, LLFloor *floor, LLMarker *marker) {
         
         self.venue = venue;
     }];

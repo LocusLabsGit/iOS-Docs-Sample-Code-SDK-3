@@ -1,6 +1,0 @@
-framework module Pods_AtriusSamples {
-  umbrella header "Pods-AtriusSamples-umbrella.h"
-
-  export *
-  module * { export * }
-}

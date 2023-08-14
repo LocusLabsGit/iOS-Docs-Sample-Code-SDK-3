@@ -27,7 +27,8 @@
     
     self.view.backgroundColor = [UIColor whiteColor];
     
-    [LLLocusLabs setup].accountId = @"A11F4Y6SZRXH4X";
+    //[LLLocusLabs setup].accountId = @"A11F4Y6SZRXH4X";
+    [LLLocusLabs setup].accountId = @"A1JFQCH77X945U";
 
     // Create a new LLMapView, register as its delegate and add it as a subview
     LLMapView *mapView = [[LLMapView alloc] initWithFrame:CGRectMake(0, 100, self.view.bounds.size.width, 220)];
@@ -40,14 +41,14 @@
     self.mapView.darkMode = self.traitCollection.userInterfaceStyle == UIUserInterfaceStyleDark;
     
     // Hide selected UI elements - these are likely not required when embedding
-    self.mapView.bottomBarHidden = YES;
+    //self.mapView.bottomBarHidden = YES;
     self.mapView.showBackButton = NO;
     
     // Get an instance of LLVenueDatabase, set it's mapview and register as its delegate
     self.venueDatabase = [LLVenueDatabase venueDatabaseWithMapView:self.mapView];
     self.venueDatabase.delegate = self;
     
-    [self.venueDatabase loadVenueAndMap:@"lax" block:^(LLVenue *venue, LLMap *map, LLFloor *floor, LLMarker *marker) {
+    [self.venueDatabase loadVenueAndMap:@"yyz" block:^(LLVenue *venue, LLMap *map, LLFloor *floor, LLMarker *marker) {
         
         self.venue = venue;
         self.mapView.positioningEnabled = NO;

@@ -1,10 +1,10 @@
 PODS:
   - CardIO (5.4.1)
-  - LocusLabs-iOS-SDK (3.3.10)
+  - LocusLabs-iOS-SDK (3.3.16)
 
 DEPENDENCIES:
   - CardIO
-  - LocusLabs-iOS-SDK (= 3.3.10)
+  - LocusLabs-iOS-SDK (= 3.3.16)
 
 SPEC REPOS:
   trunk:
@@ -13,8 +13,8 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   CardIO: 56983b39b62f495fc6dae9ad7cf875143df06443
-  LocusLabs-iOS-SDK: 0d3c2e3f142a0a72a9ea3809926604dfc784c1a8
+  LocusLabs-iOS-SDK: 6fdc8c61ee771e30ce2482e3adb8b842a37fb06e
 
-PODFILE CHECKSUM: 8c8546d7bf4540283457ffdfc116b0ca56cdf406
+PODFILE CHECKSUM: b088d167330369fd4c51154c7842a6605eabe847
 
 COCOAPODS: 1.12.0

@@ -148,17 +148,6 @@
 
 @property (nonatomic, readonly) BOOL supportsStepwiseDirections;
 
-/*
-* Should we be using positioning sensors for location?
-*
-* (A PositionSensor sends periodic information about position that includes a LatLng and errorRadius)
-*/
-typedef enum LLPositioningSensorAlgorithm {
-    LLPositioningSensorAlgorithmInternal = 0, // default: use our own positioning
-    LLPositioningSensorAlgorithmHybrid __attribute__((deprecated)), // not supported anymore
-    LLPositioningSensorAlgorithmExternal      // use a third party's positioning instead of our own
-} LLPositioningSensorAlgorithm;
-
 /**
  * The list of buildings that make up this venue.
  */

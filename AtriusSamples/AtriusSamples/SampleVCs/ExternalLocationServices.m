@@ -7,6 +7,7 @@
 
 #import "ExternalLocationServices.h"
 #import <LocusLabsSDK/LocusLabsSDK.h>
+#import <LocusLabsSDK/LLConstants.h>
 
 @interface ExternalLocationServices () <LLMapViewDelegate, LLVenueDatabaseDelegate>
 
