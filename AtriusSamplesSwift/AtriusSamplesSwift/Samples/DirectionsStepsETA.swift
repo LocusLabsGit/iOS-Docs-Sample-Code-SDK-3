@@ -75,10 +75,10 @@ class DirectionsStepsETA: UIViewController, LLVenueDatabaseDelegate, LLMapViewDe
                 for wayPoint in navigationPath?.waypoints as! [LLWaypoint] {
                     
                     print("Waypoint:");
-                    print("ETA:%@", wayPoint.eta ?? 0);
-                    print("Distance:%@", wayPoint.distance ?? 0);
-                    print("Details:%@", wayPoint.details ?? "");
-                    print("Security Checkpoint?:%@", wayPoint.securityCheckpoint ?? false);
+                    print("ETA:", wayPoint.eta ?? 0);
+                    print("Distance:", wayPoint.distance ?? 0);
+                    print("Details:", wayPoint.details ?? "");
+                    print("Security Checkpoint?:", wayPoint.securityCheckpoint ?? false);
                     print("\n");
                 }
             })

@@ -16,6 +16,7 @@
 #import <LocusLabsSDK/LLBuildingInfo.h>
 #import <LocusLabsSDK/LLCircle.h>
 #import <LocusLabsSDK/LLConfiguration.h>
+#import <LocusLabsSDK/LLConstants.h>
 #import <LocusLabsSDK/LLCurvedPath.h>
 #import <LocusLabsSDK/LLDirectionsRequest.h>
 #import <LocusLabsSDK/LLFlight.h>
@@ -68,4 +69,3 @@
 #import <LocusLabsSDK/LLVenueDatabase.h>
 #import <LocusLabsSDK/LLVenueInfo.h>
 #import <LocusLabsSDK/LLWaypoint.h>
-

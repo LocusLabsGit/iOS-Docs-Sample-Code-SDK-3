@@ -6,7 +6,7 @@ target 'AtriusSamplesSwift' do
   #use_frameworks!
 
   # Pods for AtriusSamplesSwift
-  pod 'LocusLabs-iOS-SDK', '3.3.10'
+  pod 'LocusLabs-iOS-SDK', '3.3.16'
 
   # Only needed if integrating GRAB
   pod 'CardIO'

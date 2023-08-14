@@ -153,6 +153,11 @@
 -(void)openNavigationViewWithStart:(LLPosition*)navStart andEnd:(LLPosition*)navEnd;
 
 /**
+ * Programmatically open the navigation dialog passing in (optional) start, end, and current positions
+ */
+-(void)openNavigationViewWithStart:(LLPosition*)navStart andEnd:(LLPosition*)navEnd andCurrent:(LLPosition*)current;
+
+/**
  * Programmatically cancel the user initiated navigation.
  */
 - (void)cancelUserNavigation;

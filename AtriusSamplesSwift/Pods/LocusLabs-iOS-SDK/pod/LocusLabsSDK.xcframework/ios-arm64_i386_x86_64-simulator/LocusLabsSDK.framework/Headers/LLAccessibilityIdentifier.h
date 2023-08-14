@@ -29,6 +29,18 @@ FOUNDATION_EXPORT NSString *const llAccessibilityIdentifierPOIViewCloseButton;
  */
 FOUNDATION_EXPORT NSString *const llAccessibilityIdentifierPOIViewPhoneView;
 /**
+ * Identifier for the swap button in the POI view
+ */
+FOUNDATION_EXPORT NSString *const llAccessibilityIdentifierPOIViewSwapButton;
+/**
+ * Identifier for the tappable To label in the POI view
+ */
+FOUNDATION_EXPORT NSString *const llAccessibilityIdentifierPOIViewToLabel;
+/**
+ * Identifier for the tappable From label in the POI view
+ */
+FOUNDATION_EXPORT NSString *const llAccessibilityIdentifierPOIViewFromLabel;
+/**
  * Identifier for the cancel button in directions view
  */
 FOUNDATION_EXPORT NSString *const llAccessibilityIdentifierDirectionsViewCancelButton;

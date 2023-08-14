@@ -20,7 +20,8 @@ class DirectionsUI: UIViewController, LLVenueDatabaseDelegate, LLMapViewDelegate
         super.viewDidLoad()
         
         // Initialize the SDK with the accountId provided
-        LLLocusLabs.setup().accountId = "A11F4Y6SZRXH4X"
+        //LLLocusLabs.setup().accountId = "A11F4Y6SZRXH4X"//ll
+        LLLocusLabs.setup().accountId = "A1JBKAEKZ89XDX"
         
         // Create a new LLMapView, register as its delegate and add it as a subview
         mapView = LLMapView(frame: view.bounds)
@@ -36,7 +37,7 @@ class DirectionsUI: UIViewController, LLVenueDatabaseDelegate, LLMapViewDelegate
         venueDatabase.delegate = self
         
         // Load the venue LAX async
-        venueDatabase.loadVenueAndMap("lax") { (_venue: LLVenue?, _map: LLMap?, _floor: LLFloor?, _marker: LLMarker?) in
+        venueDatabase.loadVenueAndMap("lhr") { (_venue: LLVenue?, _map: LLMap?, _floor: LLFloor?, _marker: LLMarker?) in
             
             self.venue = _venue
         }
@@ -54,7 +55,7 @@ class DirectionsUI: UIViewController, LLVenueDatabaseDelegate, LLMapViewDelegate
         
         // Start: Blu20 Bar, Terminal 6, Level 3, ID 1025
         // End: Gate 77, Terminal 7, Level 3, ID 566
-        venue?.poiDatabase()?.loadPois(["1025", "566"], with: { pois in
+        venue?.poiDatabase()?.loadPois(["1025", "298743"], with: { pois in
             
             var startPOI: LLPOI?
             var endPOI: LLPOI?
